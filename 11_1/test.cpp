@@ -478,7 +478,16 @@ int main()
 	cout << func5_1_5(1000000) << endl;
 	cout << func10_2_5(1000000) << endl;
 	cout << func20_3_5(1000000) << endl;
-
+	//short c = 65535; 
+	//short d{ 65535 };
+	//cout << c << " " << d << endl;
 	return 0;
 }
+class A { 
 
+public: 
+	A() 
+	{} 
+
+	A(int) = delete; 
+};
