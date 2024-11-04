@@ -357,3 +357,24 @@ int main()
 	cout << noexcept(++i) << endl;
 	return 0;
 }
+
+template<class T>
+class share_ptr
+{
+public:
+	shared_ptr<T>& operator=(const shared_ptr<T>& sp)
+	{
+		if (*this == sp)
+			return sp;
+		/*if(--(*sp.pcount) == 0);
+			delete this;*/
+		~share_ptr(this);
+		this = sp;
+		(*sp._pcount)++;
+		return sp;
+	}
+private:
+	T* _ptr;
+	int* _pcount;
+};
+
