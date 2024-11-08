@@ -43,5 +43,6 @@ int main()
 		printf("\n是否再来一次？1/0\n");
 		scanf("%d", &input);
 	} while (input);
+    
     return 0;
 }
