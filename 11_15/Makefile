@@ -1,6 +1,5 @@
 pro:test.c
-	gcc -o -g $@ $^
-		
+	gcc -o $@ $^ -g
 .PHONY:clean
 clean:
 	rm -f pro
