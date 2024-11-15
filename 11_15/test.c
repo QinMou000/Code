@@ -10,8 +10,8 @@ int Sum(int s, int e)
 	return result;
 }
 int main()
-{
-	int start = 1;
+{	
+    int start = 1;
 	int end = 100;
 	printf("I will begin\n");
 	int n = Sum(start, end);
