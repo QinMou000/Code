@@ -1,9 +1,9 @@
 SRC=$(wildcard *.c)
 OBJ=$(SRC:.c=.o)
 BIN=proc
-
+  
 $(BIN):$(OBJ)
-	@gcc -o $@ $^
+	@gcc -o -m $@ $^
 	@echo "linking $^ to $@"
 %.o:%.c
 	@gcc -c $< -std=c99
