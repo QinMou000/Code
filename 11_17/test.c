@@ -1,8 +1,9 @@
 #include<stdio.h>
-#include<>
+#include<unistd.h>
+#include <sys/types.h>
 int main()
 {
-    uid_t uid = fork();
+    pid_t id = fork();
     if(uid == 0){
         // child
         while(1)
@@ -19,6 +20,5 @@ int main()
             printf("我是父进程：%d",getpid());
         }
     }
-
     return 0;
 }
