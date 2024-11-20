@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<unistd.h>
+#include<sys/types.h>
 
 int main()
 {
@@ -8,7 +10,7 @@ int main()
         // child
         while(1)
         {
-            printf("我是子进程pid:%d, ppdi:%d",getpid(),getppid());
+            printf("我是子进程pid:%d, ppdi:%d\n",getpid(),getppid());
             sleep(1);
         }
     }
@@ -18,7 +20,7 @@ int main()
         int cnt = 5;
         while(cnt--)
         {
-            printf("我是子进程pid:%d, ppdi:%d",getpid(),getppid());
+            printf("我是父进程pid:%d, ppdi:%d\n",getpid(),getppid());
             sleep(1);
         }
     }
