@@ -134,45 +134,83 @@
 // 	}
 // 	return 0;
 // }
+// #include <stdio.h>
+// #include <stdlib.h>
+// #include <unistd.h>
+// #include <sys/types.h>
+// #include <sys/wait.h>
+// int main()
+// {
+//     pid_t id=fork();//创建子进程
+//     if(id==0)
+//     {
+//         //child
+//         int count=3;
+//         while(count--)
+//         {
+//             printf("child do something\n");
+//             sleep(3);
+//         }
+//         exit(0);
+//     }
+//     //father
+//     while(1)
+//     {
+//         int status=0;
+//         pid_t ret=waitpid(id,&status,WNOHANG);
+//         if(ret>0)
+//         {
+//             printf("wait success\n");
+//             printf("exit code:%d\n",WEXITSTATUS(status));
+//             break;
+//         }
+//         else if(ret==0)
+//         {
+//             printf("father do other things\n");
+//             sleep(1);
+//         }
+//         else
+//         {
+//             //wait error
+//             break;
+//         }
+//     }
+//     return 0;
+// }
 #include <stdio.h>
-#include <stdlib.h>
 #include <unistd.h>
-#include <sys/types.h>
+#include <stdlib.h>
 #include <sys/wait.h>
-int main()
+#include <sys/types.h>
+int main() 
 {
-    pid_t id=fork();//创建子进程
-    if(id==0)
+    pid_t id = fork();
+    if (id < 0) 
     {
-        //child
-        int count=3;
-        while(count--)
+        perror("fork failed");
+        return 1;
+    } 
+    else if (id == 0) 
+    {
+        // child
+        if (execl("/usr/bin/ls","ls","-l","-a", NULL) == -1) 
         {
-            printf("child do something\n");
-            sleep(3);
+            perror("execl failed");
+            exit(-1);
         }
-        exit(0);
-    }
-    //father
-    while(1)
+    } 
+    else 
     {
-        int status=0;
-        pid_t ret=waitpid(id,&status,WNOHANG);
-        if(ret>0)
-        {
+        // father
+        int status;
+        pid_t ret = waitpid(id, &status, 0);
+        if (ret < 0) {
+            perror("waitpid failed");
+            return 1;
+        }
+        if (WIFEXITED(status)) {
             printf("wait success\n");
-            printf("exit code:%d\n",WEXITSTATUS(status));
-            break;
-        }
-        else if(ret==0)
-        {
-            printf("father do other things\n");
-            sleep(1);
-        }
-        else
-        {
-            //wait error
-            break;
+            printf("exit code：%d\n", WEXITSTATUS(status));
         }
     }
     return 0;
