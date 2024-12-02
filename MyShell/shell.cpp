@@ -4,7 +4,8 @@
 #include<stdlib.h>
 #include<cstring>
 #include<sys/wait.h>
-
+#include<ctype.h>
+#include<fcntl.h>
 #define max_arg 128
 #define max_env 100
 
@@ -15,6 +16,21 @@ size_t g_argc = 0;
 // 环境变量表
 char* g_env[max_env];
 size_t g_envs = 0;
+
+// 重定向
+#define NONE_Redir   0
+#define INPUT_Redir  1
+#define OUTPUT_Redir 2
+#define APPEND_Redir 3
+
+// enum redir{
+//     none,
+//     input,
+//     output,
+//     append
+// }
+auto redir = NONE_Redir;
+char* filename = nullptr;
 
 void env_init() // 从父shell获取环境变量到当前shell并维护这张表
 {
@@ -82,6 +98,58 @@ bool get_cmd(char* cmd)
     cmd[strlen(cmd) - 1] = 0; // 我们在输入时会多输入一个 '\n' 需要清除
     if(strlen(cmd) == 0) return false; // 如果只输入"\n"返回false什么也不做，下一次循环
     return true;
+}
+
+// void trimspace(char* pos)
+// {
+//     while(isspace(*pos)) pos++;
+// }
+
+#define trimspace(pos) do{\
+    while(isspace(*pos)){\
+        pos++;\
+    }\
+}while(0)
+
+void analyse_redir_cmd(char* cmd)
+{
+    int start = 0;
+    int end = strlen(cmd) - 1;
+    while(1)
+    {
+        if(cmd[end] == '<') // 输入重定向
+        {
+            redir = INPUT_Redir;
+            cmd[end] = 0;
+            filename = &cmd[end + 1];
+            trimspace(filename); // 去掉前面的空格 
+            break;
+        }
+        else if(cmd[end] == '>')
+        {
+            if(cmd[end-1] == '>') // 追加重定向
+            {
+                redir = APPEND_Redir;
+                cmd[end] = 0;
+                cmd[end - 1] = 0;
+                filename = &cmd[end + 1];
+                trimspace(filename);
+                break;
+            }
+            else // 输出重定向
+            {
+                redir = OUTPUT_Redir;
+                cmd[end] = 0;
+                filename = &cmd[end + 1];
+                trimspace(filename);
+                break;
+            }
+        }
+        else
+        {
+            end--;
+        }
+    }
 }
 
 #define GAP " "
@@ -166,15 +234,44 @@ bool check_and_execute_builtin()
     }
     return false;
 }
+void execute_child_pc()
+{
+    //child
+    int fd = -1;
+    if(redir == INPUT_Redir)
+    {
+        fd = open(filename,O_RDONLY);
+        if(fd < 0) exit(1);
+        dup2(fd,0);
+        close(fd);
+    }
+    else if(redir == OUTPUT_Redir)
+    {
+        fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0666);
+        if(fd < 0) exit(2);
+        dup2(fd,1);
+        close(fd);
+    }
+    else if(redir == APPEND_Redir)
+    {
+        fd = open(filename, O_CREAT | O_WRONLY | O_APPEND, 0666);
+        if(fd < 0) exit(3);
+        dup2(fd,2);
+        close(fd);
+    }
+    else
+    {}
+    execvp(g_argv[0],g_argv);
+    exit(1);
+}
 
 bool execute_cmd()
 {
     pid_t id = fork();
     if(id == 0)
     {
-        // child
-        execvp(g_argv[0],g_argv);
-        exit(1);
+        // child;
+        execute_child_pc();
     }
     // parent
     int status;
@@ -199,6 +296,9 @@ int main()
 
         // 3、分析输入命令
         if(!analyse_cmd(command)) continue;
+
+        // 4、检测分析重定向
+        analyse_redir_cmd(command);
 
         // 4、检测执行内键命令
         if(check_and_execute_builtin()) continue;
