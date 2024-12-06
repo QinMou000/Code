@@ -59,6 +59,10 @@ int my_fwrite(MYFILE* file, void * str, int len)
     {
         my_fflush(file);
     }
+    if(strlen(file->buffer) == file->buffer_len - 1) // 缓冲区满了，全刷新
+    {
+        my_fflush(file);
+    }
     return 0;
 }
 
