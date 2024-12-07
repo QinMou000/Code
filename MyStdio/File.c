@@ -19,12 +19,12 @@ MYFILE* my_openfile(const char* path, const char* mode)
     if(strcmp(mode,"w") == 0) // 对文件进行写操作
     {
         flag = O_CREAT | O_WRONLY | O_TRUNC;
-        fd = open(path,flag,666);
+        fd = open(path,flag,0666);
     }
     else if(strcmp(mode,"a") == 0) // 对文件进行追加写操作
     {
         flag = O_CREAT | O_WRONLY | O_APPEND;
-        fd = open(path,flag,666);
+        fd = open(path,flag,0666);
     }
     else if(strcmp(mode,"r") == 0) // 对文件进行读操作
     {
@@ -63,6 +63,7 @@ int my_fwrite(MYFILE* file, void * str, int len)
     {
         my_fflush(file);
     }
+
     return 0;
 }
 
