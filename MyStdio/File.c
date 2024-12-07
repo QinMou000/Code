@@ -68,7 +68,7 @@ int my_fwrite(MYFILE* file, void * str, int len)
 
 void my_fflush(MYFILE* file)
 {
-    // 系统调用write往内核级缓冲区些东西
+    // 系统调用write往内核级缓冲区些东西`
     // write返回的是向缓冲区写入的字节个数，错误返回-1
     write(file->fileno,file->buffer,file->buffer_len);
     memset(file->buffer,0,file->buffer_len);
