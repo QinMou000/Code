@@ -1,89 +1,55 @@
 from flask import Flask, render_template, request
-import sqlite3
-#import markdown
-#import os
-#import json
+import markdown
+import os
+import logging
 
 app = Flask(__name__)
 
-# # 存储 Markdown 文件的目录
-# ARTICLES_PATH = "blogs"
+POSTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'posts')  # 存储 Markdown 文件的目录
 
-# def list_articles():
-#     """列出所有文章标题和路径"""
-#     articles = []
-#     for file_name in os.listdir(ARTICLES_PATH):
-#         if file_name.endswith('.md'):
-#             article_path = os.path.join(ARTICLES_PATH, file_name)
-#             articles.append({
-#                 "title": os.path.splitext(file_name)[0],  # 文件名作为标题
-#                 "file": file_name
-#             })
-#     return jsonify(articles)
+# 定义一个处理 404 错误的视图
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_template('404.html'), 404
 
-# @app.route('/api/articles/<file_name>', methods=['GET'])
-# def get_article(file_name):
-#     """返回单篇文章的 HTML 内容"""
-#     file_path = os.path.join(ARTICLES_PATH, file_name)
-#     if os.path.exists(file_path) and file_name.endswith('.md'):
-#         with open(file_path, 'r', encoding='utf-8') as f:
-#             md_content = f.read()
-#         # 转换 Markdown 为 HTML
-#         html_content = markdown.markdown(md_content)
-#         return jsonify({"content": html_content})
-#     return jsonify({"error": "File not found"}), 404
-
-# 初始化数据库
-def init_db():
-    try:
-        with sqlite3.connect("blog.db") as conn:
-            conn.execute('''
-                CREATE TABLE IF NOT EXISTS posts (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    title TEXT NOT NULL,
-                    content TEXT NOT NULL
-                )
-            ''')
-            conn.commit()
-    except sqlite3.Error as e:
-        print(f"Database error: {e}")
-
-
-# 插入测试数据
-def insert_test_data():
-    try:
-        with sqlite3.connect("blog.db") as conn:
-            conn.execute('INSERT INTO posts (title, content) VALUES (?, ?)', 
-                         ("技术博客", "https://blog.csdn.net/2301_80194476?spm=1000.2115.3001.5343"))
-            conn.execute('INSERT INTO posts (title, content) VALUES (?, ?)', 
-                         ("码云", "https://gitee.com/wang-qin928"))
-            conn.commit()
-    except sqlite3.Error as e:
-        print(f"Database error: {e}")
-
-# 在应用启动时调用初始化函数
-with app.app_context():
-    init_db()
-    #insert_test_data()
-
-@app.route("/")
+@app.route('/')
 def index():
-    # 从数据库中获取所有博客文章
-    with sqlite3.connect("blog.db") as conn:
-        cur = conn.cursor()
-        cur.execute("SELECT * FROM posts")
-        posts = cur.fetchall()
-    return render_template("index.html", posts=posts)
+    page = request.args.get('page', 1, type=int)
+    per_page = 10
+    offset = (page - 1) * per_page
 
-@app.route("/search", methods=["GET"])
-def search():
-    query = request.args.get("query", "")
-    with sqlite3.connect("blog.db") as conn:
-        cur = conn.cursor()
-        cur.execute("SELECT * FROM posts WHERE title LIKE ? OR content LIKE ?", 
-                    (f"%{query}%", f"%{query}%"))
-        results = cur.fetchall()
-    return render_template("search.html", query=query, results=results)
+    # 获取所有 Markdown 文件
+    md_files = [f for f in os.listdir(POSTS_DIR) if f.endswith('.md')] # example.md,wq.md,qw.md
+    total_posts = len(md_files)
+    md_files = md_files[offset:offset + per_page]
+
+    # 生成文章列表
+    posts = [(os.path.splitext(f)[0], f) for f in md_files] # (example,example.md),(wq,wq.md),(qw,qw.md)
+
+    total_pages = (total_posts + per_page - 1) // per_page  # 计算总页数
+    return render_template("index.html", posts=posts, page=page, total_pages=total_pages)
+
+@app.route('/posts/<post_id>')
+def post_detail(post_id):
+    md_file_path = os.path.join(POSTS_DIR, f'{post_id}.md')
+    if not os.path.exists(md_file_path):
+        logging.error(f"the file {md_file_path} is not found")
+        #abort(404)  # 这会自动显示 404 页面
+
+    try:
+        with open(md_file_path, 'r', encoding='utf-8') as md_file:
+            md_content = md_file.read()
+            html_content = markdown.markdown(md_content)
+    except UnicodeDecodeError:
+        try:
+            with open(md_file_path, 'r', encoding='gbk') as md_file:  # 尝试 gbk 编码
+                md_content = md_file.read()
+                html_content = markdown.markdown(md_content)
+        except Exception as e:
+            # 记录更详细的错误信息pip install 
+            logging.error(f"Error reading file {md_file_path}: {e}")
+            #abort(500)  # 内部服务器错误
+    return render_template('post_detail.html', post_id=post_id, content=html_content)
 
 if __name__ == "__main__":
-    app.run(debug=True, host="127.0.0.1", port=8000)
+    app.run(debug=True, host="0.0.0.0", port=8000)

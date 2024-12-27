@@ -1,13 +1,21 @@
 {% extends "base.html" %}
-
 {% block content %}
 <h2>All Blog Posts</h2>
 <ul>
-    {% for post in posts %}
+    {% for post_id, post_file in posts %}
     <li>
-        <h3>{{ post[1] }}</h3>
-        <p>{{ post[2] }}</p>
+        <h3>{{ post_id }}</h3>
+        <a href="/post/{{ post_id }}">显示详情</a> 
     </li>
     {% endfor %}
 </ul>
+<div class="pagination">
+    {% if page > 1 %}
+    <a href="/?page={{ page - 1 }}" class="prev">Previous</a>
+    {% endif %}
+    <span>Page {{ page }} of {{ total_pages }}</span>
+    {% if page < total_pages %}
+    <a href="/?page={{ page + 1 }}" class="next">Next</a>
+    {% endif %}
+</div>
 {% endblock %}
