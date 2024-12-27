@@ -62,7 +62,10 @@ def post_detail(post_id):
 def main():
     post_detail('Linux进程二-144039217')
     print(POSTS_DIR)    
-
+    with open('/home/ubuntu/Code/blog_web/posts/C进阶AVL树的底层实现-142622118.md', 'r', encoding='utf-8') as md_file:
+        md_content = md_file.read()
+        html_content = markdown.markdown(md_content)
+    print(html_content)
 
 if __name__ == "__main__":
     main()
