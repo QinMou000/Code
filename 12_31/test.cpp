@@ -40,11 +40,32 @@ void bubble_sort(vector<Type> &arr)
     }    
 }
 
+template<class Type>
+void insert_sort(vector<Type>& arr)
+{
+    for (int i = 1; i < arr.size(); i++)
+    {
+        int end = i;
+        int tmp = arr[end]; 
+        while (end)
+        {
+            if (Greater<Type>()(arr[end - 1], tmp))
+            {
+                arr[end] = arr[end - 1];
+                end--;
+            }
+            else
+                break;
+        }
+        arr[end] = tmp;
+    }
+}
 
 int main()
 {
-    vector<int> arr{5,6,9,4,2,3,1,8,7};
-    bubble_sort(arr);
+    vector<int> arr{10,5,6,9,4,2,3,1,8,7};
+    //bubble_sort(arr);
+    insert_sort(arr);
     for(auto e : arr)
         cout<< e << " ";
     cout<<endl;
