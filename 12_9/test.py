@@ -67,3 +67,20 @@ for factor in range(x, 0, -1):
         print('%d和%d的最大公约数是%d' % (x, y, factor))
         print('%d和%d的最小公倍数是%d' % (x, y, x * y // factor))
         break
+
+# 判断素数
+from math import sqrt
+
+def is_pirme(num):
+    end = int(sqrt(num))
+    is_prime = True
+    if num == 1:
+        is_pirme = False
+    for i in range(2, end + 1):
+        if num % i == 0:
+            is_prime = False
+            break
+    return is_prime
+
+num = int(input("输入一个正整数："))
+print(is_pirme(num))
