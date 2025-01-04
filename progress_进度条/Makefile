@@ -1,9 +1,9 @@
 SRC=$(wildcard *.c)
 OBJ=$(SRC:.c=.o)
 BIN=proc
-  
+
 $(BIN):$(OBJ)
-	@gcc -o -m $@ $^
+	@gcc -o $@ $^
 	@echo "linking $^ to $@"
 %.o:%.c
 	@gcc -c $< -std=c99
@@ -12,4 +12,4 @@ $(BIN):$(OBJ)
 .PHONY:
 clean:
 	@rm -f $(OBJ) $(BIN)
-	@echo "remove ...$(BIN))"
+	@echo "remove ...$(BIN) $(OBJ)"
