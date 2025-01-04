@@ -20,6 +20,7 @@ def index():
 
     # 获取所有 Markdown 文件
     md_files = [f for f in os.listdir(POSTS_DIR) if f.endswith('.md')] # example.md,wq.md,qw.md
+    md_files = sorted(md_files)
     total_posts = len(md_files)
     md_files = md_files[offset:offset + per_page]
 
