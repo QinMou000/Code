@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<ctime>
 using namespace std;    
 
 template<class Type>
@@ -61,13 +62,31 @@ void insert_sort(vector<Type>& arr)
     }
 }
 
+void random(vector<int> &arr)
+{
+    for(int i = 0; i < arr.size(); i++)
+    {
+        arr[i] = rand() % 100;
+    }
+}
+
 int main()
 {
-    vector<int> arr{10,5,6,9,4,2,3,1,8,7};
-    //bubble_sort(arr);
+    srand((unsigned int)time(NULL));
+    vector<int> arr;
+    arr.resize(10000);
+    random(arr);
+
+    int begin1 = clock();
+    bubble_sort(arr);
+    int end1 = clock();
+
+    int begin2 = clock();
     insert_sort(arr);
-    for(auto e : arr)
-        cout<< e << " ";
-    cout<<endl;
+    int end2 = clock();
+
+    cout << "bubble_sort_Time: " << end1 - begin1 << "ms" << endl;
+    cout << "insert_sort_Time: " << end2 - begin2 << "ms" << endl;
+
     return 0;
 }
