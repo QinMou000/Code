@@ -43,7 +43,7 @@ void my_closefile(MYFILE* file)
 {
     if(file == NULL) return;
     if(file->fileno < 0) return;
-    My_fflush(file);
+    my_fflush(file);
     close(file->fileno);// 返回0关闭成功，-1关闭失败
     free(file);
 }
