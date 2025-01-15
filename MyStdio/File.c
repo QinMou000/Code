@@ -74,8 +74,9 @@ void my_fflush(MYFILE* file)
     // 系统调用write往内核级缓冲区些东西`
     // write返回的是向缓冲区写入的字节个数，错误返回-1
     if(file->buffer_len == 0) return;
-    write(file->fileno,file->buffer,file->buffer_len);
+    int n = write(file->fileno,file->buffer,file->buffer_len);
     // memset(file->buffer,0,file->buffer_len); 不用清空，下次写的时候会覆盖
+    fsync(file->fileno); // 强制刷新
     file->buffer_len = 0;
-    // void(n); // 这个n后续可能有用吧~
+    (void) n; // 为了不报错
 }

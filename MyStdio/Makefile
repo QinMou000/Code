@@ -9,4 +9,4 @@ $(OBJ):$(SRC)
 
 .PHONY:clean
 clean:
-	@rm -f $(OBJ) $(BIN)
+	@rm -f $(OBJ) $(BIN) log.txt
