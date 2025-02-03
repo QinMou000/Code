@@ -2,6 +2,8 @@
 #include<unistd.h>
 #include<sys/types.h>
 #include<sys/wait.h>
+
+// 实现父子进程之间的信息通信
 void child_write(int fd)
 {
     char buffer[1024];
