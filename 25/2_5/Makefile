@@ -1,5 +1,5 @@
 a.out:test.c
-	gcc test.c -I./stdio -L./stdio -l myfile
+	gcc test.c -I./include -L./include -l myfile
 
 .PNOLY:clean
 clean:
