@@ -3,18 +3,19 @@
         {
             "name": "Win32",
             "includePath": [
-                "D:\\个人\\mingw64\\include",
-                "D:\\个人\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
-                "D:\\个人\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
-                "D:\\个人\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\backward",
-                "D:\\个人\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\x86_64-w64-mingw32"
+                ".",
+                "C:/mingw64/include",
+                "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+                "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+                "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
+                "C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "D:/个人/mingw64/bin/g++.exe",
+            "compilerPath": "C:/mingw64/bin/g++.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"

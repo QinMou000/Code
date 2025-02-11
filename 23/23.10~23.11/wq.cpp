@@ -1,4 +1,4 @@
-#include <stdio.h>
+// #include <stdio.h>
 //int main()//由大到小排列
 //{
 //	int a, b, c, t;
@@ -805,3 +805,11 @@
 //	printf("\n");
 //	return 0;
 //}
+
+#include <iostream>
+
+int main()
+{
+    std::cout << "hello wq!" << std::endl; 
+    return 0;
+}
