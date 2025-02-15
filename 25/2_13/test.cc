@@ -3,6 +3,11 @@
 
 int main()
 {
-    printf("hello world!\n");
+    int cnt = 0;
+    while(1)
+    {
+        printf("hello world! %d", cnt);
+        cnt++;
+    }
     return 0;
 }
