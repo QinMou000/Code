@@ -7,25 +7,37 @@
 void child_write(int fd)
 {
     char buffer[1024];
+    int cnt = 0;
     while(true)
     {
         snprintf(buffer, sizeof(buffer), "hello father pid:%d",getpid());
         write(fd, buffer, sizeof(buffer) - 1);
-        sleep(1);
+        printf("child: %d\n", cnt);
+        cnt++;
+        // break;
     }
 }
 
 void father_read(int fd)
 {
     char buffer[1024];
+    // int cnt = 0;
     while(true)
     {
+        sleep(2);
         size_t n = read(fd, buffer, sizeof(buffer) - 1);
         if(n > 0)
         {
             buffer[n] = 0;
             std::cout << "father has receved the messege:" << buffer << std::endl;
         }
+        else
+        {
+            std::cout << "chlid退出，没意思，我也退了n:" << n << std::endl;
+            break;
+        }
+        // cnt++; // cnt 每隔一秒加一，说明在read时阻塞了
+        // break;
     }
 }
 
