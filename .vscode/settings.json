@@ -16,7 +16,8 @@
         "sstream": "cpp",
         "streambuf": "cpp",
         "tuple": "cpp",
-        "initializer_list": "cpp"
+        "initializer_list": "cpp",
+        "utility": "cpp"
     },
     "editor.fontSize": 20,
     "files.autoSave": "onFocusChange"
