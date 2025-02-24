@@ -20,5 +20,6 @@
         "utility": "cpp"
     },
     "editor.fontSize": 20,
-    "files.autoSave": "onFocusChange"
+    "files.autoSave": "onFocusChange",
+    "marscode.chatLanguage": "cn"
 }
