@@ -1,4 +1,4 @@
-.PONLY:all
+.PHONY:all
 all:server client
 
 client:client.cc
@@ -7,6 +7,6 @@ server:server.cc
 	g++ -o $@ $^ -std=c++11
 
 
-.PONLY:clean
+.PHONY:clean
 clean:
-	rm -rf client server
+	rm -rf client server fifo
