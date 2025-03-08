@@ -18,7 +18,8 @@
         "tuple": "cpp",
         "initializer_list": "cpp",
         "utility": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "iostream": "cpp"
     },
     "editor.fontSize": 20,
     "files.autoSave": "onFocusChange",
