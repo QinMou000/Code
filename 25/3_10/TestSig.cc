@@ -2,34 +2,52 @@
 #include <unistd.h>
 #include <signal.h>
 #include <sys/syscall.h>
+#include <sys/wait.h>
 
-void handler(int signo)
+void WaitAll(int num)
 {
-    std::cout << "pid:" << getpid() << std::endl;
-    std::cout << "signo:" << signo << std::endl;
-}
-
-void PrintPending(sigset_t &pending)
-{
-    std::cout << "pid:" << getpid() << ",sigo:";
-    for (int signo = 31; signo >= 1; signo--)
-        if (sigismember(&pending, signo))
-            std::cout << 1;
-        else
-            std::cout << 0;
-    std::cout << std::endl;
+    while (true)
+    {
+        pid_t n = waitpid(-1, nullptr, WNOHANG); // 阻塞了！
+        if (n == 0)
+        {
+            break;
+        }
+        else if (n < 0)
+        {
+            std::cout << "waitpid error " << std::endl;
+            break;
+        }
+    }
+    std::cout << "father get a signal: " << num << std::endl;
 }
 
 int main()
 {
-    signal(SIGALRM, handler);
-    alarm(1);
-    while(1){
-        ;
+    signal(SIGCHLD, WaitAll); // 父进程
+    for (int i = 0; i < 10; i++)
+    {
+        pid_t id = fork(); // 如果我们有10个子进程呢？？6退出了，4个没退
+        if (id == 0)
+        {
+            sleep(3);
+            std::cout << "I am child, exit" << std::endl;
+            exit(3);
+            // if(i <= 6) exit(3);
+            // else pause();
+        }
     }
+
+    while (true)
+    {
+        std::cout << "I am fater, exit" << std::endl;
+        sleep(1);
+    }
+
     return 0;
 }
 
+//
 // int main()
 // {
 //     // for (int i = 1; i <= 31; i++)
