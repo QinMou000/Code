@@ -4,7 +4,7 @@ from openai import OpenAI
 
 choose = input('please choose the api key: 1 for deepseek, 2 for openai: ')
 if choose == '1':
-    client = OpenAI(api_key="sk-da819c7053db4723a5ae4c6dc6e7bb10", base_url="https://api.deepseek.com")
+    client = OpenAI(api_key="XXXX", base_url="https://api.deepseek.com")
     while True:
         que = input("please input your question:")
         messages=[
@@ -20,7 +20,7 @@ if choose == '1':
         messages.append(response.choices[0].message)
 elif choose == '2':
     client = OpenAI(
-    api_key="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"
+    api_key="XXXX"
     )
     while True:
         que = input('please input your question:')
