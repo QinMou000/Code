@@ -5,6 +5,45 @@
 #include <signal.h>
 #include <sys/types.h>
 
+// struct task_struct
+// {
+//     ...
+//         /* signal handlers */
+//         struct sighand_struct *sighand;
+//     sigset_t blocked struct sigpending pending;
+//     ...
+
+// }
+
+// struct sighand_struct
+// {
+//     atomic_t count;
+//     struct k_sigaction action[_NSIG]; // #define _NSIG 64
+//     spinlock_t siglock;
+// };
+
+// struct __new_sigaction
+// {
+//     __sighandler_t sa_handler;
+//     unsigned long sa_flags;
+//     void (*sa_restorer)(void); /* Not used by Linux/SPARC */
+//     __new_sigset_t sa_mask;
+// };
+
+// struct k_sigaction
+// {
+//     struct __new_sigaction sa;
+//     void __user *ka_restorer;
+// };
+
+// /* Type of a signal handler. */
+// typedef void (*__sighandler_t)(int);
+// struct sigpending
+// {
+//     struct list_head list;
+//     sigset_t signal;
+// };
+
 using func_t = std::function<void()>;
 std::vector<func_t> task;
 
