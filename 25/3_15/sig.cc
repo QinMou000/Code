@@ -5,6 +5,15 @@
 #include <signal.h>
 #include <sys/types.h>
 
+int main()
+{   
+    sigset_t new, old;
+    sigemptyset(&new);
+    sigemptyset(&old);
+
+    return 0;
+}
+
 // struct task_struct
 // {
 //     ...
