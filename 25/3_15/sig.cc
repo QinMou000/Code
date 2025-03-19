@@ -7,9 +7,11 @@
 
 int main()
 {   
-    sigset_t new, old;
-    sigemptyset(&new);
-    sigemptyset(&old);
+    sigset_t set, oset;
+    sigemptyset(&set);
+    sigemptyset(&oset);
+
+    
 
     return 0;
 }
