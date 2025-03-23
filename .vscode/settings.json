@@ -23,5 +23,8 @@
     },
     "editor.fontSize": 20,
     "files.autoSave": "onFocusChange",
-    "marscode.chatLanguage": "cn"
+    "marscode.chatLanguage": "cn",
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "clang-diagnostic-error"
+    ]
 }
