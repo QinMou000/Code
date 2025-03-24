@@ -1,0 +1,2 @@
+#prgama once
+#include <iostream>
