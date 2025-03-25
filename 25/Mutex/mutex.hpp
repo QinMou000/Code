@@ -1,0 +1,28 @@
+#pragma once
+#include <iostream>
+#include <unistd.h>
+#include <pthread.h>
+#include <mutex>
+
+class Mutex
+{
+public:
+    Mutex()
+    {
+        pthread_mutex_init(&_mutex);
+    }
+    void Lock()
+    {
+        pthread_mutex_lock(&_mutex);
+    }
+    void UnLock()
+    {
+        pthread_mutex_unlock(&_mutex);
+    }
+    ~Mutex()
+    {
+        pthread_mutex_destroy(&_mutex);
+    }
+private:
+    pthread_mutex_t _mutex;
+};
