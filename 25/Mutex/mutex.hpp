@@ -9,7 +9,7 @@ class Mutex
 public:
     Mutex()
     {
-        pthread_mutex_init(&_mutex);
+        pthread_mutex_init(&_mutex, nullptr);
     }
     void Lock()
     {
