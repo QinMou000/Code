@@ -23,6 +23,23 @@ public:
     {
         pthread_mutex_destroy(&_mutex);
     }
+
 private:
     pthread_mutex_t _mutex;
+};
+
+class global_mutex
+{
+public:
+    global_mutex()
+    {
+        _mutex.Lock();
+    }
+    ~global_mutex()
+    {
+        _mutex.UnLock();
+    }
+
+private:
+    Mutex &_mutex;
 };
