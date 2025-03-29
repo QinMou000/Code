@@ -35,7 +35,8 @@ private:
 class global_mutex
 {
 public:
-    global_mutex()
+    global_mutex(Mutex &mutex)
+    :_mutex(mutex)
     {
         _mutex.Lock();
     }
@@ -45,5 +46,5 @@ public:
     }
 
 private:
-    Mutex &_mutex;
+    Mutex _mutex;
 };
