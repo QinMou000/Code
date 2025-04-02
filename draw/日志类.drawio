@@ -1,0 +1,55 @@
+<mxfile host="Electron" modified="2025-04-02T14:09:07.437Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="kKsyp8mvJJGN4X8h1rnY" version="24.4.8" type="device">
+  <diagram name="第 1 页" id="nBpJ7bFeVnhhyhU8XkG1">
+    <mxGraphModel dx="4004" dy="6701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-1" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Logmodule&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1465" y="-4620" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-3" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b style=&quot;&quot;&gt;基类Logstrategy&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-4320" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-4" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;提供一个纯虚函数SyncLog交给子类实现，&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;这个函数实现了日志的具体刷新方法&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-4260" width="710" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-5" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;子类ConsoleLogStrategy，public继承基类，&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;传入一个string，实现日志往显示屏刷新，需要加锁&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="-4430" width="840" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-6" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;子类FileLogStrategy，public继承基类，&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;传入一个string，实现日志往指定文件刷新，需要加锁&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="990" y="-4110" width="870" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-7" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;文件路径默认为当前路径下的test.log，需在构造函数确认&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="2005" y="-4200" width="930" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-8" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;FilePath&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;FileName&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;两个成员变量，默认缺省&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="2025" y="-4110" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-9" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;写文件最好用C++17的文件操作，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;不要用C语言那一套&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="-4080" width="550" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-10" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;日志等级&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-3787" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-11" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;DEBUG&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;INFO&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;WARNING&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;ERROR&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;FATAL&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="470" y="-3872" width="180" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-12" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;枚举&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-3872" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-13" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;获取日志等级函数&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="870" y="-3807" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-14" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;传入一个枚举值，&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;返回一个string&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="-3827" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-16" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;GetTimeStamp&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="-3807" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R40ku10Q7ByCx_WZK6Vn-17" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;具体参考localtime_r函数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="-3807" width="420" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
