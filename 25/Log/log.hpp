@@ -1,8 +1,12 @@
 #include <iostream>
 #include <fstream>
+#include <sstream>
 #include <time.h>
+#include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string>
+#include <memory>
 #include "mutex.hpp"
 
 namespace LogModule
@@ -75,7 +79,7 @@ namespace LogModule
         FATAL
     };
 
-    std::string Level2Str(enum class loglevel) // 获取日志等级字符串
+    std::string Level2Str(LogLevel loglevel) // 获取日志等级字符串
     {
         switch (loglevel)
         {
@@ -111,5 +115,77 @@ namespace LogModule
     }
     class Logger
     {
+    public:
+        Logger()
+        {
+            EnableConsoleLogStrategy();
+        }
+        void EnableConsoleLogStrategy()
+        {
+            _fflush_strategy = std::make_unique<ConsoleLogStrategy>();
+        }
+        void EnableFileLogStrategy()
+        {
+            _fflush_strategy = std::make_unique<FileLogStrategy>();
+        }
+
+        class LogMessege // 在这个类里面生成一条string的日志内容，再析构时刷新到目标位置
+        {
+        public:
+            LogMessege(LogLevel level, std::string file, int line, Logger &logger)
+                : _time(GetTimeStamp()),
+                  _level(level),
+                  _pid(getpid()),
+                  _file(file),
+                  _line(line),
+                  _logger(logger)
+            {
+                std::stringstream ss;
+                ss << "[" << _time << "]"
+                   << "[" << Level2Str(_level) << "]"
+                   << "[" << _pid << "]"
+                   << "[" << _file << "]"
+                   << "[" << _line << "]"
+                   << "-";
+
+                _loginfo = ss.str();
+            }
+            template <class T>
+            LogMessege &operator<<(T &info)
+            {
+                std::stringstream ss;
+                ss << info;
+                _loginfo += ss.str();
+                return *this;
+            }
+            ~LogMessege()
+            {
+                if (_logger._fflush_strategy) // if指针不为空
+                    _logger._fflush_strategy->SyncLog(_loginfo);
+            }
+
+        private:
+            std::string _time;
+            LogLevel _level;
+            pid_t _pid;
+            std::string _file;
+            int _line;
+            std::string _loginfo; // 合并后完整的日志，传到策略类里面刷新
+            Logger &_logger;
+        };
+
+        LogMessege operator()(LogLevel level, std::string file, int line)
+        {
+            return LogMessege(level, file, line, *this); // 返回临时对象，返回后自动析构，刷新
+        }
+
+    private:
+        std::unique_ptr<LogStrategy> _fflush_strategy;
     };
+
+    Logger log; // 全局对象
+
+#define LOG(level) log(level, __FILE__, __LINE__) // 调用operator()构造内部类LogMessege
+#define ConsoleLogStrategy() log.EnableConsoleLogStrategy()
+#define FileLogStrategy() log.EnableFileLogStrategy();
 }
