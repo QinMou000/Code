@@ -27,8 +27,6 @@ private:
             LOG(LogLevel::INFO) << "唤醒所有线程";
         }
     }
-
-public:
     ThreadPool(int num = defaultnum)
         : _num(num),
           _is_running(false),
@@ -55,22 +53,42 @@ public:
             thread.Start();
         }
     }
+
+    ThreadPool(const ThreadPool<T> &) = delete;
+    ThreadPool &operator=(const ThreadPool<T> &) = delete;
+
+public:
+    static ThreadPool<T> *GetInstance()
+    {
+        if (_inc == nullptr) // 单例还没有被创建
+        {
+            global_mutex glocck(_lock); // 保证只有一个线程进入临界区
+            LOG(LogLevel::INFO) << "准备获取单例";
+            if (_inc == nullptr) // 双重判断，防止多线程重入
+            {
+                LOG(LogLevel::INFO) << "创建单例";
+                ThreadPool<T>::_inc = new ThreadPool<T>;
+                _inc->Start();
+            }
+        }
+        return _inc;
+    }
     void Handler()
     {
-        T t; // 任务
-        LOG(LogLevel::INFO) << "_is_running:" << _is_running;
         while (true)
         {
+            T t; // 任务
+                 // LOG(LogLevel::INFO) << "没进入临界区" << _is_running;
             {
                 global_mutex glock(_mutex);                // 一次只有一个线程进入临界区拿任务
                 while (_task_queue.empty() && _is_running) // 如果任务队列为空，并且进程池没有退出，那就在条件变量下等
                 {
                     LOG(LogLevel::INFO) << "线程等待_is_running:" << _is_running;
                     _sleep_num++;
-                    _cond.Wait(_mutex);
+                    _cond.Wait(_mutex); // 在等待时不会持有锁
                     _sleep_num--;
                 }
-                if (_task_queue.empty() && !_is_running)
+                if (_task_queue.empty() && !_is_running) // 线程池退出&&任务队列为空，也就是Stop把线程唤醒了，退出
                 {
                     LOG(LogLevel::INFO) << "退出了, 线程池退出&&任务队列为空";
                     break;
@@ -87,17 +105,21 @@ public:
         if (!_is_running)
             return;
         _is_running = false;
+
+        WakeAll(); // 唤醒所有线程让它们把剩下的任务做完
     }
-    void Equeue(T in) // 往任务队列里面压任务，唤醒线程
+    bool Equeue(const T &in) // 往任务队列里面压任务，唤醒线程
     {
         if (!_is_running)
-            return;
+            return false;
         {
-            global_mutex glock(_mutex); // 一次只有一个线程进入临界区压入任务
+            // global_mutex gmutex(_mutex);
             _task_queue.push(in);
             if (_sleep_num > 0)
                 WakeOne();
+            return true;
         }
+        return false;
     }
     ~ThreadPool()
     {
@@ -111,4 +133,13 @@ private:
     Cond _cond;                        // 当任务队列为空时，可以在条件变量下等待
     bool _is_running;                  // 标识进程池是否在运行
     int _sleep_num;                    // 标识正在休眠的线程个数
+
+    static ThreadPool<T> *_inc; // 单例指针
+    static Mutex _lock;         // 保证只创建一个对象（单例）
 };
+
+template <typename T>
+ThreadPool<T> *ThreadPool<T>::_inc = nullptr;
+
+template <typename T>
+Mutex ThreadPool<T>::_lock;
