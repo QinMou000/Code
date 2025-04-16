@@ -26,7 +26,7 @@
                 "/usr/include",
                 "/usr/include/x86_64-linux-gnu",
                 "/usr/include/x86_64-linux-gnu/bits",
-                "/usr/include/c++/13/tr1"
+                "/usr/include/c++/13"
             ],
             "defines": [],
             "cStandard": "c17",

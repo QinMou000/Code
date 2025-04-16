@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
+#include <functional>
 #include <strings.h>
 #include "log.hpp"
+#include "Dict.hpp"
 #include <sys/socket.h> // 网络UDP四剑客
 #include <sys/types.h>
 #include <netinet/in.h>
@@ -9,15 +11,18 @@
 
 const uint16_t defaultport = 8080;
 
+using translate_t = std::function<std::string(std::string)>;
+
 using namespace LogModule;
 
 class UdpServer
 {
 
 public:
-    UdpServer(uint16_t port)
+    UdpServer(uint16_t port, translate_t func)
         : _port(defaultport),
-          _sockfd(-1)
+          _sockfd(-1),
+          _func(func)
     {
     }
     void Init()
@@ -54,13 +59,28 @@ public:
             struct sockaddr_in peer; // 定义客户端，
             char buffer[1024];
             unsigned int len = sizeof(peer); // 传回来的len会改变不能乱写，
+            LOG(LogLevel::INFO) << "in the front of recvfrom ";
             ssize_t n = recvfrom(_sockfd, buffer, sizeof(buffer) - 1, 0, (struct sockaddr *)&peer, &len);
+            
+            buffer[n] = 0;
+            LOG(LogLevel::INFO) << "recvfrom success:" << buffer;
+
             if (n > 0)
             {
-                // 2.echo 回去
-                buffer[n] = 0;
-                sendto(_sockfd, buffer, sizeof(buffer), 0, (const struct sockaddr *)&peer, len);
-                std::cout << htons(peer.sin_port) << htons(peer.sin_addr.s_addr) << std::endl;
+                // 2.调用翻译函数，结果发回去
+
+                std::string ret = _func(buffer);
+
+                LOG(LogLevel::INFO) << "translate success";
+
+                sendto(_sockfd, ret.c_str(), ret.size(), 0, (const struct sockaddr *)&peer, len);
+
+                LOG(LogLevel::INFO) << "sendto success";
+
+                // // 2.echo 回去
+                // buffer[n] = 0;
+                // sendto(_sockfd, buffer, sizeof(buffer), 0, (const struct sockaddr *)&peer, len);
+                // std::cout << htons(peer.sin_port) << htons(peer.sin_addr.s_addr) << std::endl;
             }
         }
     }
@@ -72,4 +92,5 @@ private:
     int _sockfd;
     uint16_t _port; // 本地端口号
     // std::string _ip; // 本地点分十进制ip //
+    translate_t _func;
 };

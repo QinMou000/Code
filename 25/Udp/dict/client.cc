@@ -42,11 +42,16 @@ int main(int argc, char *argv[])
         std::getline(std::cin, message);
 
         sendto(sockfd, message.c_str(), message.size(), 0, (const struct sockaddr *)&server, sizeof(server));
+        
+        LOG(LogLevel::INFO) << "send to success";
 
         char buffer[1024];
         struct sockaddr_in peer;
         socklen_t len = sizeof(peer);
         int m = recvfrom(sockfd, buffer, sizeof(buffer) - 1, 0, (struct sockaddr *)&peer, &len);
+
+        LOG(LogLevel::INFO) << "recvfrom success";
+        
         if (m > 0)
         {
             buffer[m] = 0;
