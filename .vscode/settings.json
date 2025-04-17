@@ -60,7 +60,8 @@
         "list": "cpp",
         "map": "cpp",
         "set": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "internet": "cpp"
     },
     "editor.fontSize": 20,
     "files.autoSave": "onFocusChange",
