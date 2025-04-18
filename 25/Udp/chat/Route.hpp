@@ -43,7 +43,7 @@ public:
     Route()
     {
     }
-    void messageRoute(int sockfd, std::string message, InetAddr peer)
+    void messageRoute(int sockfd, std::string &message, InetAddr &peer)
     {
         if (!IsExsit(peer)) // 不存在就添加
         {

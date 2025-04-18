@@ -4,6 +4,7 @@
 #include <strings.h>
 #include "log.hpp"
 #include "InetAddr.hpp"
+#include "threadpool.hpp"
 #include <sys/socket.h> // 网络UDP四剑客
 #include <sys/types.h>
 #include <netinet/in.h>
@@ -11,7 +12,7 @@
 
 const uint16_t defaultport = 8080;
 
-using func_t = std::function<void(int sockfd, const std::string &message, InetAddr &peer)>;
+using server_t = std::function<void(int sockfd, const std::string &message, InetAddr &peer)>;
 
 using namespace LogModule;
 
@@ -19,7 +20,7 @@ class UdpServer
 {
 
 public:
-    UdpServer(uint16_t port, func_t func)
+    UdpServer(uint16_t port, server_t func)
         : _port(defaultport),
           _sockfd(-1),
           _func(func)
@@ -98,5 +99,5 @@ private:
     int _sockfd;
     uint16_t _port; // 本地端口号
     // std::string _ip; // 本地点分十进制ip //
-    func_t _func;
+    server_t _func;
 };
