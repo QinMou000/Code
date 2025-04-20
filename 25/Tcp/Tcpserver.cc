@@ -1,10 +1,10 @@
 #include "Tcpserver.hpp"
+#include "Socket.hpp"
 #include "Common.hpp"
-
 
 void Usage(std::string proc)
 {
-    std::cerr << "Usage: " << proc << " -port " << std::endl;
+    std::cerr << "Usage: " << proc << " port " << std::endl;
 }
 
 
