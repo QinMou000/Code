@@ -61,7 +61,8 @@
         "map": "cpp",
         "set": "cpp",
         "chrono": "cpp",
-        "internet": "cpp"
+        "internet": "cpp",
+        "netfwd": "cpp"
     },
     "editor.fontSize": 20,
     "files.autoSave": "onFocusChange",

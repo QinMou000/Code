@@ -10,6 +10,8 @@
 #include "log.hpp"
 #include "InetAddr.hpp"
 
+using namespace LogModule;
+
 class Socket
 {
 public:
@@ -17,16 +19,18 @@ public:
     {
     }
     virtual void SocketOrDie() = 0; // 纯虚函数，等子类实现
-    virtual void BindOrDie() = 0;
-    virtual void ListenOrDie() = 0;
+    virtual void BindOrDie(uint16_t port) = 0;
+    virtual void ListenOrDie(int backlog) = 0;
     virtual std::shared_ptr<Socket> Accept(InetAddr *client) = 0;
+    virtual void Close() = 0;
+    virtual int Send(const std::string message) = 0;
 
 public:
-    void BuildTcpSocket()
+    void BuildTcpSocket(uint16_t port, int backlog = 16)
     {
         SocketOrDie();
-        BindOrDie();
-        ListenOrDie();
+        BindOrDie(port);
+        ListenOrDie(backlog);
     }
 
 private:
@@ -45,23 +49,58 @@ public:
         : _sockfd(fd)
     {
     }
-    void SocketOrDie()
+    ~TcpSocket() {}
+    void SocketOrDie() override
     {
+        _sockfd = ::socket(AF_INET, SOCK_STREAM, 0);
+        if (_sockfd < 0)
+        {
+            LOG(LogLevel::FATAL) << "socket error";
+            exit(SOCKET_ERR);
+        }
+        LOG(LogLevel::FATAL) << "socket success";
     }
-    void BindOrDie()
+    void BindOrDie(uint16_t port) override
     {
+        InetAddr localaddr(port);
+        int n = ::bind(_sockfd, localaddr.NetAddrPtr(), localaddr.AddrLen());
+        if (n < 0)
+        {
+            LOG(LogLevel::FATAL) << "bind error";
+            exit(BIND_ERR);
+        }
+        LOG(LogLevel::FATAL) << "bind success";
     }
-    void ListenOrDie()
+    void ListenOrDie(int backlog) override
     {
+        int n = ::listen(_sockfd, backlog);
+        if (n < 0)
+        {
+            LOG(LogLevel::FATAL) << "listen error";
+            exit(LISTEN_ERR);
+        }
+        LOG(LogLevel::FATAL) << "listen success";
     }
-    std::shared_ptr<Socket> Accept(InetAddr *client)
+    std::shared_ptr<Socket> Accept(InetAddr *client) override
     {
+        socklen_t len = client->AddrLen();
+        int fd = ::accept(_sockfd, client->NetAddrPtr(), &len);
+        if (fd < 0)
+        {
+            LOG(LogLevel::FATAL) << "accept error";
+            exit(ACCEPT_ERR);
+        }
+        return std::make_shared<TcpSocket>(fd);
     }
-    int Send(const std::string meesage)
+    void Close() override
     {
+        if (_sockfd > 0)
+            ::close(_sockfd);
     }
-    ~TcpSocket()
+    // 返回值就是send的返回值 同wirte
+    int Send(const std::string message) override
     {
+        return ::send(_sockfd, message.c_str(), message.size(), 0);
     }
 
 private:

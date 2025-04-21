@@ -11,6 +11,9 @@
 class InetAddr
 {
 public:
+    InetAddr()
+    {
+    }
     InetAddr(struct sockaddr_in &addr)
         : _addr(addr)
     {
@@ -26,13 +29,21 @@ public:
         inet_pton(AF_INET, _ip.c_str(), &_addr.sin_addr);
         _addr.sin_port = htons(_port); // 从主机字节序，转为网络字节序
     }
+    InetAddr(uint16_t port) // 服务端
+        : _port(port)
+    {
+        memset(&_addr, 0, sizeof(_addr));
+        _addr.sin_family = AF_INET;
+        _addr.sin_addr.s_addr = INADDR_ANY; // 一个主机可能有多个网卡，不用绑定特定ip，0.0.0.0就是默认监听所有可用ip
+        _addr.sin_port = htons(_port);      // 从主机字节序，转为网络字节序
+    }
     uint16_t Port() { return _port; }
     std::string Ip() { return _ip; }
     std::string StringAddr()
     {
         return _ip + ":" + std::to_string(_port);
     }
-    const struct sockaddr *NetAddrPtr()
+    struct sockaddr *NetAddrPtr()
     {
         return CONV(_addr);
     }

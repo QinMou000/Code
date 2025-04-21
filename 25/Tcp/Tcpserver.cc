@@ -7,19 +7,18 @@ void Usage(std::string proc)
     std::cerr << "Usage: " << proc << " port " << std::endl;
 }
 
-
-// ./server -port
+// ./server port
 int main(int argc, char *argv[])
 {
-    if(argc != 2)
+    if (argc != 2)
     {
         Usage(argv[0]);
         exit(USAGE_ERR);
     }
-    std::string server_port = argv[1]; 
+    uint16_t server_port = std::stoi(argv[1]);
 
-    
-
+    TcpServer server(server_port, [](std::shared_ptr<Socket> &sock, InetAddr &addr)
+                     { printf("hello world\n"); });
 
     return 0;
 }

@@ -17,7 +17,12 @@ public:
 enum ExitCode
 {
     OK = 0,
-    USAGE_ERR
+    USAGE_ERR,
+    SOCKET_ERR,
+    BIND_ERR,
+    LISTEN_ERR,
+    FORK_ERR,
+    ACCEPT_ERR
 };
 
 #define CONV(addr) (struct sockaddr*)(&addr)
