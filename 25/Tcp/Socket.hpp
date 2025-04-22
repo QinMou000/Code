@@ -24,6 +24,7 @@ public:
     virtual std::shared_ptr<Socket> Accept(InetAddr *client) = 0;
     virtual void Close() = 0;
     virtual int Send(const std::string message) = 0;
+    virtual int Recv(std::string *out) = 0;
 
 public:
     void BuildTcpSocket(uint16_t port, int backlog = 16)
@@ -101,6 +102,17 @@ public:
     int Send(const std::string message) override
     {
         return ::send(_sockfd, message.c_str(), message.size(), 0);
+    }
+    int Recv(std::string *out)
+    {
+        char buffer[1024];
+        int n = recv(_sockfd, buffer, sizeof(buffer) - 1, 0);
+        if(n > 0)
+        {
+            buffer[n] = 0;
+            *out += buffer; // 每次收到的消息都让它追加在后面
+        }
+        return n;
     }
 
 private:

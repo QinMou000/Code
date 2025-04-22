@@ -7,6 +7,14 @@ void Usage(std::string proc)
     std::cerr << "Usage: " << proc << " port " << std::endl;
 }
 
+void echo(std::shared_ptr<Socket> &sock, InetAddr &addr)
+{
+    std::string mesg;
+    sock->Recv(&mesg);
+    std::cout << addr.StringAddr() << " : ";
+    std::cout << mesg << std::endl;
+}
+
 // ./server port
 int main(int argc, char *argv[])
 {
@@ -17,8 +25,10 @@ int main(int argc, char *argv[])
     }
     uint16_t server_port = std::stoi(argv[1]);
 
-    TcpServer server(server_port, [](std::shared_ptr<Socket> &sock, InetAddr &addr)
-                     { printf("hello world\n"); });
+    std::unique_ptr<TcpServer> server = std::make_unique<TcpServer>(server_port, [](std::shared_ptr<Socket> &sock, InetAddr &addr)
+                     { echo(sock, addr); });
+
+    server->Start();
 
     return 0;
 }

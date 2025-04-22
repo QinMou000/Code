@@ -41,7 +41,7 @@ public:
     std::string Ip() { return _ip; }
     std::string StringAddr()
     {
-        return _ip + ":" + std::to_string(_port);
+        return _ip + " : " + std::to_string(_port);
     }
     struct sockaddr *NetAddrPtr()
     {

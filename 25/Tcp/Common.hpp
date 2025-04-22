@@ -4,6 +4,19 @@
 #include <sys/types.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <functional>
+#include <sys/wait.h>
+#include <fstream>
+#include <sstream>
+#include <time.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+#include <memory>
+#include "log.hpp"
+#include "Common.hpp"
+#include "Socket.hpp"
 
 class NoCopy
 {
