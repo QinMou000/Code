@@ -101,12 +101,12 @@ public:
     // 返回值就是send的返回值 同wirte
     int Send(const std::string message) override
     {
-        return ::send(_sockfd, message.c_str(), message.size(), 0);
+        return ::send(_sockfd, message.c_str(), message.size(), 0); // 和write是一样的
     }
     int Recv(std::string *out)
     {
         char buffer[1024];
-        int n = recv(_sockfd, buffer, sizeof(buffer) - 1, 0);
+        int n = recv(_sockfd, buffer, sizeof(buffer) - 1, 0); // 和read是一样的
         if(n > 0)
         {
             buffer[n] = 0;

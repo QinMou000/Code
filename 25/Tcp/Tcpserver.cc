@@ -1,6 +1,7 @@
 #include "Tcpserver.hpp"
 #include "Socket.hpp"
 #include "Common.hpp"
+#include "NetCal.hpp"
 
 void Usage(std::string proc)
 {
@@ -25,8 +26,17 @@ int main(int argc, char *argv[])
     }
     uint16_t server_port = std::stoi(argv[1]);
 
-    std::unique_ptr<TcpServer> server = std::make_unique<TcpServer>(server_port, [](std::shared_ptr<Socket> &sock, InetAddr &addr)
-                     { echo(sock, addr); });
+    FileLogStrategy();
+
+    std::unique_ptr<NetCal> cal = std::make_unique<NetCal>();
+
+    std::unique_ptr<Protocol> prococol = std::make_unique<Protocol>([&cal](Request &req)->Response{
+        return cal->Cal(req);
+    });
+
+    std::unique_ptr<TcpServer> server = std::make_unique<TcpServer>(server_port, [&prococol](std::shared_ptr<Socket> &sock, InetAddr &addr){
+        prococol->GetRequest(sock, addr);
+    });
 
     server->Start();
 

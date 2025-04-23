@@ -15,8 +15,6 @@
 #include <string>
 #include <memory>
 #include "log.hpp"
-#include "Common.hpp"
-#include "Socket.hpp"
 
 class NoCopy
 {
