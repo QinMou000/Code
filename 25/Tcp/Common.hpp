@@ -33,7 +33,8 @@ enum ExitCode
     BIND_ERR,
     LISTEN_ERR,
     FORK_ERR,
-    ACCEPT_ERR
+    ACCEPT_ERR,
+    CONNECT_ERR
 };
 
 #define CONV(addr) (struct sockaddr*)(&addr)

@@ -25,6 +25,7 @@ public:
     virtual void Close() = 0;
     virtual int Send(const std::string message) = 0;
     virtual int Recv(std::string *out) = 0;
+    virtual int Connect(InetAddr &server) = 0;
 
 public:
     void BuildTcpSocket(uint16_t port, int backlog = 16)
@@ -32,6 +33,10 @@ public:
         SocketOrDie();
         BindOrDie(port);
         ListenOrDie(backlog);
+    }
+    void BuildTcpSocketForClient()
+    {
+        SocketOrDie();
     }
 
 private:
@@ -59,7 +64,7 @@ public:
             LOG(LogLevel::FATAL) << "socket error";
             exit(SOCKET_ERR);
         }
-        LOG(LogLevel::FATAL) << "socket success";
+        LOG(LogLevel::INFO) << "socket success";
     }
     void BindOrDie(uint16_t port) override
     {
@@ -70,7 +75,7 @@ public:
             LOG(LogLevel::FATAL) << "bind error";
             exit(BIND_ERR);
         }
-        LOG(LogLevel::FATAL) << "bind success";
+        LOG(LogLevel::INFO) << "bind success";
     }
     void ListenOrDie(int backlog) override
     {
@@ -80,7 +85,7 @@ public:
             LOG(LogLevel::FATAL) << "listen error";
             exit(LISTEN_ERR);
         }
-        LOG(LogLevel::FATAL) << "listen success";
+        LOG(LogLevel::INFO) << "listen success";
     }
     std::shared_ptr<Socket> Accept(InetAddr *client) override
     {
@@ -107,12 +112,17 @@ public:
     {
         char buffer[1024];
         int n = recv(_sockfd, buffer, sizeof(buffer) - 1, 0); // 和read是一样的
-        if(n > 0)
+        if (n > 0)
         {
             buffer[n] = 0;
             *out += buffer; // 每次收到的消息都让它追加在后面
         }
         return n;
+    }
+    int Connect(InetAddr &server) override
+    {
+        // 客户端连接服务器
+        return ::connect(_sockfd, server.NetAddrPtr(), server.AddrLen());
     }
 
 private:

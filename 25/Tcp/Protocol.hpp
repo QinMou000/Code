@@ -7,6 +7,13 @@ using namespace LogModule;
 class Request
 {
 public:
+    Request() {}
+    Request(int x, int y, char oper)
+        : _x(x),
+          _y(y),
+          _oper(oper)
+    {
+    }
     std::string Serialize()
     {
         Json::Value root;
@@ -28,7 +35,7 @@ public:
             LOG(LogLevel::ERROR) << "反序列化失败: " << mesg;
             return false;
         }
-        _x = root["x"].asInt();
+        _x = root["x"].asInt(); // float
         _y = root["y"].asInt();
         _oper = root["oper"].asInt(); // 就把操作符看作ascall码值
         return true;
@@ -47,8 +54,8 @@ public:
     }
 
 private:
-    float _x;
-    float _y;
+    int _x;
+    int _y;
     char _oper;
 };
 
@@ -84,13 +91,17 @@ public:
         _code = root["code"].asInt();
         return true;
     }
-    void SetRes(int res)
+    void SetRes(float res)
     {
         _res = res;
     }
     void SetCode(int code)
     {
         _code = code;
+    }
+    void Show()
+    {
+        std::cout << "the result is: " << _res << "\ncode: " << _code << std::endl;
     }
 
 private:
@@ -100,11 +111,12 @@ private:
 
 const std::string sep = "\r\n";
 
-using cal_t = std::function<Response(Request&)>;
+using cal_t = std::function<Response(Request &)>;
 
 class Protocol
 {
 public:
+    Protocol() {}
     Protocol(cal_t cal)
         : _cal(cal)
     {
@@ -125,19 +137,22 @@ public:
     // 提取报文  size\r\n{"oper":43,"x":10,"y":20}\r\n  ---->  {"oper":43,"x":10,"y":20}
     bool Decode(std::string &buffer, std::string &json)
     {
+        // LOG(LogLevel::DEBUG) << "buffer: " << buffer;
         ssize_t pos = buffer.find(sep);
         if (pos == std::string::npos)
-        {
-            LOG(LogLevel::ERROR) << "Decode err";
             return false;
-        }
+
         std::string len_str = buffer.substr(0, pos); // 提取表示报文长度的字符串
         int len = std::stoi(len_str);                // 将字符串转化为整数
 
         int target_len = len_str.size() + len + 2 * sep.size(); // 提取报文成功后，要删除的报文长度
+        if (buffer.size() < target_len)                         // 判断长度是否足够，不够就回去继续读
+            return false;
 
-        buffer.erase(0, target_len);                 // 删除已经被提取的报文
         json = buffer.substr(pos + sep.size(), len); // 要返回的结果
+        buffer.erase(0, target_len);                 // 删除已经被提取的报文
+        // LOG(LogLevel::DEBUG) << "buffer: " << buffer;
+        // LOG(LogLevel::DEBUG) << "json: " << json;
         return true;
     }
     void GetRequest(std::shared_ptr<Socket> &sock, InetAddr &client)
@@ -149,8 +164,10 @@ public:
             int n = sock->Recv(&buffer_queue);
             if (n > 0)
             {
+                // LOG(LogLevel::DEBUG) << "buffer_queue" << buffer_queue;
                 while (Decode(buffer_queue, req_json))
                 {
+                    // LOG(LogLevel::DEBUG) << "req_json" << req_json;
                     Request req;
                     Response res;
                     bool ok = req.Deserialize(req_json); // 将提取的的请求报文反序列化
@@ -175,6 +192,12 @@ public:
                 break;
             }
         }
+    }
+    std::string BuildRequestStr(int &x, int &y, char &oper)
+    {
+        Request req(x, y, oper);
+        std::string json_str = req.Serialize();
+        return Encode(json_str);
     }
 
 private:
