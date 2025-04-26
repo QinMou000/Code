@@ -2,6 +2,7 @@
 #include "Socket.hpp"
 #include "Common.hpp"
 #include "NetCal.hpp"
+#include "daemon.hpp"
 
 void Usage(std::string proc)
 {
@@ -19,6 +20,8 @@ void echo(std::shared_ptr<Socket> &sock, InetAddr &addr)
 // ./server port
 int main(int argc, char *argv[])
 {
+    daemon(); // 守护进程化
+
     if (argc != 2)
     {
         Usage(argv[0]);
