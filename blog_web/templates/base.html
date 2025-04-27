@@ -1,14 +1,21 @@
+<!-- base.html -->
 <!DOCTYPE html>
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wangqin's Blog</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <header>
         <h1><a href="/">Wangqin's Blog</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">首页</a></li>
+                <!-- 可以添加更多导航链接 -->
+            </ul>
+        </nav>
     </header>
     <main>
         {% block content %}{% endblock %}

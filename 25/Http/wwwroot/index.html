@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <title>科技感风格网页</title>
+    <style>
+        body {
+            background-color: #0a0f1a;
+            color: #e0f7fa;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .nav {
+            background-color: #172030;
+        }
+
+        .section {
+            background-color: #1f2937;
+            border: 1px solid #2d3748;
+        }
+
+        .btn {
+            background-color: #00b0ff;
+            color: white;
+        }
+
+        .btn:hover {
+            background-color: #0091ea;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-xl font-bold">科技网站</a>
+            <div class="space-x-4">
+                <a href="#" class="text-white hover:text-gray-200">首页</a>
+                <a href="#" class="text-white hover:text-gray-200">关于</a>
+                <a href="#" class="text-white hover:text-gray-200">联系我们</a>
+            </div>
+        </div>
+    </nav>
+    <main class="container mx-auto p-8">
+        <section class="section p-8 rounded-lg shadow-md">
+            <h1 class="text-3xl font-bold text-white mb-4">欢迎来到科技前沿</h1>
+            <p class="text-gray-300 mb-8">这是一个充满科技感的网页示例，探索未来科技。</p>
+            <a href="#" class="btn px-6 py-3 rounded-md hover:bg-gray-700">了解更多</a>
+        </section>
+        <section class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="section p-8 rounded-lg shadow-md">
+                <i class="fa-solid fa-rocket text-3xl text-cyan-400 mb-4"></i>
+                <h2 class="text-xl font-bold text-white mb-4">太空探索</h2>
+                <p class="text-gray-300">了解最新的太空探索进展，探索宇宙奥秘。</p>
+            </div>
+            <div class="section p-8 rounded-lg shadow-md">
+                <i class="fa-solid fa-brain text-3xl text-cyan-400 mb-4"></i>
+                <h2 class="text-xl font-bold text-white mb-4">人工智能</h2>
+                <p class="text-gray-300">探索人工智能的无限可能，开启智能时代。</p>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-900 p-4 text-center text-white mt-8">
+        <p>&copy; 2025 科技网站。保留所有权利。</p>
+    </footer>
+</body>
+
+</html>
+    
