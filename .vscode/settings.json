@@ -62,7 +62,12 @@
         "set": "cpp",
         "chrono": "cpp",
         "internet": "cpp",
-        "netfwd": "cpp"
+        "netfwd": "cpp",
+        "bitset": "cpp",
+        "csignal": "cpp",
+        "unordered_set": "cpp",
+        "regex": "cpp",
+        "iomanip": "cpp"
     },
     "editor.fontSize": 20,
     "files.autoSave": "onFocusChange",

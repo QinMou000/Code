@@ -9,6 +9,7 @@
 #include "Common.hpp"
 #include "log.hpp"
 #include "InetAddr.hpp"
+#include "Tool.hpp"
 
 using namespace LogModule;
 
