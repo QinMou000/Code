@@ -90,13 +90,16 @@ public:
     }
     std::shared_ptr<Socket> Accept(InetAddr *client) override
     {
-        socklen_t len = client->AddrLen();
-        int fd = ::accept(_sockfd, client->NetAddrPtr(), &len);
+        struct sockaddr_in peer;
+        socklen_t len = sizeof(peer);
+        int fd = ::accept(_sockfd, CONV(peer), &len);
+        // std::cout << std::to_string(peer.sin_addr.s_addr) << std::endl;
         if (fd < 0)
         {
             LOG(LogLevel::FATAL) << "accept error";
             exit(ACCEPT_ERR);
         }
+        client->SetAddr(peer);
         return std::make_shared<TcpSocket>(fd);
     }
     void Close() override

@@ -2,6 +2,7 @@
 #include "Socket.hpp"
 #include "Common.hpp"
 #include "Http.hpp"
+#include "daemon.hpp"
 #include <fstream>
 // #include "NetCal.hpp"
 // #include "daemon.hpp"
@@ -20,7 +21,7 @@ void echo(std::shared_ptr<Socket> &sock, InetAddr &addr)
 // ./server port
 int main(int argc, char *argv[])
 {
-    // daemon(); // 守护进程化
+    daemon(); // 守护进程化
 
     if (argc != 2)
     {
@@ -29,7 +30,7 @@ int main(int argc, char *argv[])
     }
     uint16_t server_port = std::stoi(argv[1]);
 
-    // FileLogStrategy();
+    FileLogStrategy();
 
     std::unique_ptr<Http> http = std::make_unique<Http>();
 

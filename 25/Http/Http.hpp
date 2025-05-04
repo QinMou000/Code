@@ -68,7 +68,7 @@ public:
     {
         std::string status_line = _http_version + blank + std::to_string(_code) + blank + _desc + line_break;
         std::string resp_header;
-        for(auto &head : _headers)
+        for (auto &head : _headers)
         {
             std::string line = head.first + linesep + head.second + line_break;
             resp_header += line;
@@ -94,15 +94,68 @@ public:
             break;
         }
     }
+    bool SetHeader(const std::string &k, const std::string &v)
+    {
+        auto it = _headers.find(k);
+        if (it != _headers.end()) // 不存在这个pair
+            return false;
+
+        _headers.insert(std::make_pair(k, v));
+        return true;
+    }
+    std::string Uri2Suffix(const std::string &filename)
+    {
+        // ./wwwroot/imag/红叶.jpg
+        auto pos = filename.rfind(".");
+        if (pos == std::string::npos)
+            return "text/html";
+
+        std::string suffix = filename.substr(pos); // pos是"."的位置，前闭后开区间 切取到末尾
+        if (suffix == ".html" || suffix == ".htm")
+            return "text/html";
+        else if (suffix == ".jpg")
+            return "image/jpeg";
+        else if (suffix == ".png")
+            return "imag/png";
+        else
+            return "";
+    }
     void MakeResp()
     {
-        if (!Tool::GetFileContent(_target_file, &_text))
+        bool res = Tool::GetFileContent(_target_file, &_text);
+        if (!res) // 将文件正文读取到_text里
         {
-            // 404
+            // 目标文件不存在，需要重定向到404页面
+            SetCode(404);
+            SetTargetFile("./wwwroot/404.html");
+            // 正文大小
+            int filesize = Tool::FileSize(_target_file);
+            // 文件类型（后缀）
+            std::string suffix = Uri2Suffix(_target_file); // 将Uri转为文件后缀返回
+
+            // std::cout << "_target_file: " << _target_file << std::endl;
+            // std::cout << "suffix: " << suffix << std::endl;
+
+            // 搞半天结果是中文不支持的原因，避免用中文
+
+            SetHeader("Content-Type", suffix);
+            SetHeader("Content-Length", std::to_string(filesize));
+            Tool::GetFileContent(_target_file, &_text); // 读取404页面到_text里
         }
         else
         {
             SetCode(200);
+            // 正文大小
+            int filesize = Tool::FileSize(_target_file);
+            // 文件类型（后缀）
+            std::string suffix = Uri2Suffix(_target_file); // 将Uri转为文件后缀返回
+
+            // std::cout << "_target_file: " << _target_file << std::endl;
+            // std::cout << "suffix: " << suffix << std::endl;
+
+            SetHeader("Content-Type", suffix);
+            SetHeader("Content-Length", std::to_string(filesize));
+            SetHeader("Set_Cookie", "username=wangqin;"); // 设置cookie
         }
     }
     void SetText(std::string &text)
@@ -141,6 +194,7 @@ public:
             Request req;
             // 将请求序列化为request
             req.Deserialize(recv_str);
+            LOG(LogLevel::INFO) << "client: " << addr.StringAddr();
             // 构建res
             Response resp;
             // 分析request，主要是看请求哪个网页
@@ -149,6 +203,7 @@ public:
             resp.MakeResp();
             // 将resp序列化
             std::string resp_str = resp.Serialize();
+
             // 返回response
             sock->Send(resp_str);
         }

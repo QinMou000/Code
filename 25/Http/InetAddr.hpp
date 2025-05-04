@@ -15,10 +15,8 @@ public:
     {
     }
     InetAddr(struct sockaddr_in &addr)
-        : _addr(addr)
     {
-        _ip = inet_ntoa(_addr.sin_addr);
-        _port = ntohs(_addr.sin_port);
+        SetAddr(addr);
     }
     InetAddr(std::string &ip, uint16_t port)
         : _ip(ip),
@@ -36,6 +34,13 @@ public:
         _addr.sin_family = AF_INET;
         _addr.sin_addr.s_addr = INADDR_ANY; // 一个主机可能有多个网卡，不用绑定特定ip，0.0.0.0就是默认监听所有可用ip
         _addr.sin_port = htons(_port);      // 从主机字节序，转为网络字节序
+    }
+    void SetAddr(struct sockaddr_in &addr)
+    {
+        _addr = addr;
+        // 网络转主机
+        _port = ntohs(_addr.sin_port);   // 从网络中拿到的 网络序列
+        _ip = inet_ntoa(_addr.sin_addr); // 4字节网络风格的IP -> 点分十进制的字符串风格的IP
     }
     uint16_t Port() { return _port; }
     std::string Ip() { return _ip; }

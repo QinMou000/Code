@@ -1,76 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
-    <title>科技感风格网页</title>
-
+    <title>QinMou的摄影世界</title>
     <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --text-color: #34495e;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            background-color: #0a0f1a;
-            color: #e0f7fa;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: #f5f6fa;
         }
 
-        .nav {
-            background-color: #172030;
+        /* 导航栏 */
+        .navbar {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
         }
 
-        .section {
-            background-color: #1f2937;
-            border: 1px solid #2d3748;
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
         }
 
-        .btn {
-            background-color: #00b0ff;
-            color: white;
+        .nav-links a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
         }
 
-        .btn:hover {
-            background-color: #0091ea;
+        .nav-links a:hover {
+            color: var(--accent-color);
+        }
+
+        /* 画廊布局 */
+        .gallery {
+            max-width: 1200px;
+            margin: 80px auto 40px;
+            padding: 0 20px;
+            columns: 3;
+            column-gap: 20px;
+        }
+
+        .photo-card {
+            break-inside: avoid;
+            margin-bottom: 20px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        .photo-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .photo-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s;
+        }
+
+        .photo-info {
+            padding: 15px;
+        }
+
+        .photo-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--primary-color);
+        }
+
+        .photo-desc {
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+
+        /* 模态框 */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            z-index: 2000;
+            cursor: zoom-out;
+        }
+
+        .modal-content {
+            position: relative;
+            max-width: 90%;
+            max-height: 90%;
+            margin: auto;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 992px) {
+            .gallery {
+                columns: 2;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                columns: 1;
+            }
+            
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+            }
         }
     </style>
 </head>
-
 <body>
-    <nav class="nav p-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-white text-xl font-bold">科技网站</a>
-            <div class="space-x-4">
-                <a href="#" class="text-white hover:text-gray-200">首页</a>
-                <a href="#" class="text-white hover:text-gray-200">关于</a>
-                <a href="#" class="text-white hover:text-gray-200">联系我们</a>
-            </div>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="#about">关于我</a>
+            <a href="#gallery">作品集</a>
+            <a href="#contact">联系</a>
         </div>
     </nav>
-    <main class="container mx-auto p-8">
-        <section class="section p-8 rounded-lg shadow-md">
-            <h1 class="text-3xl font-bold text-white mb-4">欢迎来到科技前沿</h1>
-            <p class="text-gray-300 mb-8">这是一个充满科技感的网页示例，探索未来科技。</p>
-            <a href="#" class="btn px-6 py-3 rounded-md hover:bg-gray-700">了解更多</a>
-        </section>
-        <section class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="section p-8 rounded-lg shadow-md">
-                <i class="fa-solid fa-rocket text-3xl text-cyan-400 mb-4"></i>
-                <h2 class="text-xl font-bold text-white mb-4">太空探索</h2>
-                <p class="text-gray-300">了解最新的太空探索进展，探索宇宙奥秘。</p>
-            </div>
-            <div class="section p-8 rounded-lg shadow-md">
-                <i class="fa-solid fa-brain text-3xl text-cyan-400 mb-4"></i>
-                <h2 class="text-xl font-bold text-white mb-4">人工智能</h2>
-                <p class="text-gray-300">探索人工智能的无限可能，开启智能时代。</p>
-            </div>
-        </section>
-    </main>
-    <img src="./imag/红叶.jpg">
-    <img src="./imag/绿叶.jpg">
-    <footer class="bg-gray-900 p-4 text-center text-white mt-8">
-        <p>&copy; 2025 科技网站。保留所有权利。</p>
-    </footer>
-</body>
 
-</html>
+    <div class="gallery" id="gallery">
+        <!-- 照片卡片 - 复制以下区块添加更多照片 -->
+        <div class="photo-card">
+            <img src="imag/red.jpg" alt="红叶" class="photo-img">
+            <div class="photo-info">
+                <h3 class="photo-title">红叶</h3>
+                <p class="photo-desc">摄于理工大学荷轩寝室楼下</p>
+            </div>
+        </div>
+
+        <div class="photo-card">
+            <img src="imag/green.jpg" alt="绿叶" class="photo-img">
+            <div class="photo-info">
+                <h3 class="photo-title">绿叶</h3>
+                <p class="photo-desc">摄于理工大学德保食堂外</p>
+            </div>
+        </div>
+
+        <div class="photo-card">
+            <img src="imag/brige.jpg" alt="白居寺" class="photo-img">
+            <div class="photo-info">
+                <h3 class="photo-title">白居寺</h3>
+                <p class="photo-desc">摄于2024最后一天，一夜未眠，独自一人骑车至白居寺桥下</p>
+            </div>
+        </div>
+    </div>
     
+
+    <!-- 模态框 -->
+    <div class="modal" id="imageModal">
+        <img class="modal-content" id="expandedImg">
+    </div>
+
+    <script>
+        // 图片点击放大功能
+        document.querySelectorAll('.photo-img').forEach(img => {
+            img.addEventListener('click', function() {
+                const modal = document.getElementById('imageModal');
+                const modalImg = document.getElementById('expandedImg');
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            });
+        });
+
+        // 点击模态框关闭
+        document.getElementById('imageModal').addEventListener('click', function() {
+            this.style.display = "none";
+        });
+
+        // 键盘ESC关闭
+        document.addEventListener('keydown', (e) => {
+            if (e.key === "Escape") {
+                document.getElementById('imageModal').style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>
