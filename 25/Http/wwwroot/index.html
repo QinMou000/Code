@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +32,7 @@
             position: fixed;
             width: 100%;
             top: 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             z-index: 1000;
         }
 
@@ -67,7 +68,7 @@
             background: white;
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s;
             cursor: pointer;
         }
@@ -106,7 +107,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,0.9);
+            background: rgba(0, 0, 0, 0.9);
             z-index: 2000;
             cursor: zoom-out;
         }
@@ -131,7 +132,7 @@
             .gallery {
                 columns: 1;
             }
-            
+
             .nav-links {
                 flex-direction: column;
                 align-items: center;
@@ -140,42 +141,83 @@
         }
     </style>
 </head>
+
 <body>
     <nav class="navbar">
         <div class="nav-links">
-            <a href="#about">关于我</a>
-            <a href="#gallery">作品集</a>
-            <a href="#contact">联系</a>
+            <a href="about.html">关于我</a>
         </div>
     </nav>
+    <div class="gallery" id="gallery"></div> <!-- 保持空容器 -->
 
-    <div class="gallery" id="gallery">
-        <!-- 照片卡片 - 复制以下区块添加更多照片 -->
-        <div class="photo-card">
-            <img src="imag/red.jpg" alt="红叶" class="photo-img">
-            <div class="photo-info">
-                <h3 class="photo-title">红叶</h3>
-                <p class="photo-desc">摄于理工大学荷轩寝室楼下</p>
-            </div>
-        </div>
+    <script>
+        // 图片数据数组
+        const photos = [
+            {
+                src: "imag/red.jpg",
+                title: "红叶",
+                desc: "摄于理工大学荷轩寝室楼下"
+            },
+            {
+                src: "imag/green.jpg",
+                title: "绿叶",
+                desc: "摄于理工大学德保食堂外"
+            },
+            {
+                src: "imag/pool.jpg",
+                title: "大水池子",
+                desc: "摄于理工大学两江校区"
+            },
+            {
+                src: "imag/fireflower.jpg",
+                title: "烟花",
+                desc: "摄于万灵古镇濑溪河畔"
+            },
+            {
+                src: "imag/fireflower.jpg",
+                title: "烟花",
+                desc: "摄于万灵古镇濑溪河畔"
+            },
+            // 继续添加更多图片...
+        ];
 
-        <div class="photo-card">
-            <img src="imag/green.jpg" alt="绿叶" class="photo-img">
-            <div class="photo-info">
-                <h3 class="photo-title">绿叶</h3>
-                <p class="photo-desc">摄于理工大学德保食堂外</p>
-            </div>
-        </div>
+        // 动态生成画廊
+        const gallery = document.getElementById('gallery');
 
-        <div class="photo-card">
-            <img src="imag/brige.jpg" alt="白居寺" class="photo-img">
+        photos.forEach(photo => {
+            const card = document.createElement('div');
+            card.className = 'photo-card';
+
+            card.innerHTML = `
+            <img src="${photo.src}" alt="${photo.title}" class="photo-img" loading="lazy">
             <div class="photo-info">
-                <h3 class="photo-title">白居寺</h3>
-                <p class="photo-desc">摄于2024最后一天，一夜未眠，独自一人骑车至白居寺桥下</p>
+                <h3 class="photo-title">${photo.title}</h3>
+                <p class="photo-desc">${photo.desc}</p>
             </div>
-        </div>
-    </div>
-    
+        `;
+
+            gallery.appendChild(card);
+        });
+
+        // 使用事件委托处理点击事件（优化后的点击事件绑定）
+        document.getElementById('gallery').addEventListener('click', function (e) {
+            if (e.target.classList.contains('photo-img')) {
+                const modal = document.getElementById('imageModal');
+                const modalImg = document.getElementById('expandedImg');
+                modal.style.display = "block";
+                modalImg.src = e.target.src;
+            }
+        });
+        // 分页功能
+        let currentPage = 0;
+        const perPage = 12;
+
+        function showPage(page) {
+            const start = page * perPage;
+            const end = start + perPage;
+            photos.slice(start, end).forEach(/* 生成逻辑 */);
+        }
+    </script>
 
     <!-- 模态框 -->
     <div class="modal" id="imageModal">
@@ -185,7 +227,7 @@
     <script>
         // 图片点击放大功能
         document.querySelectorAll('.photo-img').forEach(img => {
-            img.addEventListener('click', function() {
+            img.addEventListener('click', function () {
                 const modal = document.getElementById('imageModal');
                 const modalImg = document.getElementById('expandedImg');
                 modal.style.display = "block";
@@ -194,7 +236,7 @@
         });
 
         // 点击模态框关闭
-        document.getElementById('imageModal').addEventListener('click', function() {
+        document.getElementById('imageModal').addEventListener('click', function () {
             this.style.display = "none";
         });
 
@@ -206,4 +248,5 @@
         });
     </script>
 </body>
+
 </html>

@@ -155,7 +155,7 @@ public:
 
             SetHeader("Content-Type", suffix);
             SetHeader("Content-Length", std::to_string(filesize));
-            SetHeader("Set_Cookie", "username=wangqin;"); // 设置cookie
+            // SetHeader("Set_Cookie", "username=wangqin;"); // 设置cookie
         }
     }
     void SetText(std::string &text)

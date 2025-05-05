@@ -41,7 +41,7 @@ namespace LogModule
     };
 
     const std::string DefaultPath = "./";       // 默认路径
-    const std::string DefaultFile = "Mylog.log"; // 默认日志文件名
+    const std::string DefaultFile = "http.log"; // 默认日志文件名
     class FileLogStrategy : public LogStrategy
     {
     public:

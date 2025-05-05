@@ -1,0 +1,2483 @@
+[2025-05-04 23:28:26][INFO][2110475][Socket.hpp][68]-socket success
+[2025-05-04 23:28:26][INFO][2110475][Socket.hpp][79]-bind success
+[2025-05-04 23:28:26][INFO][2110475][Socket.hpp][89]-listen success
+[2025-05-04 23:28:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:28:32][DEBUG][2110548][Http.hpp][40]-_method: GET
+[2025-05-04 23:28:32][DEBUG][2110548][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-04 23:28:32][DEBUG][2110548][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:28:32][INFO][2110548][Http.hpp][197]-client: 183.230.242.183 : 1522
+[2025-05-04 23:28:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:28:32][DEBUG][2110550][Http.hpp][40]-_method: GET
+[2025-05-04 23:28:32][DEBUG][2110550][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-04 23:28:32][DEBUG][2110550][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:28:32][INFO][2110550][Http.hpp][197]-client: 183.230.242.183 : 1521
+[2025-05-04 23:28:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:28:32][DEBUG][2110552][Http.hpp][40]-_method: GET
+[2025-05-04 23:28:32][DEBUG][2110552][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-04 23:28:32][DEBUG][2110552][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:28:32][INFO][2110552][Http.hpp][197]-client: 183.230.242.183 : 1524
+[2025-05-04 23:28:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:28:32][DEBUG][2110554][Http.hpp][40]-_method: GET
+[2025-05-04 23:28:32][DEBUG][2110554][Http.hpp][41]-_uri: ./wwwroot/imag/brige.jpg
+[2025-05-04 23:28:32][DEBUG][2110554][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:28:32][INFO][2110554][Http.hpp][197]-client: 183.230.242.183 : 1523
+[2025-05-04 23:28:46][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:28:46][DEBUG][2110620][Http.hpp][40]-_method: GET
+[2025-05-04 23:28:46][DEBUG][2110620][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-04 23:28:46][DEBUG][2110620][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:28:46][INFO][2110620][Http.hpp][197]-client: 39.144.218.179 : 61229
+[2025-05-04 23:28:47][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:28:47][DEBUG][2110628][Http.hpp][40]-_method: GET
+[2025-05-04 23:28:47][DEBUG][2110628][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-04 23:28:47][DEBUG][2110628][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:28:47][INFO][2110628][Http.hpp][197]-client: 39.144.218.179 : 61230
+[2025-05-04 23:28:47][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:28:47][DEBUG][2110630][Http.hpp][40]-_method: GET
+[2025-05-04 23:28:47][DEBUG][2110630][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-04 23:28:47][DEBUG][2110630][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:28:47][INFO][2110630][Http.hpp][197]-client: 39.144.218.179 : 61231
+[2025-05-04 23:28:47][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:28:47][DEBUG][2110632][Http.hpp][40]-_method: GET
+[2025-05-04 23:28:47][DEBUG][2110632][Http.hpp][41]-_uri: ./wwwroot/imag/brige.jpg
+[2025-05-04 23:28:47][DEBUG][2110632][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:28:47][INFO][2110632][Http.hpp][197]-client: 39.144.218.179 : 61228
+[2025-05-04 23:29:06][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:29:06][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:29:47][DEBUG][2110749][Http.hpp][40]-_method: GET
+[2025-05-04 23:29:47][DEBUG][2110749][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-04 23:29:47][DEBUG][2110749][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:29:47][INFO][2110749][Http.hpp][197]-client: 183.230.242.183 : 1539
+[2025-05-04 23:29:47][DEBUG][2110751][Http.hpp][40]-_method: GET
+[2025-05-04 23:29:47][DEBUG][2110751][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-04 23:29:47][DEBUG][2110751][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:29:47][INFO][2110751][Http.hpp][197]-client: 183.230.242.183 : 1538
+[2025-05-04 23:29:47][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:29:47][DEBUG][2110975][Http.hpp][40]-_method: GET
+[2025-05-04 23:29:47][DEBUG][2110975][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-04 23:29:47][DEBUG][2110975][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:29:47][INFO][2110975][Http.hpp][197]-client: 183.230.242.183 : 1561
+[2025-05-04 23:29:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:29:48][DEBUG][2110978][Http.hpp][40]-_method: GET
+[2025-05-04 23:29:48][DEBUG][2110978][Http.hpp][41]-_uri: ./wwwroot/imag/brige.jpg
+[2025-05-04 23:29:48][DEBUG][2110978][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:29:48][INFO][2110978][Http.hpp][197]-client: 183.230.242.183 : 1562
+[2025-05-04 23:29:51][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:29:51][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:29:51][DEBUG][2111012][Http.hpp][40]-_method: GET
+[2025-05-04 23:29:51][DEBUG][2111012][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-04 23:29:51][DEBUG][2111012][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:29:51][INFO][2111012][Http.hpp][197]-client: 183.230.242.183 : 1563
+[2025-05-04 23:29:51][DEBUG][2111010][Http.hpp][40]-_method: GET
+[2025-05-04 23:29:51][DEBUG][2111010][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-04 23:29:51][DEBUG][2111010][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:29:51][INFO][2111010][Http.hpp][197]-client: 183.230.242.183 : 1564
+[2025-05-04 23:29:51][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:29:51][DEBUG][2111014][Http.hpp][40]-_method: GET
+[2025-05-04 23:29:51][DEBUG][2111014][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-04 23:29:51][DEBUG][2111014][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:29:51][INFO][2111014][Http.hpp][197]-client: 183.230.242.183 : 1565
+[2025-05-04 23:29:51][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:29:51][DEBUG][2111016][Http.hpp][40]-_method: GET
+[2025-05-04 23:29:51][DEBUG][2111016][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-04 23:29:51][DEBUG][2111016][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:29:51][INFO][2111016][Http.hpp][197]-client: 183.230.242.183 : 1566
+[2025-05-04 23:30:22][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:22][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:22][DEBUG][2111214][Http.hpp][40]-_method: GET
+[2025-05-04 23:30:22][DEBUG][2111214][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-04 23:30:22][DEBUG][2111214][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:30:22][INFO][2111214][Http.hpp][197]-client: 183.230.242.183 : 1576
+[2025-05-04 23:30:28][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:28][DEBUG][2111230][Http.hpp][40]-_method: GET
+[2025-05-04 23:30:28][DEBUG][2111230][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-04 23:30:28][DEBUG][2111230][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:30:28][INFO][2111230][Http.hpp][197]-client: 39.144.218.179 : 61232
+[2025-05-04 23:30:28][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:30][DEBUG][2111232][Http.hpp][40]-_method: GET
+[2025-05-04 23:30:30][DEBUG][2111232][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-04 23:30:30][DEBUG][2111232][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:30:30][INFO][2111232][Http.hpp][197]-client: 39.144.218.179 : 61233
+[2025-05-04 23:30:30][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:30][DEBUG][2111261][Http.hpp][40]-_method: GET
+[2025-05-04 23:30:30][DEBUG][2111261][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-04 23:30:30][DEBUG][2111261][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:30:30][INFO][2111261][Http.hpp][197]-client: 39.144.218.179 : 61234
+[2025-05-04 23:30:30][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:30][DEBUG][2111263][Http.hpp][40]-_method: GET
+[2025-05-04 23:30:30][DEBUG][2111263][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-04 23:30:30][DEBUG][2111263][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:30:30][INFO][2111263][Http.hpp][197]-client: 39.144.218.179 : 61236
+[2025-05-04 23:30:30][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:30][DEBUG][2111265][Http.hpp][40]-_method: GET
+[2025-05-04 23:30:30][DEBUG][2111265][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-04 23:30:30][DEBUG][2111265][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:30:30][INFO][2111265][Http.hpp][197]-client: 39.144.218.179 : 61235
+[2025-05-04 23:30:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:49][DEBUG][2111352][Http.hpp][40]-_method: GET
+[2025-05-04 23:30:49][DEBUG][2111352][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-04 23:30:49][DEBUG][2111352][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:30:49][INFO][2111352][Http.hpp][197]-client: 39.144.218.179 : 61237
+[2025-05-04 23:30:49][DEBUG][2111350][Http.hpp][40]-_method: GET
+[2025-05-04 23:30:49][DEBUG][2111350][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-04 23:30:49][DEBUG][2111350][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:30:49][INFO][2111350][Http.hpp][197]-client: 39.144.218.179 : 61238
+[2025-05-04 23:30:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:49][DEBUG][2111354][Http.hpp][40]-_method: GET
+[2025-05-04 23:30:49][DEBUG][2111354][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-04 23:30:49][DEBUG][2111354][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:30:49][INFO][2111354][Http.hpp][197]-client: 39.144.218.179 : 61239
+[2025-05-04 23:30:49][DEBUG][2111356][Http.hpp][40]-_method: GET
+[2025-05-04 23:30:49][DEBUG][2111356][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-04 23:30:49][DEBUG][2111356][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:30:49][INFO][2111356][Http.hpp][197]-client: 39.144.218.179 : 61240
+[2025-05-04 23:30:55][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:55][DEBUG][2111388][Http.hpp][40]-_method: GET
+[2025-05-04 23:30:55][DEBUG][2111388][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-04 23:30:55][DEBUG][2111388][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:30:55][INFO][2111388][Http.hpp][197]-client: 39.144.218.179 : 61242
+[2025-05-04 23:30:55][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:55][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:30:55][DEBUG][2111392][Http.hpp][40]-_method: GET
+[2025-05-04 23:30:55][DEBUG][2111392][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-04 23:30:55][DEBUG][2111390][Http.hpp][40]-_method: GET
+[2025-05-04 23:30:55][DEBUG][2111392][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:30:55][INFO][2111392][Http.hpp][197]-client: 39.144.218.179 : 61243
+[2025-05-04 23:30:55][DEBUG][2111390][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-04 23:30:55][DEBUG][2111390][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:30:55][INFO][2111390][Http.hpp][197]-client: 39.144.218.179 : 61241
+[2025-05-04 23:31:12][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:32:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:32:16][DEBUG][2111817][Http.hpp][40]-_method: GET
+[2025-05-04 23:32:16][DEBUG][2111817][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-04 23:32:16][DEBUG][2111817][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:32:16][INFO][2111817][Http.hpp][197]-client: 183.230.242.183 : 1644
+[2025-05-04 23:32:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:32:16][DEBUG][2111819][Http.hpp][40]-_method: GET
+[2025-05-04 23:32:16][DEBUG][2111819][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-04 23:32:16][DEBUG][2111819][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:32:16][INFO][2111819][Http.hpp][197]-client: 183.230.242.183 : 1645
+[2025-05-04 23:32:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:32:16][DEBUG][2111821][Http.hpp][40]-_method: GET
+[2025-05-04 23:32:16][DEBUG][2111821][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-04 23:32:16][DEBUG][2111821][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:32:16][INFO][2111821][Http.hpp][197]-client: 183.230.242.183 : 1647
+[2025-05-04 23:32:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:32:16][DEBUG][2111823][Http.hpp][40]-_method: GET
+[2025-05-04 23:32:16][DEBUG][2111823][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-04 23:32:16][DEBUG][2111823][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:32:16][INFO][2111823][Http.hpp][197]-client: 183.230.242.183 : 1646
+[2025-05-04 23:33:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:33:59][DEBUG][2112867][Http.hpp][40]-_method: GET
+[2025-05-04 23:33:59][DEBUG][2112867][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-04 23:33:59][DEBUG][2112867][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:33:59][INFO][2112867][Http.hpp][197]-client: 114.132.203.145 : 29662
+[2025-05-04 23:35:38][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:35:38][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:39:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:39:16][DEBUG][2114516][Http.hpp][40]-_method: GET
+[2025-05-04 23:39:16][DEBUG][2114516][Http.hpp][41]-_uri: ./wwwroot/imag/brige.jpg
+[2025-05-04 23:39:16][DEBUG][2114516][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:39:16][INFO][2114516][Http.hpp][197]-client: 114.132.203.61 : 38810
+[2025-05-04 23:39:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:39:24][DEBUG][2114562][Http.hpp][40]-_method: GET
+[2025-05-04 23:39:24][DEBUG][2114562][Http.hpp][41]-_uri: ./wwwroot/imag/brige.jpg
+[2025-05-04 23:39:24][DEBUG][2114562][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:39:24][INFO][2114562][Http.hpp][197]-client: 59.36.125.73 : 48064
+[2025-05-04 23:40:00][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:40:00][DEBUG][2114750][Http.hpp][40]-_method: GET
+[2025-05-04 23:40:00][DEBUG][2114750][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-04 23:40:00][DEBUG][2114750][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:40:00][INFO][2114750][Http.hpp][197]-client: 114.132.202.202 : 49314
+[2025-05-04 23:40:12][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:40:12][DEBUG][2114826][Http.hpp][40]-_method: GET
+[2025-05-04 23:40:12][DEBUG][2114826][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-04 23:40:12][DEBUG][2114826][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:40:12][INFO][2114826][Http.hpp][197]-client: 59.36.125.56 : 47956
+[2025-05-04 23:48:30][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:48:30][DEBUG][2117383][Http.hpp][40]-_method: GET
+[2025-05-04 23:48:30][DEBUG][2117383][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-04 23:48:30][DEBUG][2117383][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:48:30][INFO][2117383][Http.hpp][197]-client: 114.132.203.59 : 22584
+[2025-05-04 23:48:41][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:48:41][DEBUG][2117440][Http.hpp][40]-_method: GET
+[2025-05-04 23:48:41][DEBUG][2117440][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-04 23:48:41][DEBUG][2117440][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:48:41][INFO][2117440][Http.hpp][197]-client: 59.36.125.56 : 50366
+[2025-05-04 23:50:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:50:33][DEBUG][2118012][Http.hpp][40]-_method: CONNECT
+[2025-05-04 23:50:33][DEBUG][2118012][Http.hpp][41]-_uri: ./wwwrootip.bablosoft.com:443
+[2025-05-04 23:50:33][DEBUG][2118012][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:50:33][INFO][2118012][Http.hpp][197]-client: 90.151.171.106 : 22634
+[2025-05-04 23:50:38][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:50:38][INFO][2118030][Http.hpp][197]-client: 90.151.171.106 : 40698
+[2025-05-04 23:50:43][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:50:43][DEBUG][2118068][Http.hpp][40]-_method: GET
+[2025-05-04 23:50:43][DEBUG][2118068][Http.hpp][41]-_uri: ./wwwroothttp://ip.bablosoft.com/?Z78486284902Q1
+[2025-05-04 23:50:43][DEBUG][2118068][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-04 23:50:43][INFO][2118068][Http.hpp][197]-client: 90.151.171.106 : 40708
+[2025-05-04 23:50:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-04 23:50:48][INFO][2118093][Http.hpp][197]-client: 90.151.171.106 : 8418
+[2025-05-05 00:21:38][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 00:21:38][DEBUG][2127663][Http.hpp][40]-_method: CONNECT
+[2025-05-05 00:21:38][DEBUG][2127663][Http.hpp][41]-_uri: ./wwwroot90.151.171.106:443
+[2025-05-05 00:21:38][DEBUG][2127663][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 00:21:38][INFO][2127663][Http.hpp][197]-client: 90.151.171.108 : 15927
+[2025-05-05 00:21:43][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 00:21:43][INFO][2127701][Http.hpp][197]-client: 90.151.171.108 : 52331
+[2025-05-05 00:21:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 00:21:48][DEBUG][2127718][Http.hpp][40]-_method: GET
+[2025-05-05 00:21:48][DEBUG][2127718][Http.hpp][41]-_uri: ./wwwroothttp://90.151.171.106/ip.php?Z78486284902Q1
+[2025-05-05 00:21:48][DEBUG][2127718][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 00:21:48][INFO][2127718][Http.hpp][197]-client: 90.151.171.108 : 5803
+[2025-05-05 00:21:53][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 00:21:53][INFO][2127751][Http.hpp][197]-client: 90.151.171.108 : 64837
+[2025-05-05 00:25:05][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 00:25:05][INFO][2128741][Http.hpp][197]-client: 139.199.210.195 : 42558
+[2025-05-05 00:52:14][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 00:52:14][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 00:52:14][DEBUG][2137094][Http.hpp][40]-_method: CONNECT
+[2025-05-05 00:52:14][DEBUG][2137094][Http.hpp][41]-_uri: ./wwwrootv4.ident.me:443
+[2025-05-05 00:52:14][DEBUG][2137094][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 00:52:14][INFO][2137094][Http.hpp][197]-client: 90.151.171.106 : 42304
+[2025-05-05 00:52:15][INFO][2137096][Http.hpp][197]-client: 90.151.171.106 : 42306
+[2025-05-05 00:52:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 00:52:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 00:52:19][DEBUG][2137131][Http.hpp][40]-_method: GET
+[2025-05-05 00:52:19][DEBUG][2137131][Http.hpp][41]-_uri: ./wwwroothttp://v4.ident.me?Z78486284902Q1
+[2025-05-05 00:52:19][DEBUG][2137131][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 00:52:19][INFO][2137131][Http.hpp][197]-client: 90.151.171.106 : 22284
+[2025-05-05 00:52:19][INFO][2137133][Http.hpp][197]-client: 90.151.171.106 : 22290
+[2025-05-05 01:22:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 01:22:59][DEBUG][2146617][Http.hpp][40]-_method: CONNECT
+[2025-05-05 01:22:59][DEBUG][2146617][Http.hpp][41]-_uri: ./wwwrootcheckip.amazonaws.com:443
+[2025-05-05 01:22:59][DEBUG][2146617][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 01:22:59][INFO][2146617][Http.hpp][197]-client: 90.151.171.106 : 24326
+[2025-05-05 01:23:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 01:23:04][INFO][2146659][Http.hpp][197]-client: 90.151.171.106 : 24342
+[2025-05-05 01:23:09][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 01:23:09][DEBUG][2146678][Http.hpp][40]-_method: GET
+[2025-05-05 01:23:09][DEBUG][2146678][Http.hpp][41]-_uri: ./wwwroothttp://checkip.amazonaws.com?Z78486284902Q1
+[2025-05-05 01:23:09][DEBUG][2146678][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 01:23:09][INFO][2146678][Http.hpp][197]-client: 90.151.171.106 : 49636
+[2025-05-05 01:23:14][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 01:23:14][INFO][2146711][Http.hpp][197]-client: 90.151.171.106 : 49646
+[2025-05-05 01:31:12][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 01:31:12][DEBUG][2149179][Http.hpp][40]-_method: GET
+[2025-05-05 01:31:12][DEBUG][2149179][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 01:31:12][DEBUG][2149179][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 01:31:12][INFO][2149179][Http.hpp][197]-client: 115.231.78.4 : 30000
+[2025-05-05 01:31:12][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 01:31:12][DEBUG][2149181][Http.hpp][40]-_method: GET
+[2025-05-05 01:31:12][DEBUG][2149181][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 01:31:12][DEBUG][2149181][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 01:31:12][INFO][2149181][Http.hpp][197]-client: 115.231.78.4 : 42705
+[2025-05-05 01:31:12][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 01:31:12][DEBUG][2149183][Http.hpp][40]-_method: GET
+[2025-05-05 01:31:12][DEBUG][2149183][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 01:31:12][DEBUG][2149183][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 01:31:12][INFO][2149183][Http.hpp][197]-client: 115.231.78.4 : 42774
+[2025-05-05 01:31:13][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 01:31:13][DEBUG][2149185][Http.hpp][40]-_method: GET
+[2025-05-05 01:31:13][DEBUG][2149185][Http.hpp][41]-_uri: ./wwwroot/robots.txt
+[2025-05-05 01:31:13][DEBUG][2149185][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 01:31:13][INFO][2149185][Http.hpp][197]-client: 115.231.78.4 : 43083
+[2025-05-05 02:58:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 02:58:49][INFO][2176139][Http.hpp][197]-client: 20.29.46.247 : 59652
+[2025-05-05 03:15:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 03:15:16][DEBUG][2181220][Http.hpp][40]-_method: GET
+[2025-05-05 03:15:16][DEBUG][2181220][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 03:15:16][DEBUG][2181220][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 03:15:16][INFO][2181220][Http.hpp][197]-client: 175.19.75.232 : 5991
+[2025-05-05 03:15:35][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 03:15:35][DEBUG][2181321][Http.hpp][40]-_method: GET
+[2025-05-05 03:15:35][DEBUG][2181321][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 03:15:35][DEBUG][2181321][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 03:15:35][INFO][2181321][Http.hpp][197]-client: 182.138.158.180 : 16493
+[2025-05-05 03:15:35][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 03:15:35][DEBUG][2181323][Http.hpp][40]-_method: GET
+[2025-05-05 03:15:35][DEBUG][2181323][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 03:15:35][DEBUG][2181323][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 03:15:35][INFO][2181323][Http.hpp][197]-client: 120.0.52.214 : 17544
+[2025-05-05 04:49:28][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:49:28][DEBUG][2210231][Http.hpp][40]-_method: GET
+[2025-05-05 04:49:28][DEBUG][2210231][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 04:49:28][DEBUG][2210231][Http.hpp][42]-_http_version: HTTP/1.0
+[2025-05-05 04:49:28][INFO][2210231][Http.hpp][197]-client: 121.189.225.179 : 62563
+[2025-05-05 04:51:18][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:51:18][DEBUG][2210793][Http.hpp][40]-_method: GET
+[2025-05-05 04:51:18][DEBUG][2210793][Http.hpp][41]-_uri: ./wwwroothttp://passport.baidu.com/
+[2025-05-05 04:51:18][DEBUG][2210793][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 04:51:18][INFO][2210793][Http.hpp][197]-client: 47.236.251.77 : 37292
+[2025-05-05 04:51:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:51:19][INFO][2210817][Http.hpp][197]-client: 47.236.251.77 : 37300
+[2025-05-05 04:51:46][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:51:46][INFO][2210948][Http.hpp][197]-client: 47.236.251.77 : 52840
+[2025-05-05 04:52:15][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:52:15][DEBUG][2211097][Http.hpp][40]-_method: GET
+[2025-05-05 04:52:15][DEBUG][2211097][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 04:52:15][DEBUG][2211097][Http.hpp][42]-_http_version: HTTP/1.0
+[2025-05-05 04:52:15][INFO][2211097][Http.hpp][197]-client: 195.178.110.224 : 41610
+[2025-05-05 04:52:15][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:52:15][INFO][2211099][Http.hpp][197]-client: 20.65.193.94 : 50266
+[2025-05-05 04:52:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:52:16][INFO][2211101][Http.hpp][197]-client: 20.65.193.94 : 50280
+[2025-05-05 04:52:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:52:16][INFO][2211109][Http.hpp][197]-client: 20.65.193.94 : 50284
+[2025-05-05 04:52:17][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:52:17][INFO][2211111][Http.hpp][197]-client: 20.65.193.94 : 50298
+[2025-05-05 04:52:17][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:52:17][INFO][2211113][Http.hpp][197]-client: 20.65.193.94 : 50304
+[2025-05-05 04:52:18][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:52:18][INFO][2211116][Http.hpp][197]-client: 20.65.193.94 : 50306
+[2025-05-05 04:52:18][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:52:18][INFO][2211118][Http.hpp][197]-client: 20.65.193.94 : 50320
+[2025-05-05 04:52:18][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:52:18][INFO][2211128][Http.hpp][197]-client: 20.65.193.94 : 50326
+[2025-05-05 04:52:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:52:19][INFO][2211130][Http.hpp][197]-client: 20.65.193.94 : 50342
+[2025-05-05 04:52:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 04:52:19][INFO][2211136][Http.hpp][197]-client: 20.65.193.94 : 50354
+[2025-05-05 05:32:28][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 05:32:29][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 05:32:30][INFO][2223524][Http.hpp][197]-client: 162.142.125.42 : 55930
+[2025-05-05 05:32:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 05:32:35][DEBUG][2223549][Http.hpp][40]-_method: GET
+[2025-05-05 05:32:35][DEBUG][2223549][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 05:32:35][DEBUG][2223549][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 05:32:35][INFO][2223549][Http.hpp][197]-client: 162.142.125.42 : 45352
+[2025-05-05 05:32:43][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 05:32:45][DEBUG][2223611][Http.hpp][40]-_method: GET
+[2025-05-05 05:32:45][DEBUG][2223611][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 05:32:45][DEBUG][2223611][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 05:32:45][INFO][2223611][Http.hpp][197]-client: 162.142.125.42 : 47556
+[2025-05-05 05:32:46][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 05:32:47][DEBUG][2223615][Http.hpp][40]-_method: GET
+[2025-05-05 05:32:47][DEBUG][2223615][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 05:32:47][DEBUG][2223615][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 05:32:47][INFO][2223615][Http.hpp][197]-client: 162.142.125.42 : 47560
+[2025-05-05 05:32:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 05:32:49][DEBUG][2223632][Http.hpp][40]-_method: PRI
+[2025-05-05 05:32:49][DEBUG][2223632][Http.hpp][41]-_uri: ./wwwroot*
+[2025-05-05 05:32:49][DEBUG][2223632][Http.hpp][42]-_http_version: HTTP/2.0
+[2025-05-05 05:32:49][INFO][2223632][Http.hpp][197]-client: 162.142.125.42 : 47590
+[2025-05-05 05:33:01][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 05:33:01][DEBUG][2223701][Http.hpp][40]-_method: GET
+[2025-05-05 05:33:01][DEBUG][2223701][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 05:33:01][DEBUG][2223701][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 05:33:01][INFO][2223701][Http.hpp][197]-client: 162.142.125.42 : 33820
+[2025-05-05 05:33:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 05:33:04][INFO][2223716][Http.hpp][197]-client: 162.142.125.42 : 33846
+[2025-05-05 07:36:27][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 07:36:27][INFO][2262351][Http.hpp][197]-client: 147.185.132.16 : 62548
+[2025-05-05 07:36:28][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 07:36:28][INFO][2262353][Http.hpp][197]-client: 147.185.132.16 : 62552
+[2025-05-05 07:46:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 07:53:14][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 07:53:14][DEBUG][2267526][Http.hpp][40]-_method: CONNECT
+[2025-05-05 07:53:14][DEBUG][2267526][Http.hpp][41]-_uri: ./wwwrootcheckip.amazonaws.com:443
+[2025-05-05 07:53:14][DEBUG][2267526][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 07:53:14][INFO][2267526][Http.hpp][197]-client: 90.151.171.106 : 17568
+[2025-05-05 07:53:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 07:53:19][INFO][2267544][Http.hpp][197]-client: 90.151.171.106 : 52664
+[2025-05-05 07:53:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 07:53:24][DEBUG][2267575][Http.hpp][40]-_method: GET
+[2025-05-05 07:53:24][DEBUG][2267575][Http.hpp][41]-_uri: ./wwwroothttp://checkip.amazonaws.com?Z78486284902Q1
+[2025-05-05 07:53:24][DEBUG][2267575][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 07:53:24][INFO][2267575][Http.hpp][197]-client: 90.151.171.106 : 52672
+[2025-05-05 07:53:29][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 07:53:29][INFO][2267606][Http.hpp][197]-client: 90.151.171.106 : 20978
+[2025-05-05 08:48:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 08:48:59][DEBUG][2284714][Http.hpp][40]-_method: HEAD
+[2025-05-05 08:48:59][DEBUG][2284714][Http.hpp][41]-_uri: ./wwwroot/start/index.html
+[2025-05-05 08:48:59][DEBUG][2284714][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 08:48:59][INFO][2284714][Http.hpp][197]-client: 106.15.131.125 : 55206
+[2025-05-05 08:48:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 08:48:59][DEBUG][2284716][Http.hpp][40]-_method: HEAD
+[2025-05-05 08:48:59][DEBUG][2284716][Http.hpp][41]-_uri: ./wwwroot/pscc/
+[2025-05-05 08:48:59][DEBUG][2284716][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 08:48:59][INFO][2284716][Http.hpp][197]-client: 106.15.131.125 : 55207
+[2025-05-05 08:48:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 08:48:59][INFO][2284718][Http.hpp][197]-client: 106.15.131.125 : 55210
+[2025-05-05 08:48:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 08:48:59][INFO][2284720][Http.hpp][197]-client: 106.15.131.125 : 55211
+[2025-05-05 08:50:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 08:50:48][DEBUG][2285275][Http.hpp][40]-_method: GET
+[2025-05-05 08:50:48][DEBUG][2285275][Http.hpp][41]-_uri: ./wwwroothttp://pingjs.qq.com/ping.js
+[2025-05-05 08:50:48][DEBUG][2285275][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 08:50:48][INFO][2285275][Http.hpp][197]-client: 89.248.164.165 : 46070
+[2025-05-05 08:51:27][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 08:51:29][DEBUG][2285481][Http.hpp][40]-_method: GET
+[2025-05-05 08:51:29][DEBUG][2285481][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 08:51:29][DEBUG][2285481][Http.hpp][42]-_http_version: HTTP/1.0
+[2025-05-05 08:51:29][INFO][2285481][Http.hpp][197]-client: 205.210.31.213 : 50468
+[2025-05-05 10:57:36][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 10:57:36][INFO][2324328][Http.hpp][197]-client: 134.199.161.28 : 60124
+[2025-05-05 10:57:37][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 10:57:37][INFO][2324336][Http.hpp][197]-client: 134.199.161.28 : 60140
+[2025-05-05 10:57:38][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 10:57:39][DEBUG][2324348][Http.hpp][40]-_method: GET
+[2025-05-05 10:57:39][DEBUG][2324348][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 10:57:39][DEBUG][2324348][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 10:57:39][INFO][2324348][Http.hpp][197]-client: 134.199.161.28 : 60142
+[2025-05-05 11:12:44][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 11:12:44][INFO][2329011][Http.hpp][197]-client: 64.62.197.104 : 12843
+[2025-05-05 11:14:55][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 11:14:55][DEBUG][2329674][Http.hpp][40]-_method: GET
+[2025-05-05 11:14:55][DEBUG][2329674][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 11:14:55][DEBUG][2329674][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 11:14:55][INFO][2329674][Http.hpp][197]-client: 159.75.198.125 : 34380
+[2025-05-05 12:37:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 12:37:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 12:37:31][DEBUG][2355124][Http.hpp][40]-_method: GET
+[2025-05-05 12:37:31][DEBUG][2355124][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 12:37:31][DEBUG][2355124][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 12:37:31][INFO][2355124][Http.hpp][197]-client: 39.144.218.179 : 61996
+[2025-05-05 12:37:31][DEBUG][2355126][Http.hpp][40]-_method: GET
+[2025-05-05 12:37:31][DEBUG][2355126][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 12:37:31][DEBUG][2355126][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 12:37:31][INFO][2355126][Http.hpp][197]-client: 39.144.218.179 : 61997
+[2025-05-05 12:37:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 12:37:31][DEBUG][2355129][Http.hpp][40]-_method: GET
+[2025-05-05 12:37:31][DEBUG][2355129][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 12:37:31][DEBUG][2355129][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 12:37:31][INFO][2355129][Http.hpp][197]-client: 39.144.218.179 : 61998
+[2025-05-05 12:38:07][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 12:38:07][DEBUG][2355313][Http.hpp][40]-_method: GET
+[2025-05-05 12:38:07][DEBUG][2355313][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 12:38:07][DEBUG][2355313][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 12:38:07][INFO][2355313][Http.hpp][197]-client: 183.230.242.192 : 53418
+[2025-05-05 12:43:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 13:07:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 13:07:32][DEBUG][2364370][Http.hpp][40]-_method: GET
+[2025-05-05 13:07:32][DEBUG][2364370][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 13:07:32][DEBUG][2364370][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 13:07:32][INFO][2364370][Http.hpp][197]-client: 115.231.78.4 : 30000
+[2025-05-05 13:07:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 13:07:32][DEBUG][2364372][Http.hpp][40]-_method: GET
+[2025-05-05 13:07:32][DEBUG][2364372][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 13:07:32][DEBUG][2364372][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 13:07:32][INFO][2364372][Http.hpp][197]-client: 115.231.78.4 : 35899
+[2025-05-05 13:07:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 13:07:32][DEBUG][2364374][Http.hpp][40]-_method: GET
+[2025-05-05 13:07:32][DEBUG][2364374][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 13:07:32][DEBUG][2364374][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 13:07:32][INFO][2364374][Http.hpp][197]-client: 115.231.78.4 : 35945
+[2025-05-05 13:07:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 13:07:32][DEBUG][2364376][Http.hpp][40]-_method: GET
+[2025-05-05 13:07:32][DEBUG][2364376][Http.hpp][41]-_uri: ./wwwroot/robots.txt
+[2025-05-05 13:07:32][DEBUG][2364376][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 13:07:32][INFO][2364376][Http.hpp][197]-client: 115.231.78.4 : 36289
+[2025-05-05 13:55:02][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 13:55:02][DEBUG][2379036][Http.hpp][40]-_method: CONNECT
+[2025-05-05 13:55:02][DEBUG][2379036][Http.hpp][41]-_uri: ./wwwrooteth0.me:443
+[2025-05-05 13:55:02][DEBUG][2379036][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 13:55:02][INFO][2379036][Http.hpp][197]-client: 90.151.171.108 : 43811
+[2025-05-05 13:55:07][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 13:55:08][INFO][2379052][Http.hpp][197]-client: 90.151.171.108 : 34693
+[2025-05-05 13:55:12][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 13:55:12][DEBUG][2379086][Http.hpp][40]-_method: GET
+[2025-05-05 13:55:12][DEBUG][2379086][Http.hpp][41]-_uri: ./wwwroothttp://eth0.me?Z78486284902Q1
+[2025-05-05 13:55:12][DEBUG][2379086][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 13:55:12][INFO][2379086][Http.hpp][197]-client: 90.151.171.108 : 9855
+[2025-05-05 13:55:17][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 13:55:17][INFO][2379101][Http.hpp][197]-client: 90.151.171.108 : 61243
+[2025-05-05 14:34:05][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 14:34:05][INFO][2391069][Http.hpp][197]-client: 45.135.193.102 : 64524
+[2025-05-05 15:24:42][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 15:24:42][INFO][2406657][Http.hpp][197]-client: 45.135.193.102 : 65508
+[2025-05-05 15:33:15][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 15:33:15][INFO][2409285][Http.hpp][197]-client: 45.142.193.72 : 65020
+[2025-05-05 16:59:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 16:59:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 16:59:03][DEBUG][2435724][Http.hpp][40]-_method: GET
+[2025-05-05 16:59:03][DEBUG][2435724][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 16:59:03][DEBUG][2435724][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 16:59:03][INFO][2435724][Http.hpp][197]-client: 39.144.218.179 : 62739
+[2025-05-05 16:59:03][DEBUG][2435726][Http.hpp][40]-_method: GET
+[2025-05-05 16:59:03][DEBUG][2435726][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 16:59:03][DEBUG][2435726][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 16:59:03][INFO][2435726][Http.hpp][197]-client: 39.144.218.179 : 62738
+[2025-05-05 16:59:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 16:59:03][DEBUG][2435734][Http.hpp][40]-_method: GET
+[2025-05-05 16:59:03][DEBUG][2435734][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 16:59:03][DEBUG][2435734][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 16:59:03][INFO][2435734][Http.hpp][197]-client: 39.144.218.179 : 62740
+[2025-05-05 16:59:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 16:59:03][DEBUG][2435736][Http.hpp][40]-_method: GET
+[2025-05-05 16:59:03][DEBUG][2435736][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 16:59:03][DEBUG][2435736][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 16:59:03][INFO][2435736][Http.hpp][197]-client: 39.144.218.179 : 62741
+[2025-05-05 16:59:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 16:59:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:00:10][DEBUG][2435870][Http.hpp][40]-_method: GET
+[2025-05-05 17:00:10][DEBUG][2435870][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:00:10][DEBUG][2435870][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:00:10][INFO][2435870][Http.hpp][197]-client: 39.144.218.179 : 62742
+[2025-05-05 17:00:10][DEBUG][2435872][Http.hpp][40]-_method: GET
+[2025-05-05 17:00:10][DEBUG][2435872][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:00:10][DEBUG][2435872][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:00:10][INFO][2435872][Http.hpp][197]-client: 39.144.218.179 : 62743
+[2025-05-05 17:00:10][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:00:10][DEBUG][2436100][Http.hpp][40]-_method: GET
+[2025-05-05 17:00:10][DEBUG][2436100][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:00:10][DEBUG][2436100][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:00:10][INFO][2436100][Http.hpp][197]-client: 39.144.218.179 : 62744
+[2025-05-05 17:00:10][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:00:10][DEBUG][2436102][Http.hpp][40]-_method: GET
+[2025-05-05 17:00:10][DEBUG][2436102][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:00:10][DEBUG][2436102][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:00:10][INFO][2436102][Http.hpp][197]-client: 39.144.218.179 : 62745
+[2025-05-05 17:00:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:00:19][DEBUG][2436130][Http.hpp][40]-_method: GET
+[2025-05-05 17:00:19][DEBUG][2436130][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:00:19][DEBUG][2436130][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:00:19][INFO][2436130][Http.hpp][197]-client: 39.144.218.179 : 63087
+[2025-05-05 17:00:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:00:19][DEBUG][2436132][Http.hpp][40]-_method: GET
+[2025-05-05 17:00:19][DEBUG][2436132][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:00:19][DEBUG][2436132][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:00:19][INFO][2436132][Http.hpp][197]-client: 39.144.218.179 : 63088
+[2025-05-05 17:00:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:00:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:00:19][DEBUG][2436136][Http.hpp][40]-_method: GET
+[2025-05-05 17:00:19][DEBUG][2436136][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:00:19][DEBUG][2436136][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:00:19][INFO][2436136][Http.hpp][197]-client: 39.144.218.179 : 63090
+[2025-05-05 17:00:19][DEBUG][2436134][Http.hpp][40]-_method: GET
+[2025-05-05 17:00:19][DEBUG][2436134][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:00:19][DEBUG][2436134][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:00:19][INFO][2436134][Http.hpp][197]-client: 39.144.218.179 : 63089
+[2025-05-05 17:01:00][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:01:00][DEBUG][2436357][Http.hpp][40]-_method: GET
+[2025-05-05 17:01:00][DEBUG][2436357][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:01:00][DEBUG][2436357][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:01:00][INFO][2436357][Http.hpp][197]-client: 39.144.218.179 : 63091
+[2025-05-05 17:01:22][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:01:23][DEBUG][2436470][Http.hpp][40]-_method: GET
+[2025-05-05 17:01:23][DEBUG][2436470][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:01:23][DEBUG][2436470][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:01:23][INFO][2436470][Http.hpp][197]-client: 39.144.218.179 : 63092
+[2025-05-05 17:02:51][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:02:51][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:04:22][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:04:22][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:07:13][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:07:13][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:12:40][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:12:40][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:12:42][DEBUG][2440665][Http.hpp][40]-_method: GET
+[2025-05-05 17:12:42][DEBUG][2440665][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:12:42][DEBUG][2440665][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:12:42][INFO][2440665][Http.hpp][197]-client: 183.230.242.183 : 8329
+[2025-05-05 17:12:42][DEBUG][2440667][Http.hpp][40]-_method: GET
+[2025-05-05 17:12:42][DEBUG][2440667][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:12:42][DEBUG][2440667][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:12:42][INFO][2440667][Http.hpp][197]-client: 183.230.242.183 : 8330
+[2025-05-05 17:12:42][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:12:42][DEBUG][2440674][Http.hpp][40]-_method: GET
+[2025-05-05 17:12:42][DEBUG][2440674][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:12:42][DEBUG][2440674][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:12:42][INFO][2440674][Http.hpp][197]-client: 183.230.242.183 : 8335
+[2025-05-05 17:12:42][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:12:42][DEBUG][2440676][Http.hpp][40]-_method: GET
+[2025-05-05 17:12:42][DEBUG][2440676][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:12:42][DEBUG][2440676][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:12:42][INFO][2440676][Http.hpp][197]-client: 183.230.242.183 : 8333
+[2025-05-05 17:12:53][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:12:53][DEBUG][2440735][Http.hpp][40]-_method: GET
+[2025-05-05 17:12:53][DEBUG][2440735][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:12:53][DEBUG][2440735][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:12:53][INFO][2440735][Http.hpp][197]-client: 183.230.242.183 : 8344
+[2025-05-05 17:12:53][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:12:53][DEBUG][2440737][Http.hpp][40]-_method: GET
+[2025-05-05 17:12:53][DEBUG][2440737][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:12:53][DEBUG][2440737][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:12:53][INFO][2440737][Http.hpp][197]-client: 183.230.242.183 : 8345
+[2025-05-05 17:12:53][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:12:53][DEBUG][2440739][Http.hpp][40]-_method: GET
+[2025-05-05 17:12:53][DEBUG][2440739][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:12:53][DEBUG][2440739][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:12:53][INFO][2440739][Http.hpp][197]-client: 183.230.242.183 : 8349
+[2025-05-05 17:12:53][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:12:53][DEBUG][2440741][Http.hpp][40]-_method: GET
+[2025-05-05 17:12:53][DEBUG][2440741][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:12:53][DEBUG][2440741][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:12:53][INFO][2440741][Http.hpp][197]-client: 183.230.242.183 : 8348
+[2025-05-05 17:12:54][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:12:54][DEBUG][2440750][Http.hpp][40]-_method: GET
+[2025-05-05 17:12:54][DEBUG][2440750][Http.hpp][41]-_uri: ./wwwroot/about
+[2025-05-05 17:12:54][DEBUG][2440750][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:12:54][INFO][2440750][Http.hpp][197]-client: 183.230.242.183 : 8353
+[2025-05-05 17:12:55][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:12:55][DEBUG][2440752][Http.hpp][40]-_method: GET
+[2025-05-05 17:12:55][DEBUG][2440752][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:12:55][DEBUG][2440752][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:12:55][INFO][2440752][Http.hpp][197]-client: 183.230.242.183 : 8356
+[2025-05-05 17:12:55][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:12:57][DEBUG][2440754][Http.hpp][40]-_method: GET
+[2025-05-05 17:12:57][DEBUG][2440754][Http.hpp][41]-_uri: ./wwwroot/about
+[2025-05-05 17:12:57][DEBUG][2440754][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:12:57][INFO][2440754][Http.hpp][197]-client: 183.230.242.183 : 8357
+[2025-05-05 17:12:57][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:12:57][DEBUG][2440762][Http.hpp][40]-_method: GET
+[2025-05-05 17:12:57][DEBUG][2440762][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:12:57][DEBUG][2440762][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:12:57][INFO][2440762][Http.hpp][197]-client: 183.230.242.183 : 8365
+[2025-05-05 17:12:57][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:04][DEBUG][2440765][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:04][DEBUG][2440765][Http.hpp][41]-_uri: ./wwwroot/about
+[2025-05-05 17:13:04][DEBUG][2440765][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:04][INFO][2440765][Http.hpp][197]-client: 183.230.242.183 : 8367
+[2025-05-05 17:13:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:04][DEBUG][2440823][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:04][DEBUG][2440823][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:13:04][DEBUG][2440823][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:04][INFO][2440823][Http.hpp][197]-client: 183.230.242.183 : 8389
+[2025-05-05 17:13:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:07][DEBUG][2440825][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:07][DEBUG][2440825][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:13:07][DEBUG][2440825][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:07][INFO][2440825][Http.hpp][197]-client: 183.230.242.183 : 8391
+[2025-05-05 17:13:07][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:07][DEBUG][2440835][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:07][DEBUG][2440835][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:13:07][DEBUG][2440835][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:07][INFO][2440835][Http.hpp][197]-client: 183.230.242.183 : 8397
+[2025-05-05 17:13:07][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:07][DEBUG][2440837][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:07][DEBUG][2440837][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:13:07][DEBUG][2440837][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:07][INFO][2440837][Http.hpp][197]-client: 183.230.242.183 : 8400
+[2025-05-05 17:13:07][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:07][DEBUG][2440839][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:07][DEBUG][2440839][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:13:07][DEBUG][2440839][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:07][INFO][2440839][Http.hpp][197]-client: 183.230.242.183 : 8401
+[2025-05-05 17:13:08][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:08][DEBUG][2440850][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:08][DEBUG][2440850][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:13:08][DEBUG][2440850][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:08][INFO][2440850][Http.hpp][197]-client: 183.230.242.183 : 8403
+[2025-05-05 17:13:08][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:08][DEBUG][2440852][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:08][DEBUG][2440852][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:13:08][DEBUG][2440852][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:08][INFO][2440852][Http.hpp][197]-client: 183.230.242.183 : 8409
+[2025-05-05 17:13:10][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:10][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:32][DEBUG][2440876][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:32][DEBUG][2440876][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:13:32][DEBUG][2440876][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:32][INFO][2440876][Http.hpp][197]-client: 183.230.242.183 : 8415
+[2025-05-05 17:13:33][DEBUG][2440878][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:33][DEBUG][2440878][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:13:33][DEBUG][2440878][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:33][INFO][2440878][Http.hpp][197]-client: 183.230.242.183 : 8416
+[2025-05-05 17:13:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:33][DEBUG][2440991][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:33][DEBUG][2440991][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:13:33][DEBUG][2440991][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:33][INFO][2440991][Http.hpp][197]-client: 183.230.242.183 : 8452
+[2025-05-05 17:13:35][DEBUG][2440989][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:35][DEBUG][2440989][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:13:35][DEBUG][2440989][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:35][INFO][2440989][Http.hpp][197]-client: 183.230.242.183 : 8453
+[2025-05-05 17:13:35][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:35][DEBUG][2441000][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:35][DEBUG][2441000][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:13:35][DEBUG][2441000][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:35][INFO][2441000][Http.hpp][197]-client: 183.230.242.183 : 8457
+[2025-05-05 17:13:35][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:35][DEBUG][2441002][Http.hpp][40]-_method: GET
+[2025-05-05 17:13:35][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:13:35][DEBUG][2441002][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:13:35][DEBUG][2441002][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:13:35][INFO][2441002][Http.hpp][197]-client: 183.230.242.183 : 8460
+[2025-05-05 17:15:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:15:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:15:05][DEBUG][2441504][Http.hpp][40]-_method: GET
+[2025-05-05 17:15:05][DEBUG][2441504][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:15:05][DEBUG][2441504][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:15:05][INFO][2441504][Http.hpp][197]-client: 183.230.242.183 : 8628
+[2025-05-05 17:15:05][DEBUG][2441506][Http.hpp][40]-_method: GET
+[2025-05-05 17:15:05][DEBUG][2441506][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:15:05][DEBUG][2441506][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:15:05][INFO][2441506][Http.hpp][197]-client: 183.230.242.183 : 8629
+[2025-05-05 17:15:06][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:15:06][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:15:06][DEBUG][2441509][Http.hpp][40]-_method: GET
+[2025-05-05 17:15:06][DEBUG][2441509][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:15:06][DEBUG][2441509][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:15:06][INFO][2441509][Http.hpp][197]-client: 183.230.242.183 : 8636
+[2025-05-05 17:15:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:17:17][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:17:17][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:17:17][DEBUG][2442199][Http.hpp][40]-_method: GET
+[2025-05-05 17:17:17][DEBUG][2442199][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:17:17][DEBUG][2442199][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:17:17][INFO][2442199][Http.hpp][197]-client: 183.230.242.183 : 8861
+[2025-05-05 17:17:17][DEBUG][2442201][Http.hpp][40]-_method: GET
+[2025-05-05 17:17:17][DEBUG][2442201][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:17:17][DEBUG][2442201][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:17:17][INFO][2442201][Http.hpp][197]-client: 183.230.242.183 : 8862
+[2025-05-05 17:17:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:17:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:17:19][DEBUG][2442223][Http.hpp][40]-_method: GET
+[2025-05-05 17:17:19][DEBUG][2442223][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:17:19][DEBUG][2442223][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:17:19][INFO][2442223][Http.hpp][197]-client: 183.230.242.183 : 8881
+[2025-05-05 17:17:34][DEBUG][2442221][Http.hpp][40]-_method: GET
+[2025-05-05 17:17:34][DEBUG][2442221][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:17:34][DEBUG][2442221][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:17:34][INFO][2442221][Http.hpp][197]-client: 183.230.242.183 : 8882
+[2025-05-05 17:17:35][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:17:35][DEBUG][2442309][Http.hpp][40]-_method: GET
+[2025-05-05 17:17:35][DEBUG][2442309][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:17:35][DEBUG][2442309][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:17:35][INFO][2442309][Http.hpp][197]-client: 183.230.242.183 : 8901
+[2025-05-05 17:17:36][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:17:36][DEBUG][2442318][Http.hpp][40]-_method: GET
+[2025-05-05 17:17:36][DEBUG][2442318][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:17:36][DEBUG][2442318][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:17:36][INFO][2442318][Http.hpp][197]-client: 183.230.242.183 : 8912
+[2025-05-05 17:17:36][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:17:36][DEBUG][2442320][Http.hpp][40]-_method: GET
+[2025-05-05 17:17:36][DEBUG][2442320][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:17:36][DEBUG][2442320][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:17:36][INFO][2442320][Http.hpp][197]-client: 183.230.242.183 : 8913
+[2025-05-05 17:17:43][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:17:43][DEBUG][2442373][Http.hpp][40]-_method: GET
+[2025-05-05 17:17:43][DEBUG][2442373][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:17:43][DEBUG][2442373][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:17:43][INFO][2442373][Http.hpp][197]-client: 183.230.242.183 : 8919
+[2025-05-05 17:17:43][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:17:43][DEBUG][2442375][Http.hpp][40]-_method: GET
+[2025-05-05 17:17:43][DEBUG][2442375][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:17:43][DEBUG][2442375][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:17:43][INFO][2442375][Http.hpp][197]-client: 183.230.242.183 : 8920
+[2025-05-05 17:17:43][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:17:43][DEBUG][2442377][Http.hpp][40]-_method: GET
+[2025-05-05 17:17:43][DEBUG][2442377][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:17:43][DEBUG][2442377][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:17:43][INFO][2442377][Http.hpp][197]-client: 183.230.242.183 : 8922
+[2025-05-05 17:17:46][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:17:46][DEBUG][2442387][Http.hpp][40]-_method: GET
+[2025-05-05 17:17:46][DEBUG][2442387][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:17:46][DEBUG][2442387][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:17:46][INFO][2442387][Http.hpp][197]-client: 183.230.242.183 : 8930
+[2025-05-05 17:17:46][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:17:46][DEBUG][2442389][Http.hpp][40]-_method: GET
+[2025-05-05 17:17:46][DEBUG][2442389][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:17:46][DEBUG][2442389][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:17:46][INFO][2442389][Http.hpp][197]-client: 183.230.242.183 : 8932
+[2025-05-05 17:18:05][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:18:05][DEBUG][2442492][Http.hpp][40]-_method: GET
+[2025-05-05 17:18:05][DEBUG][2442492][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:18:05][DEBUG][2442492][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:18:05][INFO][2442492][Http.hpp][197]-client: 183.230.242.183 : 8973
+[2025-05-05 17:18:05][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:19:05][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:19:05][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:20:05][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:20:05][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:20:36][DEBUG][2443152][Http.hpp][40]-_method: GET
+[2025-05-05 17:20:36][DEBUG][2443152][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:20:36][DEBUG][2443152][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:20:36][INFO][2443152][Http.hpp][197]-client: 183.230.242.183 : 9224
+[2025-05-05 17:20:36][DEBUG][2443154][Http.hpp][40]-_method: GET
+[2025-05-05 17:20:36][DEBUG][2443154][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:20:36][DEBUG][2443154][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:20:36][INFO][2443154][Http.hpp][197]-client: 183.230.242.183 : 9225
+[2025-05-05 17:20:37][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:20:37][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:20:37][DEBUG][2443322][Http.hpp][40]-_method: GET
+[2025-05-05 17:20:37][DEBUG][2443322][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:20:37][DEBUG][2443322][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:20:37][INFO][2443322][Http.hpp][197]-client: 183.230.242.183 : 12796
+[2025-05-05 17:20:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:20:48][DEBUG][2443320][Http.hpp][40]-_method: GET
+[2025-05-05 17:20:48][DEBUG][2443320][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:20:48][DEBUG][2443320][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:20:48][INFO][2443320][Http.hpp][197]-client: 183.230.242.183 : 12798
+[2025-05-05 17:20:49][DEBUG][2443388][Http.hpp][40]-_method: GET
+[2025-05-05 17:20:49][DEBUG][2443388][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 17:20:49][DEBUG][2443388][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:20:49][INFO][2443388][Http.hpp][197]-client: 183.230.242.183 : 12812
+[2025-05-05 17:20:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:20:49][DEBUG][2443398][Http.hpp][40]-_method: GET
+[2025-05-05 17:20:49][DEBUG][2443398][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:20:49][DEBUG][2443398][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:20:49][INFO][2443398][Http.hpp][197]-client: 183.230.242.183 : 12814
+[2025-05-05 17:20:56][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:20:58][DEBUG][2443436][Http.hpp][40]-_method: GET
+[2025-05-05 17:20:58][DEBUG][2443436][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:20:58][DEBUG][2443436][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:20:58][INFO][2443436][Http.hpp][197]-client: 183.230.242.183 : 12846
+[2025-05-05 17:20:58][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:27][DEBUG][2443439][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:27][DEBUG][2443439][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:21:27][DEBUG][2443439][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:27][INFO][2443439][Http.hpp][197]-client: 183.230.242.183 : 12850
+[2025-05-05 17:21:27][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:27][DEBUG][2443603][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:27][DEBUG][2443603][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 17:21:27][DEBUG][2443603][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:27][INFO][2443603][Http.hpp][197]-client: 183.230.242.183 : 12899
+[2025-05-05 17:21:27][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:27][DEBUG][2443605][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:27][DEBUG][2443605][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:21:27][DEBUG][2443605][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:27][INFO][2443605][Http.hpp][197]-client: 183.230.242.183 : 12901
+[2025-05-05 17:21:28][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:28][DEBUG][2443608][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:28][DEBUG][2443608][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:21:28][DEBUG][2443608][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:28][INFO][2443608][Http.hpp][197]-client: 183.230.242.183 : 12904
+[2025-05-05 17:21:28][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:29][DEBUG][2443610][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:29][DEBUG][2443610][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:21:29][DEBUG][2443610][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:29][INFO][2443610][Http.hpp][197]-client: 183.230.242.183 : 12905
+[2025-05-05 17:21:29][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:29][DEBUG][2443620][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:29][DEBUG][2443620][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 17:21:29][DEBUG][2443620][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:29][INFO][2443620][Http.hpp][197]-client: 183.230.242.183 : 12908
+[2025-05-05 17:21:29][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:29][DEBUG][2443622][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:29][DEBUG][2443622][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:21:29][DEBUG][2443622][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:29][INFO][2443622][Http.hpp][197]-client: 183.230.242.183 : 12912
+[2025-05-05 17:21:30][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:30][DEBUG][2443643][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:30][DEBUG][2443643][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:21:30][DEBUG][2443643][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:30][INFO][2443643][Http.hpp][197]-client: 183.230.242.183 : 12916
+[2025-05-05 17:21:30][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:30][DEBUG][2443645][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:30][DEBUG][2443645][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:21:30][DEBUG][2443645][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:30][INFO][2443645][Http.hpp][197]-client: 183.230.242.183 : 12915
+[2025-05-05 17:21:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:31][DEBUG][2443651][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:31][DEBUG][2443651][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:21:31][DEBUG][2443651][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:31][INFO][2443651][Http.hpp][197]-client: 183.230.242.183 : 12922
+[2025-05-05 17:21:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:31][DEBUG][2443653][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:31][DEBUG][2443653][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:21:31][DEBUG][2443653][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:31][INFO][2443653][Http.hpp][197]-client: 183.230.242.183 : 12919
+[2025-05-05 17:21:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:31][DEBUG][2443655][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:31][DEBUG][2443655][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:21:31][DEBUG][2443655][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:31][INFO][2443655][Http.hpp][197]-client: 183.230.242.183 : 12920
+[2025-05-05 17:21:34][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:34][DEBUG][2443666][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:34][DEBUG][2443666][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:21:34][DEBUG][2443666][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:34][INFO][2443666][Http.hpp][197]-client: 183.230.242.183 : 12925
+[2025-05-05 17:21:34][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:34][DEBUG][2443668][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:34][DEBUG][2443668][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:21:34][DEBUG][2443668][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:34][INFO][2443668][Http.hpp][197]-client: 183.230.242.183 : 12929
+[2025-05-05 17:21:34][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:34][DEBUG][2443670][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:34][DEBUG][2443670][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 17:21:34][DEBUG][2443670][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:34][INFO][2443670][Http.hpp][197]-client: 183.230.242.183 : 12928
+[2025-05-05 17:21:41][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:21:41][DEBUG][2443726][Http.hpp][40]-_method: GET
+[2025-05-05 17:21:41][DEBUG][2443726][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:21:41][DEBUG][2443726][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:21:41][INFO][2443726][Http.hpp][197]-client: 183.230.242.183 : 12939
+[2025-05-05 17:21:41][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:22:01][DEBUG][2443728][Http.hpp][40]-_method: GET
+[2025-05-05 17:22:01][DEBUG][2443728][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:22:01][DEBUG][2443728][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:22:01][INFO][2443728][Http.hpp][197]-client: 183.230.242.183 : 12941
+[2025-05-05 17:22:01][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:22:01][DEBUG][2443841][Http.hpp][40]-_method: GET
+[2025-05-05 17:22:01][DEBUG][2443841][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 17:22:01][DEBUG][2443841][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:22:01][INFO][2443841][Http.hpp][197]-client: 183.230.242.183 : 12965
+[2025-05-05 17:22:01][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:22:01][DEBUG][2443843][Http.hpp][40]-_method: GET
+[2025-05-05 17:22:01][DEBUG][2443843][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:22:01][DEBUG][2443843][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:22:01][INFO][2443843][Http.hpp][197]-client: 183.230.242.183 : 12967
+[2025-05-05 17:22:02][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:22:02][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:22:02][DEBUG][2443859][Http.hpp][40]-_method: GET
+[2025-05-05 17:22:02][DEBUG][2443859][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:22:02][DEBUG][2443859][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:22:02][INFO][2443859][Http.hpp][197]-client: 183.230.242.183 : 12972
+[2025-05-05 17:22:02][DEBUG][2443857][Http.hpp][40]-_method: GET
+[2025-05-05 17:22:02][DEBUG][2443857][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 17:22:02][DEBUG][2443857][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:22:02][INFO][2443857][Http.hpp][197]-client: 183.230.242.183 : 12973
+[2025-05-05 17:22:02][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:22:02][DEBUG][2443861][Http.hpp][40]-_method: GET
+[2025-05-05 17:22:02][DEBUG][2443861][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:22:02][DEBUG][2443861][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:22:02][INFO][2443861][Http.hpp][197]-client: 183.230.242.183 : 12975
+[2025-05-05 17:22:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:22:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:22:03][DEBUG][2443865][Http.hpp][40]-_method: GET
+[2025-05-05 17:22:03][DEBUG][2443865][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:22:03][DEBUG][2443865][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:22:03][INFO][2443865][Http.hpp][197]-client: 183.230.242.183 : 12978
+[2025-05-05 17:22:14][DEBUG][2443863][Http.hpp][40]-_method: GET
+[2025-05-05 17:22:14][DEBUG][2443863][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:22:14][DEBUG][2443863][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:22:14][INFO][2443863][Http.hpp][197]-client: 183.230.242.183 : 12979
+[2025-05-05 17:22:14][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:22:14][DEBUG][2443919][Http.hpp][40]-_method: GET
+[2025-05-05 17:22:14][DEBUG][2443919][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:22:14][DEBUG][2443919][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:22:14][INFO][2443919][Http.hpp][197]-client: 183.230.242.183 : 12985
+[2025-05-05 17:22:14][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:22:14][DEBUG][2443921][Http.hpp][40]-_method: GET
+[2025-05-05 17:22:14][DEBUG][2443921][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:22:14][DEBUG][2443921][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:22:14][INFO][2443921][Http.hpp][197]-client: 183.230.242.183 : 12988
+[2025-05-05 17:22:14][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:22:14][DEBUG][2443923][Http.hpp][40]-_method: GET
+[2025-05-05 17:22:14][DEBUG][2443923][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:22:14][DEBUG][2443923][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:22:14][INFO][2443923][Http.hpp][197]-client: 183.230.242.183 : 12989
+[2025-05-05 17:22:36][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:31:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:31:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:31:32][DEBUG][2446817][Http.hpp][40]-_method: GET
+[2025-05-05 17:31:32][DEBUG][2446817][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:31:32][DEBUG][2446817][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:31:32][INFO][2446817][Http.hpp][197]-client: 183.230.242.183 : 13394
+[2025-05-05 17:31:32][DEBUG][2446819][Http.hpp][40]-_method: GET
+[2025-05-05 17:31:32][DEBUG][2446819][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:31:32][DEBUG][2446819][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:31:32][INFO][2446819][Http.hpp][197]-client: 183.230.242.183 : 13393
+[2025-05-05 17:31:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:31:32][DEBUG][2446822][Http.hpp][40]-_method: GET
+[2025-05-05 17:31:32][DEBUG][2446822][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:31:32][DEBUG][2446822][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:31:32][INFO][2446822][Http.hpp][197]-client: 183.230.242.183 : 13396
+[2025-05-05 17:31:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:31:32][DEBUG][2446824][Http.hpp][40]-_method: GET
+[2025-05-05 17:31:32][DEBUG][2446824][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:31:32][DEBUG][2446824][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:31:32][INFO][2446824][Http.hpp][197]-client: 183.230.242.183 : 13395
+[2025-05-05 17:32:53][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:32:53][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:33:39][DEBUG][2447242][Http.hpp][40]-_method: GET
+[2025-05-05 17:33:39][DEBUG][2447242][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:33:39][DEBUG][2447242][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:33:39][INFO][2447242][Http.hpp][197]-client: 183.230.242.183 : 13448
+[2025-05-05 17:33:39][DEBUG][2447244][Http.hpp][40]-_method: GET
+[2025-05-05 17:33:39][DEBUG][2447244][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:33:39][DEBUG][2447244][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:33:39][INFO][2447244][Http.hpp][197]-client: 183.230.242.183 : 13447
+[2025-05-05 17:33:39][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:33:39][DEBUG][2447466][Http.hpp][40]-_method: GET
+[2025-05-05 17:33:39][DEBUG][2447466][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:33:39][DEBUG][2447466][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:33:39][INFO][2447466][Http.hpp][197]-client: 183.230.242.183 : 13475
+[2025-05-05 17:33:39][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:33:39][DEBUG][2447468][Http.hpp][40]-_method: GET
+[2025-05-05 17:33:39][DEBUG][2447468][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:33:39][DEBUG][2447468][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:33:39][INFO][2447468][Http.hpp][197]-client: 183.230.242.183 : 13476
+[2025-05-05 17:37:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:37:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:37:44][DEBUG][2448538][Http.hpp][40]-_method: GET
+[2025-05-05 17:37:44][DEBUG][2448538][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:37:44][DEBUG][2448538][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:37:44][INFO][2448538][Http.hpp][197]-client: 183.230.242.183 : 13891
+[2025-05-05 17:37:44][DEBUG][2448540][Http.hpp][40]-_method: GET
+[2025-05-05 17:37:44][DEBUG][2448540][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:37:44][DEBUG][2448540][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:37:44][INFO][2448540][Http.hpp][197]-client: 183.230.242.183 : 13892
+[2025-05-05 17:37:44][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:37:44][DEBUG][2448752][Http.hpp][40]-_method: GET
+[2025-05-05 17:37:44][DEBUG][2448752][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:37:44][DEBUG][2448752][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:37:44][INFO][2448752][Http.hpp][197]-client: 183.230.242.183 : 13957
+[2025-05-05 17:37:44][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:37:44][DEBUG][2448754][Http.hpp][40]-_method: GET
+[2025-05-05 17:37:44][DEBUG][2448754][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:37:44][DEBUG][2448754][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:37:44][INFO][2448754][Http.hpp][197]-client: 183.230.242.183 : 13958
+[2025-05-05 17:38:02][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:38:02][INFO][2448851][Http.hpp][197]-client: 18.217.80.88 : 35934
+[2025-05-05 17:38:45][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:38:45][INFO][2449063][Http.hpp][197]-client: 195.184.76.138 : 32863
+[2025-05-05 17:38:45][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:38:48][DEBUG][2449066][Http.hpp][40]-_method: GET
+[2025-05-05 17:38:48][DEBUG][2449066][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:38:48][DEBUG][2449066][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:38:48][INFO][2449066][Http.hpp][197]-client: 195.184.76.140 : 42897
+[2025-05-05 17:38:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:38:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:38:50][DEBUG][2449083][Http.hpp][40]-_method: GET
+[2025-05-05 17:38:50][DEBUG][2449083][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:38:50][DEBUG][2449083][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:38:50][INFO][2449083][Http.hpp][197]-client: 183.230.242.183 : 14000
+[2025-05-05 17:38:50][DEBUG][2449085][Http.hpp][40]-_method: GET
+[2025-05-05 17:38:50][DEBUG][2449085][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:38:50][DEBUG][2449085][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:38:50][INFO][2449085][Http.hpp][197]-client: 183.230.242.183 : 14001
+[2025-05-05 17:38:50][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:38:50][DEBUG][2449106][Http.hpp][40]-_method: GET
+[2025-05-05 17:38:50][DEBUG][2449106][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:38:50][DEBUG][2449106][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:38:50][INFO][2449106][Http.hpp][197]-client: 183.230.242.183 : 14003
+[2025-05-05 17:38:50][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:38:50][DEBUG][2449108][Http.hpp][40]-_method: GET
+[2025-05-05 17:38:50][DEBUG][2449108][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:38:50][DEBUG][2449108][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:38:50][INFO][2449108][Http.hpp][197]-client: 183.230.242.183 : 14004
+[2025-05-05 17:39:17][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:39:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:39:31][DEBUG][2449308][Http.hpp][40]-_method: GET
+[2025-05-05 17:39:31][DEBUG][2449308][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:39:31][DEBUG][2449308][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:39:31][INFO][2449308][Http.hpp][197]-client: 18.217.80.88 : 35574
+[2025-05-05 17:39:32][DEBUG][2449229][Http.hpp][40]-_method: GET
+[2025-05-05 17:39:32][DEBUG][2449229][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:39:32][DEBUG][2449229][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:39:32][INFO][2449229][Http.hpp][197]-client: 183.230.242.183 : 14085
+[2025-05-05 17:40:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:40:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:41:10][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:41:10][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:41:41][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:41:41][DEBUG][2450002][Http.hpp][40]-_method: GET
+[2025-05-05 17:41:41][DEBUG][2450002][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:41:41][DEBUG][2450002][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:41:41][INFO][2450002][Http.hpp][197]-client: 18.217.80.88 : 44526
+[2025-05-05 17:43:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:43:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:45:41][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:45:41][DEBUG][2451244][Http.hpp][40]-_method: SSH-2.0-Go
+[2025-05-05 17:45:41][DEBUG][2451244][Http.hpp][41]-_uri: ./wwwroot
+[2025-05-05 17:45:41][DEBUG][2451244][Http.hpp][42]-_http_version: 
+[2025-05-05 17:45:41][INFO][2451244][Http.hpp][197]-client: 18.217.80.88 : 40362
+[2025-05-05 17:45:47][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:45:47][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:46:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:46:24][DEBUG][2451452][Http.hpp][40]-_method: GET
+[2025-05-05 17:46:24][DEBUG][2451452][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:46:24][DEBUG][2451452][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:46:24][INFO][2451452][Http.hpp][197]-client: 183.230.242.183 : 1291
+[2025-05-05 17:46:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:46:24][DEBUG][2451454][Http.hpp][40]-_method: GET
+[2025-05-05 17:46:24][DEBUG][2451454][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:46:24][DEBUG][2451454][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:46:24][INFO][2451454][Http.hpp][197]-client: 183.230.242.183 : 1292
+[2025-05-05 17:46:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:46:24][DEBUG][2451456][Http.hpp][40]-_method: GET
+[2025-05-05 17:46:24][DEBUG][2451456][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:46:24][DEBUG][2451456][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:46:24][INFO][2451456][Http.hpp][197]-client: 183.230.242.183 : 1293
+[2025-05-05 17:46:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:46:24][DEBUG][2451458][Http.hpp][40]-_method: GET
+[2025-05-05 17:46:24][DEBUG][2451458][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:46:24][DEBUG][2451458][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:46:24][INFO][2451458][Http.hpp][197]-client: 183.230.242.183 : 1294
+[2025-05-05 17:46:40][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:46:40][DEBUG][2451549][Http.hpp][40]-_method: GET
+[2025-05-05 17:46:40][DEBUG][2451549][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:46:40][DEBUG][2451549][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:46:40][INFO][2451549][Http.hpp][197]-client: 183.230.242.183 : 1306
+[2025-05-05 17:46:40][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:46:40][DEBUG][2451551][Http.hpp][40]-_method: GET
+[2025-05-05 17:46:40][DEBUG][2451551][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:46:40][DEBUG][2451551][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:46:40][INFO][2451551][Http.hpp][197]-client: 183.230.242.183 : 1305
+[2025-05-05 17:46:40][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:46:40][DEBUG][2451553][Http.hpp][40]-_method: GET
+[2025-05-05 17:46:40][DEBUG][2451553][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:46:40][DEBUG][2451553][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:46:40][INFO][2451553][Http.hpp][197]-client: 183.230.242.183 : 1307
+[2025-05-05 17:46:40][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:46:40][DEBUG][2451555][Http.hpp][40]-_method: GET
+[2025-05-05 17:46:40][DEBUG][2451555][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:46:40][DEBUG][2451555][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:46:40][INFO][2451555][Http.hpp][197]-client: 183.230.242.183 : 1308
+[2025-05-05 17:47:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:47:04][DEBUG][2451683][Http.hpp][40]-_method: GET
+[2025-05-05 17:47:04][DEBUG][2451683][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:47:04][DEBUG][2451683][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:47:04][INFO][2451683][Http.hpp][197]-client: 183.230.242.183 : 1379
+[2025-05-05 17:47:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:47:04][DEBUG][2451685][Http.hpp][40]-_method: GET
+[2025-05-05 17:47:04][DEBUG][2451685][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:47:04][DEBUG][2451685][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:47:04][INFO][2451685][Http.hpp][197]-client: 183.230.242.183 : 1381
+[2025-05-05 17:47:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:47:04][DEBUG][2451687][Http.hpp][40]-_method: GET
+[2025-05-05 17:47:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:47:04][DEBUG][2451687][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:47:04][DEBUG][2451687][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:47:04][INFO][2451687][Http.hpp][197]-client: 183.230.242.183 : 1383
+[2025-05-05 17:47:04][DEBUG][2451689][Http.hpp][40]-_method: GET
+[2025-05-05 17:47:04][DEBUG][2451689][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:47:04][DEBUG][2451689][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:47:04][INFO][2451689][Http.hpp][197]-client: 183.230.242.183 : 1382
+[2025-05-05 17:47:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:47:24][DEBUG][2451782][Http.hpp][40]-_method: GET
+[2025-05-05 17:47:24][DEBUG][2451782][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:47:24][DEBUG][2451782][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:47:24][INFO][2451782][Http.hpp][197]-client: 183.230.242.183 : 1409
+[2025-05-05 17:47:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:47:24][DEBUG][2451784][Http.hpp][40]-_method: GET
+[2025-05-05 17:47:24][DEBUG][2451784][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 17:47:24][DEBUG][2451784][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:47:24][INFO][2451784][Http.hpp][197]-client: 183.230.242.183 : 1413
+[2025-05-05 17:47:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:47:24][DEBUG][2451786][Http.hpp][40]-_method: GET
+[2025-05-05 17:47:24][DEBUG][2451786][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:47:24][DEBUG][2451786][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:47:24][INFO][2451786][Http.hpp][197]-client: 183.230.242.183 : 1414
+[2025-05-05 17:47:26][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:47:26][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:47:26][DEBUG][2451789][Http.hpp][40]-_method: GET
+[2025-05-05 17:47:26][DEBUG][2451789][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:47:26][DEBUG][2451789][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:47:26][INFO][2451789][Http.hpp][197]-client: 183.230.242.183 : 1418
+[2025-05-05 17:47:43][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:48:40][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:48:41][DEBUG][2452093][Http.hpp][40]-_method: GET
+[2025-05-05 17:48:41][DEBUG][2452093][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:48:41][DEBUG][2452093][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:48:41][INFO][2452093][Http.hpp][197]-client: 183.230.242.183 : 1446
+[2025-05-05 17:48:41][DEBUG][2452638][Http.hpp][40]-_method: GET
+[2025-05-05 17:48:41][DEBUG][2452638][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:48:41][DEBUG][2452638][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:48:41][INFO][2452638][Http.hpp][197]-client: 183.230.242.183 : 1483
+[2025-05-05 17:48:41][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:48:41][DEBUG][2452657][Http.hpp][40]-_method: GET
+[2025-05-05 17:48:41][DEBUG][2452657][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:48:41][DEBUG][2452657][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:48:41][INFO][2452657][Http.hpp][197]-client: 183.230.242.183 : 1485
+[2025-05-05 17:48:41][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:48:41][DEBUG][2452659][Http.hpp][40]-_method: GET
+[2025-05-05 17:48:41][DEBUG][2452659][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:48:41][DEBUG][2452659][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:48:41][INFO][2452659][Http.hpp][197]-client: 183.230.242.183 : 1484
+[2025-05-05 17:49:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:49:03][DEBUG][2452766][Http.hpp][40]-_method: GET
+[2025-05-05 17:49:03][DEBUG][2452766][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:49:03][DEBUG][2452766][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:49:03][INFO][2452766][Http.hpp][197]-client: 183.230.242.183 : 1493
+[2025-05-05 17:49:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:49:03][DEBUG][2452768][Http.hpp][40]-_method: GET
+[2025-05-05 17:49:03][DEBUG][2452768][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:49:03][DEBUG][2452768][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:49:03][INFO][2452768][Http.hpp][197]-client: 183.230.242.183 : 1494
+[2025-05-05 17:49:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:49:03][DEBUG][2452770][Http.hpp][40]-_method: GET
+[2025-05-05 17:49:03][DEBUG][2452770][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:49:03][DEBUG][2452770][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:49:03][INFO][2452770][Http.hpp][197]-client: 183.230.242.183 : 1496
+[2025-05-05 17:49:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:49:03][DEBUG][2452772][Http.hpp][40]-_method: GET
+[2025-05-05 17:49:03][DEBUG][2452772][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:49:03][DEBUG][2452772][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:49:03][INFO][2452772][Http.hpp][197]-client: 183.230.242.183 : 1495
+[2025-05-05 17:49:08][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:49:53][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:49:56][DEBUG][2452789][Http.hpp][40]-_method: GET
+[2025-05-05 17:49:56][DEBUG][2452789][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:49:56][DEBUG][2452789][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:49:56][INFO][2452789][Http.hpp][197]-client: 183.230.242.183 : 1497
+[2025-05-05 17:49:56][DEBUG][2453073][Http.hpp][40]-_method: GET
+[2025-05-05 17:49:56][DEBUG][2453073][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:49:56][DEBUG][2453073][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:49:56][INFO][2453073][Http.hpp][197]-client: 183.230.242.183 : 1527
+[2025-05-05 17:49:56][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:49:56][DEBUG][2453089][Http.hpp][40]-_method: GET
+[2025-05-05 17:49:56][DEBUG][2453089][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:49:56][DEBUG][2453089][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:49:56][INFO][2453089][Http.hpp][197]-client: 183.230.242.183 : 1529
+[2025-05-05 17:49:56][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:49:56][DEBUG][2453091][Http.hpp][40]-_method: GET
+[2025-05-05 17:49:56][DEBUG][2453091][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:49:56][DEBUG][2453091][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:49:56][INFO][2453091][Http.hpp][197]-client: 183.230.242.183 : 1530
+[2025-05-05 17:50:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:50:32][DEBUG][2453283][Http.hpp][40]-_method: GET
+[2025-05-05 17:50:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:50:32][DEBUG][2453283][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:50:32][DEBUG][2453283][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:50:32][INFO][2453283][Http.hpp][197]-client: 183.230.242.183 : 1584
+[2025-05-05 17:50:32][DEBUG][2453285][Http.hpp][40]-_method: GET
+[2025-05-05 17:50:32][DEBUG][2453285][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:50:32][DEBUG][2453285][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:50:32][INFO][2453285][Http.hpp][197]-client: 183.230.242.183 : 1583
+[2025-05-05 17:50:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:50:32][DEBUG][2453287][Http.hpp][40]-_method: GET
+[2025-05-05 17:50:32][DEBUG][2453287][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:50:32][DEBUG][2453287][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:50:32][INFO][2453287][Http.hpp][197]-client: 183.230.242.183 : 1587
+[2025-05-05 17:50:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:50:32][DEBUG][2453289][Http.hpp][40]-_method: GET
+[2025-05-05 17:50:32][DEBUG][2453289][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:50:32][DEBUG][2453289][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:50:32][INFO][2453289][Http.hpp][197]-client: 183.230.242.183 : 1586
+[2025-05-05 17:50:56][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:51:03][DEBUG][2453427][Http.hpp][40]-_method: GET
+[2025-05-05 17:51:03][DEBUG][2453427][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:51:03][DEBUG][2453427][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:51:03][INFO][2453427][Http.hpp][197]-client: 183.230.242.183 : 1605
+[2025-05-05 17:51:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:51:03][DEBUG][2453486][Http.hpp][40]-_method: GET
+[2025-05-05 17:51:03][DEBUG][2453486][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:51:03][DEBUG][2453486][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:51:03][INFO][2453486][Http.hpp][197]-client: 183.230.242.183 : 1612
+[2025-05-05 17:51:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:51:03][DEBUG][2453488][Http.hpp][40]-_method: GET
+[2025-05-05 17:51:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:51:03][DEBUG][2453488][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:51:03][DEBUG][2453488][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:51:03][INFO][2453488][Http.hpp][197]-client: 183.230.242.183 : 1614
+[2025-05-05 17:51:03][DEBUG][2453490][Http.hpp][40]-_method: GET
+[2025-05-05 17:51:03][DEBUG][2453490][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:51:03][DEBUG][2453490][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:51:03][INFO][2453490][Http.hpp][197]-client: 183.230.242.183 : 1613
+[2025-05-05 17:51:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:51:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:51:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:51:48][DEBUG][2453732][Http.hpp][40]-_method: GET
+[2025-05-05 17:51:48][DEBUG][2453732][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:51:48][DEBUG][2453732][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:51:48][INFO][2453732][Http.hpp][197]-client: 39.144.218.179 : 63113
+[2025-05-05 17:51:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:51:49][DEBUG][2453734][Http.hpp][40]-_method: GET
+[2025-05-05 17:51:49][DEBUG][2453734][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:51:49][DEBUG][2453734][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:51:49][INFO][2453734][Http.hpp][197]-client: 39.144.218.179 : 63114
+[2025-05-05 17:51:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:51:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:51:49][DEBUG][2453736][Http.hpp][40]-_method: GET
+[2025-05-05 17:51:49][DEBUG][2453736][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:51:49][DEBUG][2453736][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:51:49][INFO][2453736][Http.hpp][197]-client: 39.144.218.179 : 63115
+[2025-05-05 17:51:49][DEBUG][2453738][Http.hpp][40]-_method: GET
+[2025-05-05 17:51:49][DEBUG][2453738][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:51:49][DEBUG][2453738][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:51:49][INFO][2453738][Http.hpp][197]-client: 39.144.218.179 : 63116
+[2025-05-05 17:52:07][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:52:07][DEBUG][2453833][Http.hpp][40]-_method: GET
+[2025-05-05 17:52:07][DEBUG][2453833][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:52:07][DEBUG][2453833][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:52:07][INFO][2453833][Http.hpp][197]-client: 15.204.37.95 : 58907
+[2025-05-05 17:52:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:52:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:52:35][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:52:35][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:52:35][DEBUG][2453970][Http.hpp][40]-_method: GET
+[2025-05-05 17:52:35][DEBUG][2453970][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:52:35][DEBUG][2453970][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:52:35][INFO][2453970][Http.hpp][197]-client: 39.144.218.179 : 63117
+[2025-05-05 17:52:35][DEBUG][2453972][Http.hpp][40]-_method: GET
+[2025-05-05 17:52:35][DEBUG][2453972][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:52:35][DEBUG][2453972][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:52:35][INFO][2453972][Http.hpp][197]-client: 39.144.218.179 : 63459
+[2025-05-05 17:52:35][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:52:35][DEBUG][2453974][Http.hpp][40]-_method: GET
+[2025-05-05 17:52:35][DEBUG][2453974][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:52:35][DEBUG][2453974][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:52:35][INFO][2453974][Http.hpp][197]-client: 39.144.218.179 : 63460
+[2025-05-05 17:52:36][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:52:36][DEBUG][2453977][Http.hpp][40]-_method: GET
+[2025-05-05 17:52:36][DEBUG][2453977][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:52:36][DEBUG][2453977][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:52:36][INFO][2453977][Http.hpp][197]-client: 39.144.218.179 : 63461
+[2025-05-05 17:52:37][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:52:37][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:52:37][DEBUG][2453985][Http.hpp][40]-_method: GET
+[2025-05-05 17:52:37][DEBUG][2453985][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:52:37][DEBUG][2453985][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:52:37][INFO][2453985][Http.hpp][197]-client: 39.144.218.179 : 63462
+[2025-05-05 17:52:37][DEBUG][2453987][Http.hpp][40]-_method: GET
+[2025-05-05 17:52:37][DEBUG][2453987][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:52:37][DEBUG][2453987][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:52:37][INFO][2453987][Http.hpp][197]-client: 39.144.218.179 : 63463
+[2025-05-05 17:52:37][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:52:37][DEBUG][2453989][Http.hpp][40]-_method: GET
+[2025-05-05 17:52:37][DEBUG][2453989][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:52:37][DEBUG][2453989][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:52:37][INFO][2453989][Http.hpp][197]-client: 39.144.218.179 : 63464
+[2025-05-05 17:54:22][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:54:22][DEBUG][2454969][Http.hpp][40]-_method: GET
+[2025-05-05 17:54:22][DEBUG][2454969][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:54:22][DEBUG][2454969][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:54:22][INFO][2454969][Http.hpp][197]-client: 59.83.208.106 : 27318
+[2025-05-05 17:54:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:54:24][DEBUG][2454977][Http.hpp][40]-_method: GET
+[2025-05-05 17:54:24][DEBUG][2454977][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:54:24][DEBUG][2454977][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:54:24][INFO][2454977][Http.hpp][197]-client: 59.83.208.106 : 27448
+[2025-05-05 17:54:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:54:24][DEBUG][2454979][Http.hpp][40]-_method: GET
+[2025-05-05 17:54:24][DEBUG][2454979][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:54:24][DEBUG][2454979][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:54:24][INFO][2454979][Http.hpp][197]-client: 59.83.208.106 : 27454
+[2025-05-05 17:54:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:54:24][DEBUG][2454981][Http.hpp][40]-_method: GET
+[2025-05-05 17:54:24][DEBUG][2454981][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:54:24][DEBUG][2454981][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:54:24][INFO][2454981][Http.hpp][197]-client: 59.83.208.106 : 27456
+[2025-05-05 17:54:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:54:24][DEBUG][2454984][Http.hpp][40]-_method: GET
+[2025-05-05 17:54:24][DEBUG][2454984][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:54:24][DEBUG][2454984][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:54:24][INFO][2454984][Http.hpp][197]-client: 59.83.208.106 : 27488
+[2025-05-05 17:55:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:55:03][DEBUG][2455210][Http.hpp][40]-_method: GET
+[2025-05-05 17:55:03][DEBUG][2455210][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:55:03][DEBUG][2455210][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:55:03][INFO][2455210][Http.hpp][197]-client: 180.101.245.252 : 53246
+[2025-05-05 17:55:57][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:55:57][DEBUG][2455468][Http.hpp][40]-_method: GET
+[2025-05-05 17:55:57][DEBUG][2455468][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:55:57][DEBUG][2455468][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:55:57][INFO][2455468][Http.hpp][197]-client: 220.196.160.65 : 50650
+[2025-05-05 17:56:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:56:59][DEBUG][2455787][Http.hpp][40]-_method: GET
+[2025-05-05 17:56:59][DEBUG][2455787][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:56:59][DEBUG][2455787][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:56:59][INFO][2455787][Http.hpp][197]-client: 39.144.218.179 : 63465
+[2025-05-05 17:56:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:56:59][DEBUG][2455789][Http.hpp][40]-_method: GET
+[2025-05-05 17:56:59][DEBUG][2455789][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:56:59][DEBUG][2455789][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:56:59][INFO][2455789][Http.hpp][197]-client: 39.144.218.179 : 63466
+[2025-05-05 17:56:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:56:59][DEBUG][2455791][Http.hpp][40]-_method: GET
+[2025-05-05 17:56:59][DEBUG][2455791][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:56:59][DEBUG][2455791][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:56:59][INFO][2455791][Http.hpp][197]-client: 39.144.218.179 : 63467
+[2025-05-05 17:56:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:56:59][DEBUG][2455793][Http.hpp][40]-_method: GET
+[2025-05-05 17:56:59][DEBUG][2455793][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:56:59][DEBUG][2455793][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:56:59][INFO][2455793][Http.hpp][197]-client: 39.144.218.179 : 63468
+[2025-05-05 17:57:02][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:57:02][DEBUG][2455829][Http.hpp][40]-_method: GET
+[2025-05-05 17:57:02][DEBUG][2455829][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:57:02][DEBUG][2455829][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:57:02][INFO][2455829][Http.hpp][197]-client: 39.144.218.179 : 63469
+[2025-05-05 17:57:02][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:57:02][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:57:02][DEBUG][2455831][Http.hpp][40]-_method: GET
+[2025-05-05 17:57:02][DEBUG][2455831][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 17:57:02][DEBUG][2455831][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:57:02][INFO][2455831][Http.hpp][197]-client: 39.144.218.179 : 63470
+[2025-05-05 17:57:02][DEBUG][2455833][Http.hpp][40]-_method: GET
+[2025-05-05 17:57:02][DEBUG][2455833][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:57:02][DEBUG][2455833][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:57:02][INFO][2455833][Http.hpp][197]-client: 39.144.218.179 : 63471
+[2025-05-05 17:57:07][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:57:07][DEBUG][2455850][Http.hpp][40]-_method: GET
+[2025-05-05 17:57:07][DEBUG][2455850][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:57:07][DEBUG][2455850][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:57:07][INFO][2455850][Http.hpp][197]-client: 39.144.218.179 : 63473
+[2025-05-05 17:57:07][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:57:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:57:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:57:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:57:49][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:57:59][DEBUG][2456071][Http.hpp][40]-_method: GET
+[2025-05-05 17:57:59][DEBUG][2456071][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:57:59][DEBUG][2456071][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:57:59][INFO][2456071][Http.hpp][197]-client: 39.144.218.179 : 63476
+[2025-05-05 17:58:00][DEBUG][2456069][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:00][DEBUG][2456069][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:58:00][DEBUG][2456069][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:00][INFO][2456069][Http.hpp][197]-client: 39.144.218.179 : 63477
+[2025-05-05 17:58:00][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:00][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:00][DEBUG][2456137][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:00][DEBUG][2456137][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:58:00][DEBUG][2456137][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:00][INFO][2456137][Http.hpp][197]-client: 39.144.218.179 : 63478
+[2025-05-05 17:58:00][DEBUG][2456139][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:00][DEBUG][2456139][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:58:00][DEBUG][2456139][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:00][INFO][2456139][Http.hpp][197]-client: 39.144.218.179 : 63479
+[2025-05-05 17:58:14][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:14][DEBUG][2456208][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:14][DEBUG][2456208][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:58:14][DEBUG][2456208][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:14][INFO][2456208][Http.hpp][197]-client: 39.144.218.179 : 63480
+[2025-05-05 17:58:14][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:14][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:14][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:14][DEBUG][2456210][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:14][DEBUG][2456210][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:58:14][DEBUG][2456210][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:14][INFO][2456210][Http.hpp][197]-client: 39.144.218.179 : 63481
+[2025-05-05 17:58:14][DEBUG][2456212][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:14][DEBUG][2456212][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:58:14][DEBUG][2456212][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:14][INFO][2456212][Http.hpp][197]-client: 39.144.218.179 : 63482
+[2025-05-05 17:58:14][DEBUG][2456214][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:14][DEBUG][2456214][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:58:14][DEBUG][2456214][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:14][INFO][2456214][Http.hpp][197]-client: 39.144.218.179 : 63483
+[2025-05-05 17:58:20][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:20][DEBUG][2456251][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:20][DEBUG][2456251][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 17:58:20][DEBUG][2456251][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:20][INFO][2456251][Http.hpp][197]-client: 39.144.218.179 : 63484
+[2025-05-05 17:58:20][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:20][DEBUG][2456253][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:20][DEBUG][2456253][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 17:58:20][DEBUG][2456253][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:20][INFO][2456253][Http.hpp][197]-client: 39.144.218.179 : 63485
+[2025-05-05 17:58:20][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:20][DEBUG][2456255][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:20][DEBUG][2456255][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 17:58:20][DEBUG][2456255][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:20][INFO][2456255][Http.hpp][197]-client: 39.144.218.179 : 63486
+[2025-05-05 17:58:23][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:23][DEBUG][2456261][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:23][DEBUG][2456261][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 17:58:23][DEBUG][2456261][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:23][INFO][2456261][Http.hpp][197]-client: 39.144.218.179 : 63487
+[2025-05-05 17:58:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:32][DEBUG][2456310][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:32][DEBUG][2456310][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:58:32][DEBUG][2456310][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:32][INFO][2456310][Http.hpp][197]-client: 220.196.160.51 : 49188
+[2025-05-05 17:58:39][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:39][DEBUG][2456336][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:39][DEBUG][2456336][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 17:58:39][DEBUG][2456336][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:39][INFO][2456336][Http.hpp][197]-client: 39.144.218.179 : 63488
+[2025-05-05 17:58:39][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:39][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:39][DEBUG][2456338][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:39][DEBUG][2456338][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 17:58:39][DEBUG][2456338][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:39][INFO][2456338][Http.hpp][197]-client: 39.144.218.179 : 63832
+[2025-05-05 17:58:39][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 17:58:39][DEBUG][2456340][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:39][DEBUG][2456340][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 17:58:39][DEBUG][2456340][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:39][INFO][2456340][Http.hpp][197]-client: 39.144.218.179 : 63489
+[2025-05-05 17:58:39][DEBUG][2456342][Http.hpp][40]-_method: GET
+[2025-05-05 17:58:39][DEBUG][2456342][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 17:58:39][DEBUG][2456342][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 17:58:39][INFO][2456342][Http.hpp][197]-client: 39.144.218.179 : 63831
+[2025-05-05 18:04:21][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:21][DEBUG][2458143][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:21][DEBUG][2458143][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 18:04:21][DEBUG][2458143][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:21][INFO][2458143][Http.hpp][197]-client: 183.230.242.231 : 40872
+[2025-05-05 18:04:21][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:21][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:21][DEBUG][2458145][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:21][DEBUG][2458145][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 18:04:21][DEBUG][2458145][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:21][INFO][2458145][Http.hpp][197]-client: 183.230.242.231 : 40892
+[2025-05-05 18:04:21][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:21][DEBUG][2458147][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:21][DEBUG][2458147][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 18:04:21][DEBUG][2458147][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:21][INFO][2458147][Http.hpp][197]-client: 183.230.242.231 : 40884
+[2025-05-05 18:04:21][DEBUG][2458149][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:21][DEBUG][2458149][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 18:04:21][DEBUG][2458149][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:21][INFO][2458149][Http.hpp][197]-client: 183.230.242.231 : 40878
+[2025-05-05 18:04:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:32][DEBUG][2458199][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:32][DEBUG][2458199][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 18:04:32][DEBUG][2458199][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:32][INFO][2458199][Http.hpp][197]-client: 183.230.242.231 : 49694
+[2025-05-05 18:04:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:33][DEBUG][2458201][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:33][DEBUG][2458201][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 18:04:33][DEBUG][2458201][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:33][INFO][2458201][Http.hpp][197]-client: 183.230.242.231 : 49702
+[2025-05-05 18:04:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:33][DEBUG][2458203][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:33][DEBUG][2458203][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 18:04:33][DEBUG][2458203][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:33][INFO][2458203][Http.hpp][197]-client: 183.230.242.231 : 49718
+[2025-05-05 18:04:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:33][DEBUG][2458205][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:33][DEBUG][2458205][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 18:04:33][DEBUG][2458205][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:33][INFO][2458205][Http.hpp][197]-client: 183.230.242.231 : 49730
+[2025-05-05 18:04:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:33][DEBUG][2458207][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:33][DEBUG][2458207][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 18:04:33][DEBUG][2458207][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:33][INFO][2458207][Http.hpp][197]-client: 183.230.242.231 : 49722
+[2025-05-05 18:04:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:33][DEBUG][2458216][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:33][DEBUG][2458216][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 18:04:33][DEBUG][2458216][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:33][INFO][2458216][Http.hpp][197]-client: 183.230.242.231 : 49738
+[2025-05-05 18:04:33][DEBUG][2458218][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:33][DEBUG][2458218][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 18:04:33][DEBUG][2458218][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:33][INFO][2458218][Http.hpp][197]-client: 183.230.242.231 : 49746
+[2025-05-05 18:04:35][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:35][DEBUG][2458221][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:35][DEBUG][2458221][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 18:04:35][DEBUG][2458221][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:35][INFO][2458221][Http.hpp][197]-client: 183.230.242.231 : 49752
+[2025-05-05 18:04:55][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:55][DEBUG][2458336][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:55][DEBUG][2458336][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 18:04:55][DEBUG][2458336][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:55][INFO][2458336][Http.hpp][197]-client: 183.230.242.231 : 39530
+[2025-05-05 18:04:55][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:55][DEBUG][2458338][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:55][DEBUG][2458338][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 18:04:55][DEBUG][2458338][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:55][INFO][2458338][Http.hpp][197]-client: 183.230.242.231 : 39538
+[2025-05-05 18:04:55][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:55][DEBUG][2458340][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:55][DEBUG][2458340][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 18:04:55][DEBUG][2458340][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:55][INFO][2458340][Http.hpp][197]-client: 183.230.242.231 : 39548
+[2025-05-05 18:04:55][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:55][DEBUG][2458342][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:55][DEBUG][2458342][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 18:04:55][DEBUG][2458342][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:55][INFO][2458342][Http.hpp][197]-client: 183.230.242.231 : 39562
+[2025-05-05 18:04:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:04:59][DEBUG][2458359][Http.hpp][40]-_method: GET
+[2025-05-05 18:04:59][DEBUG][2458359][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 18:04:59][DEBUG][2458359][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:04:59][INFO][2458359][Http.hpp][197]-client: 114.132.203.176 : 23960
+[2025-05-05 18:05:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:05:24][DEBUG][2458499][Http.hpp][40]-_method: GET
+[2025-05-05 18:05:24][DEBUG][2458499][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 18:05:24][DEBUG][2458499][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:05:24][INFO][2458499][Http.hpp][197]-client: 183.230.242.231 : 45284
+[2025-05-05 18:05:25][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:05:25][DEBUG][2458502][Http.hpp][40]-_method: GET
+[2025-05-05 18:05:25][DEBUG][2458502][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 18:05:25][DEBUG][2458502][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:05:25][INFO][2458502][Http.hpp][197]-client: 183.230.242.231 : 45286
+[2025-05-05 18:05:25][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:05:25][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:05:25][DEBUG][2458504][Http.hpp][40]-_method: GET
+[2025-05-05 18:05:25][DEBUG][2458504][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 18:05:25][DEBUG][2458504][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:05:25][INFO][2458504][Http.hpp][197]-client: 183.230.242.231 : 45294
+[2025-05-05 18:05:25][DEBUG][2458506][Http.hpp][40]-_method: GET
+[2025-05-05 18:05:25][DEBUG][2458506][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 18:05:25][DEBUG][2458506][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:05:25][INFO][2458506][Http.hpp][197]-client: 183.230.242.231 : 45300
+[2025-05-05 18:05:25][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:05:25][DEBUG][2458508][Http.hpp][40]-_method: GET
+[2025-05-05 18:05:25][DEBUG][2458508][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 18:05:25][DEBUG][2458508][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:05:25][INFO][2458508][Http.hpp][197]-client: 183.230.242.231 : 45312
+[2025-05-05 18:07:51][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:07:51][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:07:52][DEBUG][2459272][Http.hpp][40]-_method: GET
+[2025-05-05 18:07:52][DEBUG][2459272][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 18:07:52][DEBUG][2459272][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:07:52][INFO][2459272][Http.hpp][197]-client: 39.144.218.179 : 63834
+[2025-05-05 18:07:53][DEBUG][2459274][Http.hpp][40]-_method: GET
+[2025-05-05 18:07:53][DEBUG][2459274][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 18:07:53][DEBUG][2459274][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:07:53][INFO][2459274][Http.hpp][197]-client: 39.144.218.179 : 63833
+[2025-05-05 18:07:53][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:07:53][DEBUG][2459277][Http.hpp][40]-_method: GET
+[2025-05-05 18:07:53][DEBUG][2459277][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 18:07:53][DEBUG][2459277][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:07:53][INFO][2459277][Http.hpp][197]-client: 39.144.218.179 : 63835
+[2025-05-05 18:07:53][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:07:53][DEBUG][2459279][Http.hpp][40]-_method: GET
+[2025-05-05 18:07:53][DEBUG][2459279][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 18:07:53][DEBUG][2459279][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:07:53][INFO][2459279][Http.hpp][197]-client: 39.144.218.179 : 63836
+[2025-05-05 18:08:10][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:08:10][DEBUG][2459379][Http.hpp][40]-_method: GET
+[2025-05-05 18:08:10][DEBUG][2459379][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 18:08:10][DEBUG][2459379][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:08:10][INFO][2459379][Http.hpp][197]-client: 39.144.218.179 : 63838
+[2025-05-05 18:08:11][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:08:11][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:08:11][DEBUG][2459384][Http.hpp][40]-_method: GET
+[2025-05-05 18:08:11][DEBUG][2459384][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 18:08:11][DEBUG][2459384][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:08:11][INFO][2459384][Http.hpp][197]-client: 39.144.218.179 : 63840
+[2025-05-05 18:08:11][DEBUG][2459386][Http.hpp][40]-_method: GET
+[2025-05-05 18:08:11][DEBUG][2459386][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 18:08:11][DEBUG][2459386][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:08:11][INFO][2459386][Http.hpp][197]-client: 39.144.218.179 : 63839
+[2025-05-05 18:08:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:08:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:08:16][DEBUG][2459396][Http.hpp][40]-_method: GET
+[2025-05-05 18:08:16][DEBUG][2459396][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 18:08:16][DEBUG][2459396][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:08:16][INFO][2459396][Http.hpp][197]-client: 39.144.218.179 : 63842
+[2025-05-05 18:08:35][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:09:13][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:09:13][DEBUG][2459700][Http.hpp][40]-_method: GET
+[2025-05-05 18:09:13][DEBUG][2459700][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 18:09:13][DEBUG][2459700][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:09:13][INFO][2459700][Http.hpp][197]-client: 114.132.202.202 : 16922
+[2025-05-05 18:14:08][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:14:08][DEBUG][2461215][Http.hpp][40]-_method: GET
+[2025-05-05 18:14:08][DEBUG][2461215][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 18:14:08][DEBUG][2461215][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:14:08][INFO][2461215][Http.hpp][197]-client: 114.132.203.162 : 27262
+[2025-05-05 18:14:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:14:16][DEBUG][2461255][Http.hpp][40]-_method: GET
+[2025-05-05 18:14:16][DEBUG][2461255][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 18:14:16][DEBUG][2461255][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:14:16][INFO][2461255][Http.hpp][197]-client: 114.132.202.202 : 27988
+[2025-05-05 18:14:54][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:14:54][DEBUG][2461460][Http.hpp][40]-_method: GET
+[2025-05-05 18:14:54][DEBUG][2461460][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 18:14:54][DEBUG][2461460][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:14:54][INFO][2461460][Http.hpp][197]-client: 114.132.203.10 : 38274
+[2025-05-05 18:14:55][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:14:55][DEBUG][2461465][Http.hpp][40]-_method: GET
+[2025-05-05 18:14:55][DEBUG][2461465][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 18:14:55][DEBUG][2461465][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:14:55][INFO][2461465][Http.hpp][197]-client: 59.36.125.88 : 40762
+[2025-05-05 18:15:02][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:15:02][DEBUG][2461523][Http.hpp][40]-_method: GET
+[2025-05-05 18:15:02][DEBUG][2461523][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 18:15:02][DEBUG][2461523][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:15:02][INFO][2461523][Http.hpp][197]-client: 180.101.244.16 : 17096
+[2025-05-05 18:15:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:15:04][DEBUG][2461531][Http.hpp][40]-_method: GET
+[2025-05-05 18:15:04][DEBUG][2461531][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 18:15:04][DEBUG][2461531][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:15:04][INFO][2461531][Http.hpp][197]-client: 59.83.208.107 : 21802
+[2025-05-05 18:15:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:15:04][DEBUG][2461534][Http.hpp][40]-_method: GET
+[2025-05-05 18:15:04][DEBUG][2461534][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 18:15:04][DEBUG][2461534][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:15:04][INFO][2461534][Http.hpp][197]-client: 59.83.208.107 : 21850
+[2025-05-05 18:15:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:15:04][DEBUG][2461536][Http.hpp][40]-_method: GET
+[2025-05-05 18:15:04][DEBUG][2461536][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 18:15:04][DEBUG][2461536][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:15:04][INFO][2461536][Http.hpp][197]-client: 59.83.208.107 : 21854
+[2025-05-05 18:15:04][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:15:04][DEBUG][2461538][Http.hpp][40]-_method: GET
+[2025-05-05 18:15:04][DEBUG][2461538][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 18:15:04][DEBUG][2461538][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:15:04][INFO][2461538][Http.hpp][197]-client: 59.83.208.107 : 21858
+[2025-05-05 18:16:02][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:16:02][DEBUG][2461838][Http.hpp][40]-_method: GET
+[2025-05-05 18:16:02][DEBUG][2461838][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 18:16:02][DEBUG][2461838][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:16:02][INFO][2461838][Http.hpp][197]-client: 220.196.160.144 : 46860
+[2025-05-05 18:16:08][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:16:08][DEBUG][2461855][Http.hpp][40]-_method: GET
+[2025-05-05 18:16:08][DEBUG][2461855][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 18:16:08][DEBUG][2461855][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:16:08][INFO][2461855][Http.hpp][197]-client: 59.83.208.105 : 60422
+[2025-05-05 18:26:22][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:26:22][DEBUG][2465014][Http.hpp][40]-_method: GET
+[2025-05-05 18:26:22][DEBUG][2465014][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 18:26:22][DEBUG][2465014][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:26:22][INFO][2465014][Http.hpp][197]-client: 45.156.129.78 : 46087
+[2025-05-05 18:35:09][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:35:10][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:35:11][INFO][2467747][Http.hpp][197]-client: 167.94.138.182 : 42658
+[2025-05-05 18:35:12][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:35:15][DEBUG][2467753][Http.hpp][40]-_method: GET
+[2025-05-05 18:35:15][DEBUG][2467753][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 18:35:15][DEBUG][2467753][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:35:15][INFO][2467753][Http.hpp][197]-client: 167.94.138.182 : 42668
+[2025-05-05 18:35:22][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:35:22][DEBUG][2467800][Http.hpp][40]-_method: GET
+[2025-05-05 18:35:22][DEBUG][2467800][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 18:35:22][DEBUG][2467800][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:35:22][INFO][2467800][Http.hpp][197]-client: 167.94.138.182 : 40940
+[2025-05-05 18:35:22][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:35:23][DEBUG][2467802][Http.hpp][40]-_method: GET
+[2025-05-05 18:35:23][DEBUG][2467802][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 18:35:23][DEBUG][2467802][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:35:23][INFO][2467802][Http.hpp][197]-client: 167.94.138.182 : 40944
+[2025-05-05 18:35:23][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:35:23][DEBUG][2467804][Http.hpp][40]-_method: PRI
+[2025-05-05 18:35:23][DEBUG][2467804][Http.hpp][41]-_uri: ./wwwroot*
+[2025-05-05 18:35:23][DEBUG][2467804][Http.hpp][42]-_http_version: HTTP/2.0
+[2025-05-05 18:35:23][INFO][2467804][Http.hpp][197]-client: 167.94.138.182 : 40954
+[2025-05-05 18:35:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:35:36][DEBUG][2467853][Http.hpp][40]-_method: GET
+[2025-05-05 18:35:36][DEBUG][2467853][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 18:35:36][DEBUG][2467853][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:35:36][INFO][2467853][Http.hpp][197]-client: 167.94.138.182 : 56040
+[2025-05-05 18:35:38][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:35:38][INFO][2467871][Http.hpp][197]-client: 167.94.138.182 : 59406
+[2025-05-05 18:53:46][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:53:46][DEBUG][2473466][Http.hpp][40]-_method: GET
+[2025-05-05 18:53:46][DEBUG][2473466][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 18:53:46][DEBUG][2473466][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:53:46][INFO][2473466][Http.hpp][197]-client: 120.233.33.150 : 57876
+[2025-05-05 18:59:40][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 18:59:40][DEBUG][2475277][Http.hpp][40]-_method: GET
+[2025-05-05 18:59:40][DEBUG][2475277][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 18:59:40][DEBUG][2475277][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 18:59:40][INFO][2475277][Http.hpp][197]-client: 27.44.125.106 : 17925
+[2025-05-05 19:23:56][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 19:23:56][DEBUG][2482771][Http.hpp][40]-_method: GET
+[2025-05-05 19:23:56][DEBUG][2482771][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 19:23:56][DEBUG][2482771][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 19:23:56][INFO][2482771][Http.hpp][197]-client: 14.152.91.243 : 49069
+[2025-05-05 19:23:56][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 19:23:56][DEBUG][2482773][Http.hpp][40]-_method: GET
+[2025-05-05 19:23:56][DEBUG][2482773][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 19:23:56][DEBUG][2482773][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 19:23:56][INFO][2482773][Http.hpp][197]-client: 81.71.94.236 : 22189
+[2025-05-05 19:23:56][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 19:23:56][DEBUG][2482775][Http.hpp][40]-_method: GET
+[2025-05-05 19:23:56][DEBUG][2482775][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 19:23:56][DEBUG][2482775][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 19:23:56][INFO][2482775][Http.hpp][197]-client: 14.152.91.243 : 60811
+[2025-05-05 19:23:56][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 19:23:56][DEBUG][2482777][Http.hpp][40]-_method: GET
+[2025-05-05 19:23:56][DEBUG][2482777][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 19:23:56][DEBUG][2482777][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 19:23:56][INFO][2482777][Http.hpp][197]-client: 27.44.125.38 : 43693
+[2025-05-05 19:54:13][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 19:54:13][DEBUG][2492142][Http.hpp][40]-_method: CONNECT
+[2025-05-05 19:54:13][DEBUG][2492142][Http.hpp][41]-_uri: ./wwwrootfingerprints.bablosoft.com:443
+[2025-05-05 19:54:13][DEBUG][2492142][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 19:54:13][INFO][2492142][Http.hpp][197]-client: 90.151.171.108 : 6943
+[2025-05-05 19:54:18][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 19:54:18][INFO][2492160][Http.hpp][197]-client: 90.151.171.108 : 17161
+[2025-05-05 19:54:23][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 19:54:24][DEBUG][2492191][Http.hpp][40]-_method: GET
+[2025-05-05 19:54:24][DEBUG][2492191][Http.hpp][41]-_uri: ./wwwroothttp://fingerprints.bablosoft.com/ip?Z78486284902Q1
+[2025-05-05 19:54:24][DEBUG][2492191][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 19:54:24][INFO][2492191][Http.hpp][197]-client: 90.151.171.108 : 63113
+[2025-05-05 19:54:29][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 19:54:29][INFO][2492209][Http.hpp][197]-client: 90.151.171.108 : 47721
+[2025-05-05 20:01:43][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:01:43][DEBUG][2494453][Http.hpp][40]-_method: GET
+[2025-05-05 20:01:43][DEBUG][2494453][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 20:01:43][DEBUG][2494453][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:01:43][INFO][2494453][Http.hpp][197]-client: 114.132.203.162 : 19500
+[2025-05-05 20:08:20][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:08:20][DEBUG][2496500][Http.hpp][40]-_method: GET
+[2025-05-05 20:08:20][DEBUG][2496500][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 20:08:20][DEBUG][2496500][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:08:20][INFO][2496500][Http.hpp][197]-client: 114.132.202.163 : 32790
+[2025-05-05 20:08:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:08:33][DEBUG][2496559][Http.hpp][40]-_method: GET
+[2025-05-05 20:08:33][DEBUG][2496559][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 20:08:33][DEBUG][2496559][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:08:33][INFO][2496559][Http.hpp][197]-client: 114.132.203.59 : 43010
+[2025-05-05 20:13:56][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:13:56][DEBUG][2498249][Http.hpp][40]-_method: GET
+[2025-05-05 20:13:56][DEBUG][2498249][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 20:13:56][DEBUG][2498249][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:13:56][INFO][2498249][Http.hpp][197]-client: 183.230.242.183 : 2156
+[2025-05-05 20:13:56][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:14:17][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:14:17][DEBUG][2498361][Http.hpp][40]-_method: GET
+[2025-05-05 20:14:17][DEBUG][2498361][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 20:14:17][DEBUG][2498361][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:14:17][INFO][2498361][Http.hpp][197]-client: 183.230.242.183 : 2231
+[2025-05-05 20:14:17][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:14:17][DEBUG][2498363][Http.hpp][40]-_method: GET
+[2025-05-05 20:14:17][DEBUG][2498363][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 20:14:17][DEBUG][2498363][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:14:17][INFO][2498363][Http.hpp][197]-client: 183.230.242.183 : 2232
+[2025-05-05 20:14:17][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:14:17][DEBUG][2498365][Http.hpp][40]-_method: GET
+[2025-05-05 20:14:17][DEBUG][2498365][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 20:14:17][DEBUG][2498365][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:14:17][INFO][2498365][Http.hpp][197]-client: 183.230.242.183 : 2233
+[2025-05-05 20:14:17][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:14:17][DEBUG][2498367][Http.hpp][40]-_method: GET
+[2025-05-05 20:14:17][DEBUG][2498367][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 20:14:17][DEBUG][2498367][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:14:17][INFO][2498367][Http.hpp][197]-client: 183.230.242.183 : 2234
+[2025-05-05 20:16:43][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:16:43][DEBUG][2499120][Http.hpp][40]-_method: GET
+[2025-05-05 20:16:43][DEBUG][2499120][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 20:16:43][DEBUG][2499120][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:16:43][INFO][2499120][Http.hpp][197]-client: 114.132.203.61 : 38200
+[2025-05-05 20:20:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:20:48][DEBUG][2500389][Http.hpp][40]-_method: GET
+[2025-05-05 20:20:48][DEBUG][2500389][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 20:20:48][DEBUG][2500389][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:20:48][INFO][2500389][Http.hpp][197]-client: 114.132.203.195 : 33958
+[2025-05-05 20:23:01][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:01][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:01][DEBUG][2501085][Http.hpp][40]-_method: GET
+[2025-05-05 20:23:01][DEBUG][2501085][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 20:23:01][DEBUG][2501085][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:23:01][INFO][2501085][Http.hpp][197]-client: 183.230.242.183 : 14269
+[2025-05-05 20:23:01][DEBUG][2501083][Http.hpp][40]-_method: GET
+[2025-05-05 20:23:01][DEBUG][2501083][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 20:23:01][DEBUG][2501083][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:23:01][INFO][2501083][Http.hpp][197]-client: 183.230.242.183 : 14270
+[2025-05-05 20:23:01][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:01][DEBUG][2501087][Http.hpp][40]-_method: GET
+[2025-05-05 20:23:01][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:01][DEBUG][2501087][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 20:23:01][DEBUG][2501087][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:23:01][INFO][2501087][Http.hpp][197]-client: 183.230.242.183 : 14271
+[2025-05-05 20:23:01][DEBUG][2501089][Http.hpp][40]-_method: GET
+[2025-05-05 20:23:01][DEBUG][2501089][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 20:23:01][DEBUG][2501089][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:23:01][INFO][2501089][Http.hpp][197]-client: 183.230.242.183 : 14272
+[2025-05-05 20:23:08][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:08][DEBUG][2501114][Http.hpp][40]-_method: GET
+[2025-05-05 20:23:08][DEBUG][2501114][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 20:23:08][DEBUG][2501114][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:23:08][INFO][2501114][Http.hpp][197]-client: 183.230.242.183 : 14280
+[2025-05-05 20:23:08][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:24][DEBUG][2501116][Http.hpp][40]-_method: GET
+[2025-05-05 20:23:24][DEBUG][2501116][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 20:23:24][DEBUG][2501116][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:23:24][INFO][2501116][Http.hpp][197]-client: 183.230.242.183 : 14281
+[2025-05-05 20:23:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:27][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:30][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:30][DEBUG][2501201][Http.hpp][40]-_method: GET
+[2025-05-05 20:23:30][DEBUG][2501201][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 20:23:30][DEBUG][2501201][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:23:30][INFO][2501201][Http.hpp][197]-client: 183.230.242.183 : 14309
+[2025-05-05 20:23:30][DEBUG][2501231][Http.hpp][40]-_method: GET
+[2025-05-05 20:23:30][DEBUG][2501231][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 20:23:30][DEBUG][2501231][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:23:30][INFO][2501231][Http.hpp][197]-client: 183.230.242.183 : 14312
+[2025-05-05 20:23:30][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:30][DEBUG][2501237][Http.hpp][40]-_method: GET
+[2025-05-05 20:23:30][DEBUG][2501237][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 20:23:30][DEBUG][2501237][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:23:30][INFO][2501237][Http.hpp][197]-client: 183.230.242.183 : 14313
+[2025-05-05 20:23:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:31][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:46][DEBUG][2501240][Http.hpp][40]-_method: GET
+[2025-05-05 20:23:46][DEBUG][2501240][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 20:23:46][DEBUG][2501240][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:23:46][INFO][2501240][Http.hpp][197]-client: 183.230.242.183 : 14315
+[2025-05-05 20:23:46][DEBUG][2501242][Http.hpp][40]-_method: GET
+[2025-05-05 20:23:46][DEBUG][2501242][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 20:23:46][DEBUG][2501242][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:23:46][INFO][2501242][Http.hpp][197]-client: 183.230.242.183 : 14314
+[2025-05-05 20:23:46][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:46][DEBUG][2501318][Http.hpp][40]-_method: GET
+[2025-05-05 20:23:46][DEBUG][2501318][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 20:23:46][DEBUG][2501318][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:23:46][INFO][2501318][Http.hpp][197]-client: 183.230.242.183 : 14323
+[2025-05-05 20:23:46][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:23:46][DEBUG][2501320][Http.hpp][40]-_method: GET
+[2025-05-05 20:23:46][DEBUG][2501320][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 20:23:46][DEBUG][2501320][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:23:46][INFO][2501320][Http.hpp][197]-client: 183.230.242.183 : 14322
+[2025-05-05 20:25:13][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 20:25:13][DEBUG][2501782][Http.hpp][40]-_method: GET
+[2025-05-05 20:25:13][DEBUG][2501782][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 20:25:13][DEBUG][2501782][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 20:25:13][INFO][2501782][Http.hpp][197]-client: 114.132.203.162 : 21000
+[2025-05-05 21:35:38][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:35:38][DEBUG][2523463][Http.hpp][40]-_method: CONNECT
+[2025-05-05 21:35:38][DEBUG][2523463][Http.hpp][41]-_uri: ./wwwroot193.149.189.126:7227
+[2025-05-05 21:35:38][DEBUG][2523463][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 21:35:38][INFO][2523463][Http.hpp][197]-client: 196.251.117.173 : 48706
+[2025-05-05 21:39:26][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:39:26][DEBUG][2524633][Http.hpp][40]-_method: GET
+[2025-05-05 21:39:26][DEBUG][2524633][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 21:39:26][DEBUG][2524633][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 21:39:26][INFO][2524633][Http.hpp][197]-client: 183.230.242.183 : 3186
+[2025-05-05 21:39:26][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:39:45][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:39:45][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:39:45][DEBUG][2524746][Http.hpp][40]-_method: GET
+[2025-05-05 21:39:45][DEBUG][2524746][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 21:39:45][DEBUG][2524746][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 21:39:45][INFO][2524746][Http.hpp][197]-client: 183.230.242.183 : 3234
+[2025-05-05 21:39:45][DEBUG][2524744][Http.hpp][40]-_method: GET
+[2025-05-05 21:39:45][DEBUG][2524744][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 21:39:45][DEBUG][2524744][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 21:39:45][INFO][2524744][Http.hpp][197]-client: 183.230.242.183 : 3235
+[2025-05-05 21:39:45][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:39:45][DEBUG][2524748][Http.hpp][40]-_method: GET
+[2025-05-05 21:39:45][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:39:45][DEBUG][2524748][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 21:39:45][DEBUG][2524748][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 21:39:45][INFO][2524748][Http.hpp][197]-client: 183.230.242.183 : 3237
+[2025-05-05 21:39:45][DEBUG][2524750][Http.hpp][40]-_method: GET
+[2025-05-05 21:39:45][DEBUG][2524750][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 21:39:45][DEBUG][2524750][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 21:39:45][INFO][2524750][Http.hpp][197]-client: 183.230.242.183 : 3238
+[2025-05-05 21:39:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:39:48][DEBUG][2524773][Http.hpp][40]-_method: GET
+[2025-05-05 21:39:48][DEBUG][2524773][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 21:39:48][DEBUG][2524773][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 21:39:48][INFO][2524773][Http.hpp][197]-client: 183.230.242.183 : 3245
+[2025-05-05 21:39:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:39:48][DEBUG][2524783][Http.hpp][40]-_method: GET
+[2025-05-05 21:39:48][DEBUG][2524783][Http.hpp][41]-_uri: ./wwwroot/imag/header.png
+[2025-05-05 21:39:48][DEBUG][2524783][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 21:39:48][INFO][2524783][Http.hpp][197]-client: 183.230.242.183 : 3246
+[2025-05-05 21:39:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:39:48][DEBUG][2524785][Http.hpp][40]-_method: GET
+[2025-05-05 21:39:48][DEBUG][2524785][Http.hpp][41]-_uri: ./wwwroot/imag/flower.jpg
+[2025-05-05 21:39:48][DEBUG][2524785][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 21:39:48][INFO][2524785][Http.hpp][197]-client: 183.230.242.183 : 3247
+[2025-05-05 21:39:50][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:39:50][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:55:15][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:55:15][DEBUG][2529542][Http.hpp][40]-_method: GET
+[2025-05-05 21:55:15][DEBUG][2529542][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 21:55:15][DEBUG][2529542][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 21:55:15][INFO][2529542][Http.hpp][197]-client: 184.105.247.244 : 45785
+[2025-05-05 21:55:52][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:55:52][DEBUG][2529742][Http.hpp][40]-_method: GET
+[2025-05-05 21:55:52][DEBUG][2529742][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 21:55:52][DEBUG][2529742][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 21:55:52][INFO][2529742][Http.hpp][197]-client: 184.105.247.254 : 12535
+[2025-05-05 21:55:57][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:55:57][DEBUG][2529757][Http.hpp][40]-_method: GET
+[2025-05-05 21:55:57][DEBUG][2529757][Http.hpp][41]-_uri: ./wwwroothttp://api.ipify.org/?format=json
+[2025-05-05 21:55:57][DEBUG][2529757][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 21:55:57][INFO][2529757][Http.hpp][197]-client: 184.105.247.235 : 43833
+[2025-05-05 21:56:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 21:56:19][DEBUG][2529870][Http.hpp][40]-_method: CONNECT
+[2025-05-05 21:56:19][DEBUG][2529870][Http.hpp][41]-_uri: ./wwwrootwww.shadowserver.org:443
+[2025-05-05 21:56:19][DEBUG][2529870][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 21:56:19][INFO][2529870][Http.hpp][197]-client: 184.105.247.254 : 42175
+[2025-05-05 22:09:00][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:09:00][DEBUG][2533789][Http.hpp][40]-_method: CONNECT
+[2025-05-05 22:09:00][DEBUG][2533789][Http.hpp][41]-_uri: ./wwwroot45.61.136.175:7227
+[2025-05-05 22:09:00][DEBUG][2533789][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:09:00][INFO][2533789][Http.hpp][197]-client: 176.65.148.2 : 49602
+[2025-05-05 22:19:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:32][DEBUG][2537039][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:32][DEBUG][2537039][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 22:19:32][DEBUG][2537039][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:32][INFO][2537039][Http.hpp][197]-client: 183.230.242.183 : 4873
+[2025-05-05 22:19:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:32][DEBUG][2537041][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:32][DEBUG][2537041][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 22:19:32][DEBUG][2537041][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:32][INFO][2537041][Http.hpp][197]-client: 183.230.242.183 : 4872
+[2025-05-05 22:19:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:33][DEBUG][2537043][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:33][DEBUG][2537043][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 22:19:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:33][DEBUG][2537043][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:33][INFO][2537043][Http.hpp][197]-client: 183.230.242.183 : 4875
+[2025-05-05 22:19:33][DEBUG][2537045][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:33][DEBUG][2537045][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 22:19:33][DEBUG][2537045][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:33][INFO][2537045][Http.hpp][197]-client: 183.230.242.183 : 4876
+[2025-05-05 22:19:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:33][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:37][DEBUG][2537048][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:37][DEBUG][2537048][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 22:19:37][DEBUG][2537048][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:37][INFO][2537048][Http.hpp][197]-client: 183.230.242.183 : 4883
+[2025-05-05 22:19:37][DEBUG][2537050][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:37][DEBUG][2537050][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 22:19:37][DEBUG][2537050][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:37][INFO][2537050][Http.hpp][197]-client: 183.230.242.183 : 4882
+[2025-05-05 22:19:37][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:37][DEBUG][2537066][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:37][DEBUG][2537066][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 22:19:37][DEBUG][2537066][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:37][INFO][2537066][Http.hpp][197]-client: 183.230.242.183 : 4886
+[2025-05-05 22:19:37][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:37][DEBUG][2537068][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:37][DEBUG][2537068][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 22:19:37][DEBUG][2537068][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:37][INFO][2537068][Http.hpp][197]-client: 183.230.242.183 : 4885
+[2025-05-05 22:19:37][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:37][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:39][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:39][DEBUG][2537094][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:39][DEBUG][2537094][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 22:19:39][DEBUG][2537094][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:39][INFO][2537094][Http.hpp][197]-client: 183.230.242.183 : 4900
+[2025-05-05 22:19:39][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:39][DEBUG][2537096][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:39][DEBUG][2537096][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 22:19:39][DEBUG][2537096][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:39][INFO][2537096][Http.hpp][197]-client: 183.230.242.183 : 4899
+[2025-05-05 22:19:39][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:39][DEBUG][2537103][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:39][DEBUG][2537103][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 22:19:39][DEBUG][2537103][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:39][INFO][2537103][Http.hpp][197]-client: 183.230.242.183 : 4902
+[2025-05-05 22:19:39][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:39][DEBUG][2537105][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:39][DEBUG][2537105][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 22:19:39][DEBUG][2537105][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:39][INFO][2537105][Http.hpp][197]-client: 183.230.242.183 : 4903
+[2025-05-05 22:19:44][DEBUG][2537070][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:44][DEBUG][2537070][Http.hpp][41]-_uri: ./wwwroot/about.html
+[2025-05-05 22:19:44][DEBUG][2537070][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:44][INFO][2537070][Http.hpp][197]-client: 183.230.242.183 : 4888
+[2025-05-05 22:19:48][DEBUG][2537072][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:48][DEBUG][2537072][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 22:19:48][DEBUG][2537072][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:48][INFO][2537072][Http.hpp][197]-client: 183.230.242.183 : 4887
+[2025-05-05 22:19:48][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:51][DEBUG][2537135][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:51][DEBUG][2537135][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 22:19:51][DEBUG][2537135][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:51][INFO][2537135][Http.hpp][197]-client: 183.230.242.183 : 4923
+[2025-05-05 22:19:51][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:54][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:54][DEBUG][2537189][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:54][DEBUG][2537189][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 22:19:54][DEBUG][2537189][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:54][INFO][2537189][Http.hpp][197]-client: 183.230.242.183 : 4933
+[2025-05-05 22:19:54][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:54][DEBUG][2537191][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:54][DEBUG][2537191][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 22:19:54][DEBUG][2537191][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:54][INFO][2537191][Http.hpp][197]-client: 183.230.242.183 : 4934
+[2025-05-05 22:19:54][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:54][DEBUG][2537193][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:54][DEBUG][2537193][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 22:19:54][DEBUG][2537193][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:54][INFO][2537193][Http.hpp][197]-client: 183.230.242.183 : 4936
+[2025-05-05 22:19:54][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 22:19:54][DEBUG][2537195][Http.hpp][40]-_method: GET
+[2025-05-05 22:19:54][DEBUG][2537195][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 22:19:54][DEBUG][2537195][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 22:19:54][INFO][2537195][Http.hpp][197]-client: 183.230.242.183 : 4937
+[2025-05-05 23:04:06][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:06][DEBUG][2551871][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:06][DEBUG][2551871][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:04:06][DEBUG][2551871][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:06][INFO][2551871][Http.hpp][197]-client: 39.144.218.179 : 64580
+[2025-05-05 23:04:06][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:06][DEBUG][2551873][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:06][DEBUG][2551873][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 23:04:06][DEBUG][2551873][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:06][INFO][2551873][Http.hpp][197]-client: 39.144.218.179 : 64579
+[2025-05-05 23:04:06][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:06][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:06][DEBUG][2551875][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:06][DEBUG][2551875][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 23:04:06][DEBUG][2551875][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:06][INFO][2551875][Http.hpp][197]-client: 39.144.218.179 : 64581
+[2025-05-05 23:04:06][DEBUG][2551877][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:06][DEBUG][2551877][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 23:04:06][DEBUG][2551877][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:06][INFO][2551877][Http.hpp][197]-client: 39.144.218.179 : 64582
+[2025-05-05 23:04:09][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:09][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:09][DEBUG][2551898][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:09][DEBUG][2551898][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:04:09][DEBUG][2551898][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:09][INFO][2551898][Http.hpp][197]-client: 39.144.218.179 : 64583
+[2025-05-05 23:04:09][DEBUG][2551900][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:09][DEBUG][2551900][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 23:04:09][DEBUG][2551900][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:09][INFO][2551900][Http.hpp][197]-client: 39.144.218.179 : 64584
+[2025-05-05 23:04:09][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:09][DEBUG][2551907][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:09][DEBUG][2551907][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 23:04:09][DEBUG][2551907][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:09][INFO][2551907][Http.hpp][197]-client: 39.144.218.179 : 64586
+[2025-05-05 23:04:09][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:09][DEBUG][2551909][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:09][DEBUG][2551909][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 23:04:09][DEBUG][2551909][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:09][INFO][2551909][Http.hpp][197]-client: 39.144.218.179 : 64585
+[2025-05-05 23:04:11][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:11][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:11][DEBUG][2551926][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:11][DEBUG][2551926][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:04:11][DEBUG][2551926][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:11][INFO][2551926][Http.hpp][197]-client: 39.144.218.179 : 64587
+[2025-05-05 23:04:11][DEBUG][2551924][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:11][DEBUG][2551924][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 23:04:11][DEBUG][2551924][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:11][INFO][2551924][Http.hpp][197]-client: 39.144.218.179 : 64588
+[2025-05-05 23:04:11][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:11][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:11][DEBUG][2551928][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:11][DEBUG][2551928][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 23:04:11][DEBUG][2551928][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:11][INFO][2551928][Http.hpp][197]-client: 39.144.218.179 : 64590
+[2025-05-05 23:04:11][DEBUG][2551930][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:11][DEBUG][2551930][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 23:04:11][DEBUG][2551930][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:11][INFO][2551930][Http.hpp][197]-client: 39.144.218.179 : 64589
+[2025-05-05 23:04:12][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:12][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:12][DEBUG][2551933][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:12][DEBUG][2551933][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:04:12][DEBUG][2551933][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:12][INFO][2551933][Http.hpp][197]-client: 39.144.218.179 : 64591
+[2025-05-05 23:04:13][DEBUG][2551935][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:13][DEBUG][2551935][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 23:04:13][DEBUG][2551935][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:13][INFO][2551935][Http.hpp][197]-client: 39.144.218.179 : 64592
+[2025-05-05 23:04:13][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:13][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:13][DEBUG][2551939][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:13][DEBUG][2551939][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 23:04:13][DEBUG][2551939][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:13][INFO][2551939][Http.hpp][197]-client: 39.144.218.179 : 64594
+[2025-05-05 23:04:13][DEBUG][2551937][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:13][DEBUG][2551937][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 23:04:13][DEBUG][2551937][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:13][INFO][2551937][Http.hpp][197]-client: 39.144.218.179 : 64593
+[2025-05-05 23:04:41][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:04:41][DEBUG][2552099][Http.hpp][40]-_method: GET
+[2025-05-05 23:04:41][DEBUG][2552099][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:04:41][DEBUG][2552099][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:04:41][INFO][2552099][Http.hpp][197]-client: 39.144.218.179 : 64595
+[2025-05-05 23:05:34][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:05:34][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:05:34][DEBUG][2552386][Http.hpp][40]-_method: GET
+[2025-05-05 23:05:34][DEBUG][2552386][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:05:34][DEBUG][2552386][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:05:34][INFO][2552386][Http.hpp][197]-client: 39.144.218.179 : 64596
+[2025-05-05 23:05:34][DEBUG][2552384][Http.hpp][40]-_method: GET
+[2025-05-05 23:05:34][DEBUG][2552384][Http.hpp][41]-_uri: ./wwwroot/$%7Bphoto.src%7D
+[2025-05-05 23:05:34][DEBUG][2552384][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:05:34][INFO][2552384][Http.hpp][197]-client: 39.144.218.179 : 64597
+[2025-05-05 23:05:35][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:05:35][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:05:35][DEBUG][2552388][Http.hpp][40]-_method: GET
+[2025-05-05 23:05:35][DEBUG][2552388][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:05:35][DEBUG][2552388][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:05:35][INFO][2552388][Http.hpp][197]-client: 39.144.218.179 : 64598
+[2025-05-05 23:05:38][DEBUG][2552390][Http.hpp][40]-_method: GET
+[2025-05-05 23:05:38][DEBUG][2552390][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:05:38][DEBUG][2552390][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:05:38][INFO][2552390][Http.hpp][197]-client: 39.144.218.179 : 64599
+[2025-05-05 23:05:38][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:05:38][DEBUG][2552401][Http.hpp][40]-_method: GET
+[2025-05-05 23:05:38][DEBUG][2552401][Http.hpp][41]-_uri: ./wwwroot/$%7Bphoto.src%7D
+[2025-05-05 23:05:38][DEBUG][2552401][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:05:38][INFO][2552401][Http.hpp][197]-client: 39.144.218.179 : 64600
+[2025-05-05 23:05:38][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:05:38][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:05:38][DEBUG][2552403][Http.hpp][40]-_method: GET
+[2025-05-05 23:05:38][DEBUG][2552403][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:05:38][DEBUG][2552403][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:05:38][INFO][2552403][Http.hpp][197]-client: 39.144.218.179 : 64601
+[2025-05-05 23:05:54][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:05:55][DEBUG][2552405][Http.hpp][40]-_method: GET
+[2025-05-05 23:05:55][DEBUG][2552405][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:05:55][DEBUG][2552405][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:05:55][INFO][2552405][Http.hpp][197]-client: 39.144.218.179 : 64602
+[2025-05-05 23:05:55][DEBUG][2552524][Http.hpp][40]-_method: GET
+[2025-05-05 23:05:55][DEBUG][2552524][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 23:05:55][DEBUG][2552524][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:05:55][INFO][2552524][Http.hpp][197]-client: 39.144.218.179 : 64603
+[2025-05-05 23:05:55][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:05:55][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:05:55][DEBUG][2552529][Http.hpp][40]-_method: GET
+[2025-05-05 23:05:55][DEBUG][2552529][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 23:05:55][DEBUG][2552529][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:05:55][INFO][2552529][Http.hpp][197]-client: 39.144.218.179 : 64604
+[2025-05-05 23:05:55][DEBUG][2552527][Http.hpp][40]-_method: GET
+[2025-05-05 23:05:55][DEBUG][2552527][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 23:05:55][DEBUG][2552527][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:05:55][INFO][2552527][Http.hpp][197]-client: 39.144.218.179 : 64605
+[2025-05-05 23:06:15][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:06:16][DEBUG][2552649][Http.hpp][40]-_method: GET
+[2025-05-05 23:06:16][DEBUG][2552649][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:06:16][DEBUG][2552649][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:06:16][INFO][2552649][Http.hpp][197]-client: 39.144.218.179 : 64947
+[2025-05-05 23:06:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:06:16][DEBUG][2552651][Http.hpp][40]-_method: GET
+[2025-05-05 23:06:16][DEBUG][2552651][Http.hpp][41]-_uri: ./wwwroot/%7B%7B%20url_for('static',%20filename='photos/'%20+%20photo)%20%7D%7D
+[2025-05-05 23:06:16][DEBUG][2552651][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:06:16][INFO][2552651][Http.hpp][197]-client: 39.144.218.179 : 64948
+[2025-05-05 23:06:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:06:16][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:06:16][DEBUG][2552659][Http.hpp][40]-_method: GET
+[2025-05-05 23:06:16][DEBUG][2552659][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:06:16][DEBUG][2552659][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:06:16][INFO][2552659][Http.hpp][197]-client: 39.144.218.179 : 64950
+[2025-05-05 23:06:18][DEBUG][2552661][Http.hpp][40]-_method: GET
+[2025-05-05 23:06:18][DEBUG][2552661][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:06:18][DEBUG][2552661][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:06:18][INFO][2552661][Http.hpp][197]-client: 39.144.218.179 : 64949
+[2025-05-05 23:06:18][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:06:18][DEBUG][2552664][Http.hpp][40]-_method: GET
+[2025-05-05 23:06:18][DEBUG][2552664][Http.hpp][41]-_uri: ./wwwroot/%7B%7B%20url_for('static',%20filename='photos/'%20+%20photo)%20%7D%7D
+[2025-05-05 23:06:18][DEBUG][2552664][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:06:18][INFO][2552664][Http.hpp][197]-client: 39.144.218.179 : 64951
+[2025-05-05 23:06:18][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:06:18][DEBUG][2552674][Http.hpp][40]-_method: GET
+[2025-05-05 23:06:18][DEBUG][2552674][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:06:18][DEBUG][2552674][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:06:18][INFO][2552674][Http.hpp][197]-client: 39.144.218.179 : 64952
+[2025-05-05 23:06:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:06:19][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:06:39][DEBUG][2552676][Http.hpp][40]-_method: GET
+[2025-05-05 23:06:39][DEBUG][2552676][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:06:39][DEBUG][2552676][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:06:39][INFO][2552676][Http.hpp][197]-client: 39.144.218.179 : 64953
+[2025-05-05 23:06:39][DEBUG][2552678][Http.hpp][40]-_method: GET
+[2025-05-05 23:06:39][DEBUG][2552678][Http.hpp][41]-_uri: ./wwwroot/%7B%7B%20url_for('static',%20filename='imag/'%20+%20photo)%20%7D%7D
+[2025-05-05 23:06:39][DEBUG][2552678][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:06:39][INFO][2552678][Http.hpp][197]-client: 39.144.218.179 : 64954
+[2025-05-05 23:06:39][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:06:39][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:06:39][DEBUG][2552794][Http.hpp][40]-_method: GET
+[2025-05-05 23:06:39][DEBUG][2552794][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:06:39][DEBUG][2552794][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:06:39][INFO][2552794][Http.hpp][197]-client: 39.144.218.179 : 64955
+[2025-05-05 23:06:40][DEBUG][2552796][Http.hpp][40]-_method: GET
+[2025-05-05 23:06:40][DEBUG][2552796][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:06:40][DEBUG][2552796][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:06:40][INFO][2552796][Http.hpp][197]-client: 39.144.218.179 : 64956
+[2025-05-05 23:06:40][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:06:40][DEBUG][2552821][Http.hpp][40]-_method: GET
+[2025-05-05 23:06:40][DEBUG][2552821][Http.hpp][41]-_uri: ./wwwroot/%7B%7B%20url_for('static',%20filename='imag/'%20+%20photo)%20%7D%7D
+[2025-05-05 23:06:40][DEBUG][2552821][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:06:40][INFO][2552821][Http.hpp][197]-client: 39.144.218.179 : 64957
+[2025-05-05 23:06:41][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:06:41][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:06:41][DEBUG][2552823][Http.hpp][40]-_method: GET
+[2025-05-05 23:06:41][DEBUG][2552823][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:06:41][DEBUG][2552823][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:06:41][INFO][2552823][Http.hpp][197]-client: 39.144.218.179 : 64959
+[2025-05-05 23:07:56][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:56][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:57][DEBUG][2553245][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:57][DEBUG][2553245][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:07:57][DEBUG][2553245][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:57][INFO][2553245][Http.hpp][197]-client: 39.144.218.179 : 64961
+[2025-05-05 23:07:57][DEBUG][2553247][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:57][DEBUG][2553247][Http.hpp][41]-_uri: ./wwwroot/%7B%7B%20url_for(filename=imag/'%20+%20photo)%20%7D%7D
+[2025-05-05 23:07:57][DEBUG][2553247][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:57][INFO][2553247][Http.hpp][197]-client: 39.144.218.179 : 64960
+[2025-05-05 23:07:57][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:57][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:57][DEBUG][2553255][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:57][DEBUG][2553255][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:07:57][DEBUG][2553255][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:57][INFO][2553255][Http.hpp][197]-client: 39.144.218.179 : 64962
+[2025-05-05 23:07:58][DEBUG][2553257][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:58][DEBUG][2553257][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:07:58][DEBUG][2553257][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:58][INFO][2553257][Http.hpp][197]-client: 39.144.218.179 : 64963
+[2025-05-05 23:07:58][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:58][DEBUG][2553260][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:58][DEBUG][2553260][Http.hpp][41]-_uri: ./wwwroot/%7B%7B%20url_for(filename=imag/'%20+%20photo)%20%7D%7D
+[2025-05-05 23:07:58][DEBUG][2553260][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:58][INFO][2553260][Http.hpp][197]-client: 39.144.218.179 : 64964
+[2025-05-05 23:07:58][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:58][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:58][DEBUG][2553262][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:58][DEBUG][2553262][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:07:58][DEBUG][2553262][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:58][INFO][2553262][Http.hpp][197]-client: 39.144.218.179 : 64965
+[2025-05-05 23:07:58][DEBUG][2553264][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:58][DEBUG][2553264][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:07:58][DEBUG][2553264][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:58][INFO][2553264][Http.hpp][197]-client: 39.144.218.179 : 64966
+[2025-05-05 23:07:58][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:58][DEBUG][2553274][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:58][DEBUG][2553274][Http.hpp][41]-_uri: ./wwwroot/%7B%7B%20url_for(filename=imag/'%20+%20photo)%20%7D%7D
+[2025-05-05 23:07:58][DEBUG][2553274][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:58][INFO][2553274][Http.hpp][197]-client: 39.144.218.179 : 64967
+[2025-05-05 23:07:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:59][DEBUG][2553276][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:59][DEBUG][2553276][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:07:59][DEBUG][2553276][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:59][INFO][2553276][Http.hpp][197]-client: 39.144.218.179 : 64968
+[2025-05-05 23:07:59][DEBUG][2553278][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:59][DEBUG][2553278][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:07:59][DEBUG][2553278][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:59][INFO][2553278][Http.hpp][197]-client: 39.144.218.179 : 64969
+[2025-05-05 23:07:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:59][DEBUG][2553280][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:59][DEBUG][2553280][Http.hpp][41]-_uri: ./wwwroot/%7B%7B%20url_for(filename=imag/'%20+%20photo)%20%7D%7D
+[2025-05-05 23:07:59][DEBUG][2553280][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:59][INFO][2553280][Http.hpp][197]-client: 39.144.218.179 : 64970
+[2025-05-05 23:07:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:59][DEBUG][2553282][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:59][DEBUG][2553282][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:07:59][DEBUG][2553282][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:59][INFO][2553282][Http.hpp][197]-client: 39.144.218.179 : 64972
+[2025-05-05 23:07:59][DEBUG][2553284][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:59][DEBUG][2553284][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:07:59][DEBUG][2553284][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:59][INFO][2553284][Http.hpp][197]-client: 39.144.218.179 : 64971
+[2025-05-05 23:07:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:59][DEBUG][2553290][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:59][DEBUG][2553290][Http.hpp][41]-_uri: ./wwwroot/%7B%7B%20url_for(filename=imag/'%20+%20photo)%20%7D%7D
+[2025-05-05 23:07:59][DEBUG][2553290][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:59][INFO][2553290][Http.hpp][197]-client: 39.144.218.179 : 64973
+[2025-05-05 23:07:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:59][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:07:59][DEBUG][2553304][Http.hpp][40]-_method: GET
+[2025-05-05 23:07:59][DEBUG][2553304][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:07:59][DEBUG][2553304][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:07:59][INFO][2553304][Http.hpp][197]-client: 39.144.218.179 : 64975
+[2025-05-05 23:08:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:09:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:09:03][DEBUG][2553442][Http.hpp][40]-_method: GET
+[2025-05-05 23:09:03][DEBUG][2553442][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:09:03][DEBUG][2553442][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:09:03][INFO][2553442][Http.hpp][197]-client: 39.144.218.179 : 64976
+[2025-05-05 23:09:03][DEBUG][2553663][Http.hpp][40]-_method: GET
+[2025-05-05 23:09:03][DEBUG][2553663][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 23:09:03][DEBUG][2553663][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:09:03][INFO][2553663][Http.hpp][197]-client: 39.144.218.179 : 64977
+[2025-05-05 23:09:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:09:03][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:09:03][DEBUG][2553671][Http.hpp][40]-_method: GET
+[2025-05-05 23:09:03][DEBUG][2553671][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 23:09:03][DEBUG][2553671][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:09:03][INFO][2553671][Http.hpp][197]-client: 39.144.218.179 : 65320
+[2025-05-05 23:09:03][DEBUG][2553673][Http.hpp][40]-_method: GET
+[2025-05-05 23:09:03][DEBUG][2553673][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 23:09:03][DEBUG][2553673][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:09:03][INFO][2553673][Http.hpp][197]-client: 39.144.218.179 : 65319
+[2025-05-05 23:09:13][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:09:13][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:09:13][DEBUG][2553729][Http.hpp][40]-_method: GET
+[2025-05-05 23:09:13][DEBUG][2553729][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:09:13][DEBUG][2553729][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:09:13][INFO][2553729][Http.hpp][197]-client: 39.144.218.179 : 65321
+[2025-05-05 23:09:15][DEBUG][2553731][Http.hpp][40]-_method: GET
+[2025-05-05 23:09:15][DEBUG][2553731][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:09:15][DEBUG][2553731][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:09:15][INFO][2553731][Http.hpp][197]-client: 39.144.218.179 : 65322
+[2025-05-05 23:09:15][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:09:15][DEBUG][2553734][Http.hpp][40]-_method: GET
+[2025-05-05 23:09:15][DEBUG][2553734][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 23:09:15][DEBUG][2553734][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:09:15][INFO][2553734][Http.hpp][197]-client: 39.144.218.179 : 65323
+[2025-05-05 23:09:15][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:09:15][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:09:15][DEBUG][2553736][Http.hpp][40]-_method: GET
+[2025-05-05 23:09:15][DEBUG][2553736][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 23:09:15][DEBUG][2553736][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:09:15][INFO][2553736][Http.hpp][197]-client: 39.144.218.179 : 65324
+[2025-05-05 23:09:15][DEBUG][2553738][Http.hpp][40]-_method: GET
+[2025-05-05 23:09:15][DEBUG][2553738][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 23:09:15][DEBUG][2553738][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:09:15][INFO][2553738][Http.hpp][197]-client: 39.144.218.179 : 65325
+[2025-05-05 23:09:43][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:09:43][DEBUG][2553904][Http.hpp][40]-_method: GET
+[2025-05-05 23:09:43][DEBUG][2553904][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:09:43][DEBUG][2553904][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:09:43][INFO][2553904][Http.hpp][197]-client: 39.144.218.179 : 65326
+[2025-05-05 23:10:00][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:10:00][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:10:01][DEBUG][2554020][Http.hpp][40]-_method: GET
+[2025-05-05 23:10:01][DEBUG][2554020][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:10:01][DEBUG][2554020][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:10:01][INFO][2554020][Http.hpp][197]-client: 39.144.218.179 : 65328
+[2025-05-05 23:10:01][DEBUG][2554022][Http.hpp][40]-_method: GET
+[2025-05-05 23:10:01][DEBUG][2554022][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 23:10:01][DEBUG][2554022][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:10:01][INFO][2554022][Http.hpp][197]-client: 39.144.218.179 : 65327
+[2025-05-05 23:10:01][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:10:01][DEBUG][2554039][Http.hpp][40]-_method: GET
+[2025-05-05 23:10:01][DEBUG][2554039][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 23:10:01][DEBUG][2554039][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:10:01][INFO][2554039][Http.hpp][197]-client: 39.144.218.179 : 65330
+[2025-05-05 23:10:01][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:10:01][DEBUG][2554041][Http.hpp][40]-_method: GET
+[2025-05-05 23:10:01][DEBUG][2554041][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 23:10:01][DEBUG][2554041][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:10:01][INFO][2554041][Http.hpp][197]-client: 39.144.218.179 : 65329
+[2025-05-05 23:10:32][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:10:32][DEBUG][2554188][Http.hpp][40]-_method: GET
+[2025-05-05 23:10:32][DEBUG][2554188][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:10:32][DEBUG][2554188][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:10:32][INFO][2554188][Http.hpp][197]-client: 39.144.218.179 : 65331
+[2025-05-05 23:10:44][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:10:44][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:10:45][DEBUG][2554258][Http.hpp][40]-_method: GET
+[2025-05-05 23:10:45][DEBUG][2554258][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:10:45][DEBUG][2554258][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:10:45][INFO][2554258][Http.hpp][197]-client: 39.144.218.179 : 65333
+[2025-05-05 23:10:45][DEBUG][2554260][Http.hpp][40]-_method: GET
+[2025-05-05 23:10:45][DEBUG][2554260][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 23:10:45][DEBUG][2554260][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:10:45][INFO][2554260][Http.hpp][197]-client: 39.144.218.179 : 65332
+[2025-05-05 23:10:45][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:10:45][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:10:45][DEBUG][2554263][Http.hpp][40]-_method: GET
+[2025-05-05 23:10:45][DEBUG][2554263][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 23:10:45][DEBUG][2554263][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:10:45][INFO][2554263][Http.hpp][197]-client: 39.144.218.179 : 65335
+[2025-05-05 23:10:45][DEBUG][2554265][Http.hpp][40]-_method: GET
+[2025-05-05 23:10:45][DEBUG][2554265][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 23:10:45][DEBUG][2554265][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:10:45][INFO][2554265][Http.hpp][197]-client: 39.144.218.179 : 65334
+[2025-05-05 23:10:45][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:10:45][DEBUG][2554267][Http.hpp][40]-_method: GET
+[2025-05-05 23:10:45][DEBUG][2554267][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:10:45][DEBUG][2554267][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:10:45][INFO][2554267][Http.hpp][197]-client: 39.144.218.179 : 65336
+[2025-05-05 23:11:09][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:11:10][DEBUG][2554408][Http.hpp][40]-_method: GET
+[2025-05-05 23:11:10][DEBUG][2554408][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:11:10][DEBUG][2554408][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:11:10][INFO][2554408][Http.hpp][197]-client: 39.144.218.179 : 65337
+[2025-05-05 23:11:10][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:11:10][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:11:10][DEBUG][2554429][Http.hpp][40]-_method: GET
+[2025-05-05 23:11:10][DEBUG][2554429][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 23:11:10][DEBUG][2554429][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:11:10][INFO][2554429][Http.hpp][197]-client: 39.144.218.179 : 65339
+[2025-05-05 23:11:10][DEBUG][2554431][Http.hpp][40]-_method: GET
+[2025-05-05 23:11:10][DEBUG][2554431][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 23:11:10][DEBUG][2554431][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:11:10][INFO][2554431][Http.hpp][197]-client: 39.144.218.179 : 65340
+[2025-05-05 23:11:10][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:11:10][DEBUG][2554433][Http.hpp][40]-_method: GET
+[2025-05-05 23:11:10][DEBUG][2554433][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 23:11:10][DEBUG][2554433][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:11:10][INFO][2554433][Http.hpp][197]-client: 39.144.218.179 : 65338
+[2025-05-05 23:11:10][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:11:10][DEBUG][2554435][Http.hpp][40]-_method: GET
+[2025-05-05 23:11:10][DEBUG][2554435][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:11:10][DEBUG][2554435][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:11:10][INFO][2554435][Http.hpp][197]-client: 39.144.218.179 : 65341
+[2025-05-05 23:12:23][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:12:23][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:12:24][DEBUG][2554817][Http.hpp][40]-_method: GET
+[2025-05-05 23:12:24][DEBUG][2554817][Http.hpp][41]-_uri: ./wwwroot/index.html
+[2025-05-05 23:12:24][DEBUG][2554817][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:12:24][INFO][2554817][Http.hpp][197]-client: 39.144.218.179 : 65342
+[2025-05-05 23:12:24][DEBUG][2554819][Http.hpp][40]-_method: GET
+[2025-05-05 23:12:24][DEBUG][2554819][Http.hpp][41]-_uri: ./wwwroot/imag/red.jpg
+[2025-05-05 23:12:24][DEBUG][2554819][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:12:24][INFO][2554819][Http.hpp][197]-client: 39.144.218.179 : 65343
+[2025-05-05 23:12:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:12:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:12:24][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:12:24][DEBUG][2554827][Http.hpp][40]-_method: GET
+[2025-05-05 23:12:24][DEBUG][2554827][Http.hpp][41]-_uri: ./wwwroot/imag/fireflower.jpg
+[2025-05-05 23:12:24][DEBUG][2554827][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:12:24][INFO][2554827][Http.hpp][197]-client: 39.144.218.179 : 65345
+[2025-05-05 23:12:24][DEBUG][2554829][Http.hpp][40]-_method: GET
+[2025-05-05 23:12:24][DEBUG][2554829][Http.hpp][41]-_uri: ./wwwroot/imag/green.jpg
+[2025-05-05 23:12:24][DEBUG][2554829][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:12:24][INFO][2554829][Http.hpp][197]-client: 39.144.218.179 : 65346
+[2025-05-05 23:12:24][DEBUG][2554831][Http.hpp][40]-_method: GET
+[2025-05-05 23:12:24][DEBUG][2554831][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
+[2025-05-05 23:12:24][DEBUG][2554831][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:12:24][INFO][2554831][Http.hpp][197]-client: 39.144.218.179 : 65344
