@@ -2481,3 +2481,8 @@
 [2025-05-05 23:12:24][DEBUG][2554831][Http.hpp][41]-_uri: ./wwwroot/imag/pool.jpg
 [2025-05-05 23:12:24][DEBUG][2554831][Http.hpp][42]-_http_version: HTTP/1.1
 [2025-05-05 23:12:24][INFO][2554831][Http.hpp][197]-client: 39.144.218.179 : 65344
+[2025-05-05 23:13:40][DEBUG][2110475][Tcpserver.hpp][38]-Accept success
+[2025-05-05 23:13:40][DEBUG][2555368][Http.hpp][40]-_method: GET
+[2025-05-05 23:13:40][DEBUG][2555368][Http.hpp][41]-_uri: ./wwwroot/favicon.ico
+[2025-05-05 23:13:40][DEBUG][2555368][Http.hpp][42]-_http_version: HTTP/1.1
+[2025-05-05 23:13:40][INFO][2555368][Http.hpp][197]-client: 39.144.218.179 : 65347
