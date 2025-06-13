@@ -17,6 +17,7 @@
 #include <memory>
 #include "log.hpp"
 
+
 class NoCopy
 {
 public:
@@ -35,7 +36,8 @@ enum ExitCode
     LISTEN_ERR,
     FORK_ERR,
     ACCEPT_ERR,
-    CONNECT_ERR
+    CONNECT_ERR,
+    CREATE_EPOLL_ERR
 };
 
 #define CONV(addr) (struct sockaddr*)(&addr)
