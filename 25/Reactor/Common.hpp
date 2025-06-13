@@ -7,6 +7,7 @@
 #include <arpa/inet.h>
 #include <functional>
 #include <sys/wait.h>
+#include <fcntl.h>
 #include <fstream>
 #include <sstream>
 #include <time.h>
@@ -16,7 +17,6 @@
 #include <string>
 #include <memory>
 #include "log.hpp"
-
 
 class NoCopy
 {
@@ -40,4 +40,12 @@ enum ExitCode
     CREATE_EPOLL_ERR
 };
 
-#define CONV(addr) (struct sockaddr*)(&addr)
+#define CONV(addr) (struct sockaddr *)(&addr)
+
+void SetNonBlock(int fd)
+{
+    int fl = fcntl(fd, F_GETFL);
+    if (fl < 0)
+        return;
+    fcntl(fd, F_SETFL, fl | O_NONBLOCK);
+}
