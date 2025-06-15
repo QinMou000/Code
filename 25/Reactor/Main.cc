@@ -2,6 +2,7 @@
 #include <memory>
 #include "Reactor.hpp"
 #include "Listener.hpp"
+#include "Http.hpp"
 
 void Usage(std::string proc)
 {
@@ -18,7 +19,12 @@ int main(int argc, char *argv[])
 
     uint16_t port = std::stoi(argv[1]);
 
+    std::unique_ptr<Http> http = std::make_unique<Http>();
+
     std::shared_ptr<Connection> Con = std::make_shared<Listener>(port);
+
+    Con->SetHander([&http](std::string &inbuffer) -> std::string
+                   { return http->HanderRequest(inbuffer); }); // TODO
 
     std::unique_ptr<Reactor> R = std::make_unique<Reactor>();
 

@@ -90,16 +90,31 @@ public:
         }
         LOG(LogLevel::INFO) << "listen success";
     }
+// 底层没有连接了
+#define ACCEPT_DONE -1
+
+// 被系统调用中断了会被设置的错误码 这里我们不管 继续读取
+#define ACCEPT_CONTINUE -2
+
+// 真的读取出错了
+#define ACCEPT_ERR -3
     int Accept(InetAddr *client) override
     {
         struct sockaddr_in peer;
         socklen_t len = sizeof(peer);
-        int fd = ::accept(_sockfd, CONV(peer), &len);
+        int fd = ::accept(_sockfd, CONV(peer), &len); // ET
         // std::cout << std::to_string(peer.sin_addr.s_addr) << std::endl;
         if (fd < 0)
         {
-            LOG(LogLevel::FATAL) << "accept error";
-            exit(ACCEPT_ERR);
+            if (errno == EAGAIN || errno == EWOULDBLOCK)
+                return ACCEPT_DONE; // 底层没有连接了
+            else if (errno == EINTR)
+                return ACCEPT_CONTINUE; // 被系统调用中断了会被设置的错误码 这里我们不管 继续读取
+            else
+            {
+                LOG(LogLevel::WARNING) << "accept error";
+                return ACCEPT_ERR; // 真的读取出错了
+            }
         }
         client->SetAddr(peer);
         return fd;
