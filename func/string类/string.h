@@ -9,19 +9,19 @@ namespace Qin
 	public:
 		friend istream& operator>>(istream& in, string& s);
 		friend ostream& operator<<(ostream& out, string& s);
-		string(const char* str = "")//Ä¬ÈÏ¹¹Ôì
+		string(const char* str = "")//é»˜è®¤æ„é€ 
 		{
 			_size = _capacity = strlen(str);
 			_str = new char[_size + 1];
 			strcpy(_str, str);
 		}
-		~string()//Îö¹¹
+		~string()//ææ„
 		{
 			delete[] _str;
 			_str = nullptr;
 			_size = _capacity;
 		}
-		string(const string& s)//¿½±´¹¹Ôì
+		string(const string& s)//æ‹·è´æ„é€ 
 		{
 			_str = new char[s._capacity + 1];
 			strcpy(_str, s._str);
