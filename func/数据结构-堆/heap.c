@@ -1,8 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-#include"heap.h"
+#include "heap.h"
 
-//堆的初始化
-void HeapInit(HP* php)
+// 堆的初始化
+void HeapInit(HP *php)
 {
 	assert(php);
 	php->a = NULL;
@@ -10,15 +10,15 @@ void HeapInit(HP* php)
 }
 
 // 堆的销毁
-void HeapDestory(HP* php)
+void HeapDestory(HP *php)
 {
 	free(php->a);
 	php->capacity = php->size = 0;
 	free(php);
 }
 
-//交换
-void Swap(HPDataType* x, HPDataType* y)
+// 交换
+void Swap(HPDataType *x, HPDataType *y)
 {
 	HPDataType tmp;
 	tmp = *x;
@@ -26,11 +26,11 @@ void Swap(HPDataType* x, HPDataType* y)
 	*y = tmp;
 }
 
-//向上调整
-void AdjustUp(HPDataType* a, int child)
+// 向上调整
+void AdjustUp(HPDataType *a, int child)
 {
 	int parent = (child - 1) / 2;
-	while (child > 0 && a[parent] > a[child])//小堆
+	while (child > 0 && a[parent] > a[child]) // 小堆
 	{
 		Swap(&a[parent], &a[child]);
 		child = parent;
@@ -39,13 +39,13 @@ void AdjustUp(HPDataType* a, int child)
 }
 
 // 堆的插入
-void HeapPush(HP* php, HPDataType x)
+void HeapPush(HP *php, HPDataType x)
 {
 	assert(php);
-	if (php->size == php->capacity)//满了扩容
+	if (php->size == php->capacity) // 满了扩容
 	{
 		int newcapacity = php->capacity == 0 ? 4 : php->capacity * 2;
-		HPDataType* tmp = realloc(php->a, newcapacity * sizeof(HPDataType));
+		HPDataType *tmp = realloc(php->a, newcapacity * sizeof(HPDataType));
 		if (tmp == NULL)
 		{
 			printf("realloc is fail!\n");
@@ -59,17 +59,17 @@ void HeapPush(HP* php, HPDataType x)
 	}
 	php->a[php->size] = x;
 	php->size++;
-	AdjustUp(php->a,php->size-1);
+	AdjustUp(php->a, php->size - 1);
 }
 
-void AdjustDown(HPDataType* a, int size, int parent)
+void AdjustDown(HPDataType *a, int size, int parent)
 {
 	int child = parent * 2 + 1;
-	while (child < size)//这里不能像up部分都写到一起！
+	while (child < size) // 这里不能像up部分都写到一起！
 	{
-		if (a[child] > a[child + 1] && child + 1 < size)//&&后面的东西很重要！！！
-			child++;
-		if (a[parent] > a[child])//child变化之后再判断。
+		if (a[child] > a[child + 1] && child + 1 < size) // &&后面的东西很重要！！！
+			child++;									 // 找到左右节点中小的那一个
+		if (a[parent] > a[child])						 // child 变化之后再判断。
 		{
 			Swap(&a[parent], &a[child]);
 			parent = child;
@@ -81,7 +81,7 @@ void AdjustDown(HPDataType* a, int size, int parent)
 }
 
 // 堆的删除
-void HeapPop(HP* php)
+void HeapPop(HP *php)
 {
 	assert(php);
 	assert(php->size > 0);
@@ -92,7 +92,7 @@ void HeapPop(HP* php)
 }
 
 // 取堆顶的数据
-HPDataType HeapTop(HP* php)
+HPDataType HeapTop(HP *php)
 {
 	assert(php);
 	assert(php->size > 0);
@@ -100,14 +100,14 @@ HPDataType HeapTop(HP* php)
 }
 
 // 堆的数据个数
-int HeapSize(HP* php)
+int HeapSize(HP *php)
 {
 	assert(php);
 	return php->size - 1;
 }
 
 // 堆的判空
-int HeapEmpty(HP* php)
+int HeapEmpty(HP *php)
 {
 	assert(php);
 	return php->size == 0;

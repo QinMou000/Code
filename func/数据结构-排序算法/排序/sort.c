@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-#include"sort.h"
+#include "sort.h"
 
-void Print(int* a, int n)
+void Print(int *a, int n)
 {
 	for (size_t i = 0; i < n; i++)
 	{
@@ -10,15 +10,15 @@ void Print(int* a, int n)
 	printf("\n");
 }
 
-void Swap(int* x, int* y)
+void Swap(int *x, int *y)
 {
 	int tmp = *x;
 	*x = *y;
 	*y = tmp;
 }
 
-//冒泡排序
-void BubbleSort(int* a, int n)
+// 冒泡排序
+void BubbleSort(int *a, int n)
 {
 	for (int i = n; i > 0; i--)
 	{
@@ -40,14 +40,14 @@ void BubbleSort(int* a, int n)
 	}
 }
 
-void AdjustDown(int* a, int n, int parent)
+void AdjustDown(int *a, int n, int parent)
 {
 	int child = parent * 2 + 1;
 	while (child < n)
 	{
-		if (a[child] < a[child + 1] && child + 1 < n)
+		if (child + 1 < n && a[child] < a[child + 1])
 			child++;
-		if (a[child] > a[parent])
+		if (a[child] > a[parent]) // 大根堆
 		{
 			Swap(&a[child], &a[parent]);
 			parent = child;
@@ -58,20 +58,20 @@ void AdjustDown(int* a, int n, int parent)
 	}
 }
 
-//堆排序
-void HeapSort(int* a, int n)
+// 堆排序
+void HeapSort(int *a, int n)
 {
-	for (int i = (n - 2) / 2; i >= 0; i--)// 从最后一个非叶子节点开始
+	for (int i = (n - 2) / 2; i >= 0; i--) // 从最后一个非叶子节点开始 向下调整算法
 		AdjustDown(a, n, i);
-	for (int i = n - 1; i > 0; i--)
+	for (int i = n - 1; i > 0; i--) // 大根堆的堆顶移动到最后 排成升序
 	{
 		Swap(&a[0], &a[i]);
-		AdjustDown(a, i, 0);
+		AdjustDown(a, i, 0); // 将第一个元素向下调整
 	}
 }
 
-//插入排序
-void InsertSort(int* a, int n)
+// 插入排序
+void InsertSort(int *a, int n)
 {
 	for (int i = 0; i < n - 1; i++)
 	{
@@ -92,7 +92,7 @@ void InsertSort(int* a, int n)
 }
 
 // 希尔排序
-void ShellSort(int* a, int n)
+void ShellSort(int *a, int n)
 {
 	int gap = n;
 	while (gap > 1)
@@ -117,8 +117,8 @@ void ShellSort(int* a, int n)
 	}
 }
 
-//选择排序
-void SelectSort(int* a, int n)
+// 选择排序
+void SelectSort(int *a, int n)
 {
 	int start = 0;
 	int end = n - 1;
@@ -149,7 +149,7 @@ void SelectSort(int* a, int n)
 	}
 }
 
-int Midofthree(int* a,int x, int y, int z)
+int Midofthree(int *a, int x, int y, int z)
 {
 	if (a[x] > a[y])
 		if (a[x] > a[z])
@@ -159,18 +159,18 @@ int Midofthree(int* a,int x, int y, int z)
 				return z;
 		else
 			return y;
-	else//a<b
+	else // a<b
 		if (a[x] < a[z])
 			if (a[y] < a[z])
 				return y;
-			else//b>c
+			else // b>c
 				return z;
-		else//a>c
+		else // a>c
 			return x;
 }
 
-//hoare版本
-int partsort1(int* a, int left, int right)
+// hoare版本
+int partsort1(int *a, int left, int right)
 {
 
 	int begin = left, end = right;
@@ -197,8 +197,8 @@ int partsort1(int* a, int left, int right)
 	return begin;
 }
 
-//双指针版本
-int partsort2(int* a, int left, int right)
+// 双指针版本
+int partsort2(int *a, int left, int right)
 {
 	int x = Midofthree(a, left, right, (right + left) / 2);
 	Swap(&a[x], &a[left]);
@@ -211,12 +211,12 @@ int partsort2(int* a, int left, int right)
 			Swap(&a[cur], &a[prev]);
 		cur++;
 	}
-	Swap(&a[prev],&a[keyi]);
+	Swap(&a[prev], &a[keyi]);
 	return prev;
 }
 
-//挖坑版本
-int partsort3(int* a, int left, int right)
+// 挖坑版本
+int partsort3(int *a, int left, int right)
 {
 	int x = Midofthree(a, left, right, (right + left) / 2);
 	Swap(&a[x], &a[left]);
@@ -234,7 +234,7 @@ int partsort3(int* a, int left, int right)
 
 		while (a[begin] <= key && begin < end)
 			begin++;
-		
+
 		a[pit] = a[begin];
 		pit = begin;
 	}
@@ -242,13 +242,13 @@ int partsort3(int* a, int left, int right)
 	return pit;
 }
 
-void QuickSort(int* a, int left, int right)
+void QuickSort(int *a, int left, int right)
 {
 	if (left >= right)
 		return;
 	if (right - left + 1 < 10)
 	{
-		InsertSort(a + left, right - left + 1);//小区间优化
+		InsertSort(a + left, right - left + 1); // 小区间优化
 		return;
 	}
 
@@ -258,14 +258,14 @@ void QuickSort(int* a, int left, int right)
 	QuickSort(a, keyi + 1, right);
 }
 
-void QuickSortNonR(int* a, int left, int right)
+void QuickSortNonR(int *a, int left, int right)
 {
 	ST s;
 	STInit(&s);
 	STPush(&s, right);
 	STPush(&s, left);
 
- 	while (!STEmpty(&s))
+	while (!STEmpty(&s))
 	{
 		int begin = STTop(&s);
 		STPop(&s);
@@ -273,12 +273,12 @@ void QuickSortNonR(int* a, int left, int right)
 		STPop(&s);
 
 		int mid = partsort1(a, begin, end);
-		if (mid + 1 < end)//注意这里需判断
+		if (mid + 1 < end) // 注意这里需判断
 		{
 			STPush(&s, end);
 			STPush(&s, mid + 1);
 		}
-		if (begin < mid - 1)//注意这里需判断
+		if (begin < mid - 1) // 注意这里需判断
 		{
 			STPush(&s, mid - 1);
 			STPush(&s, begin);
@@ -286,7 +286,7 @@ void QuickSortNonR(int* a, int left, int right)
 	}
 }
 
-void _MergeSort(int* a, int* tmp, int left, int right)
+void _MergeSort(int *a, int *tmp, int left, int right)
 {
 	if (left >= right)
 		return;
@@ -299,7 +299,7 @@ void _MergeSort(int* a, int* tmp, int left, int right)
 	int i = left;
 	while (begin1 <= end1 && begin2 <= end2)
 	{
-		if(a[begin1] <= a[begin2])
+		if (a[begin1] <= a[begin2])
 			tmp[i++] = a[begin1++];
 		else
 			tmp[i++] = a[begin2++];
@@ -313,10 +313,9 @@ void _MergeSort(int* a, int* tmp, int left, int right)
 	memcpy(a + left, tmp + left, sizeof(int) * (right - left + 1));
 }
 
-
-void MergeSort(int* a, int n)
+void MergeSort(int *a, int n)
 {
-	int* tmp = (int*)malloc(sizeof(int) * n);
+	int *tmp = (int *)malloc(sizeof(int) * n);
 	if (tmp == NULL)
 	{
 		perror("malloc is fail");
@@ -328,9 +327,9 @@ void MergeSort(int* a, int n)
 	tmp = NULL;
 }
 
-void MergeSortNonR(int* a, int n)
+void MergeSortNonR(int *a, int n)
 {
-	int* tmp = (int*)malloc(sizeof(int) * n);
+	int *tmp = (int *)malloc(sizeof(int) * n);
 	if (tmp == NULL)
 	{
 		perror("malloc is fail");
@@ -369,7 +368,7 @@ void MergeSortNonR(int* a, int n)
 	tmp = NULL;
 }
 
-void CountSort(int* a, int n)
+void CountSort(int *a, int n)
 {
 	int min = a[0];
 	int max = a[0];
@@ -381,7 +380,7 @@ void CountSort(int* a, int n)
 			min = a[i];
 	}
 	int range = max - min + 1;
-	int* x = (int*)calloc(range, sizeof(int));
+	int *x = (int *)calloc(range, sizeof(int));
 	if (x == NULL)
 	{
 		perror("calloc is fail");
