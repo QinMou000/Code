@@ -26,4 +26,4 @@ int main() {
 }
 // 64 位输出请用 printf("%lld")
 
-// link : 
+// link : https://www.nowcoder.com/questionTerminal/6736cc3ffd1444a4a0057dee89be789b?orderByHotValue=1&page=1&onlyReference=false%E4%BD%9C%E8%80%85%EF%BC%9Aoffergogo%E9%93%BE%E6%8E%A5%EF%BC%9Ahttps://www.nowcoder.com/discuss/353147314330083328?sourceSSR=search%E6%9D%A5%E6%BA%90%EF%BC%9A%E7%89%9B%E5%AE%A2%E7%BD%91
